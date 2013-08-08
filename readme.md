@@ -3,7 +3,7 @@ Appropriating Interaction Technologies
 
 NYU ITP Fall 2013
 
-###Course Description
+###Course description
 
 This course explores the structures and systems of social interactions, identity, and representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
@@ -17,4 +17,33 @@ tactics for intervention and performance will be explored, first through a set o
 A conviction that creative people can derail society for the best, a deep love for code, and a willingness to explore uncomfortable situations. You should at least have taken Introduction to Computational Media or have similar experience with programming.
 
 This four-point course will meet in the first twelve weeks of the semester.
+
+###Syllabus
+
+####Week 1: data representation and glitch
+* what spaces are social? what are rules? how do we test them? what happens when we don’t follow them? how do we misinterpret each other? failures, communication breakdowns and arguments, ambiguity?
+
+
+####Weeks 2-3: social automation and APIs (Facebook, Twitter, Mechanical Turk)
+* http://blog.blprnt.com/blog/blprnt/art-and-the-api
+* how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? how do others help you understand/shape/change who you are?
+* social psychology influence experiments
+* tactical media for protest
+* language analysis
+
+####Weeks 4-5: browser extensions and plugins (in Chrome)
+* who are you? how do you communicate/represent this? identity shaped by context
+* http://artzilla.org/
+
+####Weeks 6-7: computer security
+* what does it mean to be hacked? can you hack yourself? social engineering, phishing, cross-site scripting, trolling, authenticity
+
+####Weeks 8-9: computer vision (face/body/eye tracking with openFrameworks)
+* surveillance, privacy, warfare, video chat and mediated video-based interaction
+
+####Weeks 10-12: mobile platforms
+* how do we find each other? how do we connect? how do we initially engage? 
+* how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
+* location awareness, social networking
+
 
