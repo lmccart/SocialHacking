@@ -29,14 +29,15 @@ This four-point course will meet in the first twelve weeks of the semester.
 * how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? how do others help you understand/shape/change who you are?
 * social psychology influence experiments
 * tactical media for protest
-* language analysis
+* language analysis (LIWC, LSM, sentiment)
 
 ####Weeks 4-5: browser extensions and plugins (in Chrome)
 * who are you? how do you communicate/represent this? identity shaped by context
 * http://artzilla.org/
 
 ####Weeks 6-7: computer security
-* what does it mean to be hacked? can you hack yourself? social engineering, phishing, cross-site scripting, trolling, authenticity
+* what does it mean to be hacked? can you hack yourself? 
+* social engineering, phishing, cross-site scripting, trolling, authenticity
 
 ####Weeks 8-9: computer vision (face/body/eye tracking with openFrameworks)
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
