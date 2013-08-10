@@ -20,31 +20,33 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 ###Syllabus
 
-####Week 1: data representation and glitch
+####Week 1 (9/9): data representation and glitch
 * what spaces are social? what are rules? how do we test them? what happens when we don’t follow them? how do we misinterpret each other? failures, communication breakdowns and arguments, ambiguity?
 
-
-####Weeks 2-3: social automation and APIs (Facebook, Twitter, Mechanical Turk)
+####Weeks 2-3 (9/16, 9/23): social automation and APIs (Facebook, Twitter, Mechanical Turk)
 * http://blog.blprnt.com/blog/blprnt/art-and-the-api
 * how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? how do others help you understand/shape/change who you are?
 * social psychology influence experiments
 * tactical media for protest
 * language analysis (LIWC, LSM, sentiment)
 
-####Weeks 4-5: browser extensions and plugins (in Chrome)
+####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
 * who are you? how do you communicate/represent this? identity shaped by context
 * http://artzilla.org/
 
-####Weeks 6-7: computer security
+####Weeks 6-7 (10/21, 10/28): computer security
 * what does it mean to be hacked? can you hack yourself? 
 * social engineering, phishing, cross-site scripting, trolling, authenticity
 
-####Weeks 8-9: computer vision (face/body/eye tracking with openFrameworks)
+####Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
 
-####Weeks 10-12: mobile platforms
+####Weeks 10-12 (11/18, 11/25, 12/2): mobile platforms
 * how do we find each other? how do we connect? how do we initially engage? 
 * how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
 * location awareness, social networking
+
+
+ 
 
 
