@@ -7,6 +7,8 @@
 ####Glitch
 
 ####Social automation / APIs
++ [jer thorp, art and the api](http://blog.blprnt.com/blog/blprnt/art-and-the-api)
++ 
 
 ####Browser extensions and plugins
 
