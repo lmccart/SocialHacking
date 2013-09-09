@@ -3,6 +3,8 @@ Appropriating Interaction Technologies
 
 NYU ITP Fall 2013
 
+###Important links
+
 ###Course description
 
 This course explores the structures and systems of social interactions, identity, and representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
