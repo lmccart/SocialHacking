@@ -5,9 +5,9 @@ NYU ITP Fall 2013
 
 ###Important links
 
-[github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - (here) Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
+[github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
 
-[google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing)
+[google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and docs shared with the class only.
 
 [mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
 
