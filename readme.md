@@ -5,6 +5,15 @@ NYU ITP Fall 2013
 
 ###Important links
 
+[github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - (here) Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
+
+[google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing)
+
+[mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
+
+[#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
+
+
 ###Course description
 
 This course explores the structures and systems of social interactions, identity, and representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
