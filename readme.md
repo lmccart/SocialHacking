@@ -33,48 +33,48 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 ####Week 1 (9/9): data representation and glitch
 * class overview
-	◦	policy regarding auditing: if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
-	◦	policy regarding attendance: you can miss one class, anything else you fail.
-	◦	policy regarding work: we are going to be introducing a variety of techniques and tools, ranging in technical difficulty. our main requirement for work is that it is of high quality -- it need not be hypertechnical, but it does need to be very well thought out and well executed.
+    * policy regarding auditing: if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
+    * policy regarding attendance: you can miss one class, anything else you fail.
+    * policy regarding work: we are going to be introducing a variety of techniques and tools, ranging in technical difficulty. our main requirement for work is that it is of high quality -- it need not be hypertechnical, but it does need to be very well thought out and well executed.
 * take attendance
 * sign contracts
 * take a break.
 
 * what spaces are social? what are rules? how do we test them? what happens when we don’t follow them? how do we misinterpret each other? failures, communication breakdowns and arguments, ambiguity?
 * breaching experiments, sociology, garfinkel, goffman, and milgram
-	◦	[Breaching experiments](http://en.wikipedia.org/wiki/Breaching_experiment)
-	◦	[Nathan for you STDs](http://comedycentral.tumblr.com/post/52336234961/nathan-is-at-it-again-if-you-missed-his-last-few)
-	◦	[Nathan for you 2 grams](http://comedycentral.tumblr.com/post/48862017449/this-was-hilarious-via-nathanfielder-for)
-	◦	[Oversharer](http://socialmediacollective.org/2011/07/29/the-oversharer-and-other-social-media-experiments/)
-	◦	goffman - face-to-face, performance
-	◦	[presentation of self](http://ecx.images-amazon.com/images/I/51wDkBDP%2BwL.jpg)
-	◦	[interaction ritual](http://www.riverwashbooks.com/shop_image/product/SOC0846.jpg)
-	◦	stanley milgram
+    * [Breaching experiments](http://en.wikipedia.org/wiki/Breaching_experiment)
+    * [Nathan for you STDs](http://comedycentral.tumblr.com/post/52336234961/nathan-is-at-it-again-if-you-missed-his-last-few)
+    * [Nathan for you 2 grams](http://comedycentral.tumblr.com/post/48862017449/this-was-hilarious-via-nathanfielder-for)
+    * [Oversharer](http://socialmediacollective.org/2011/07/29/the-oversharer-and-other-social-media-experiments/)
+    * goffman - face-to-face, performance
+    * [presentation of self](http://ecx.images-amazon.com/images/I/51wDkBDP%2BwL.jpg)
+    * [interaction ritual](http://www.riverwashbooks.com/shop_image/product/SOC0846.jpg)
+    * stanley milgram
 * glitch
-	◦	glitch is where a system breaks down and reveals something about itself in the process.
-	◦	[mojibake](https://en.wikipedia.org/wiki/Mojibake)
-	▪	[extended ASCII](http://en.wikipedia.org/wiki/Extended_ASCII)
-	▪	[unicode](https://en.wikipedia.org/wiki/Unicode#Philosophical_and_completeness_criticisms)
-	◦	hex editing
-	▪	[realtime jpg glitch](http://snorpey.github.io/jpg-glitch/)
-	▪	“on compression” by cory arcangel
-	▪	[jpg header remix](http://www.ffd8.org/header_remix/)
-	▪	[0xed hex editor](http://www.suavetech.com/0xed/)
-	▪	[hexfiend hex editor](http://ridiculousfish.com/hexfiend/)
-	◦	[datamosh](http://bitsynthesis.com/2009/04/tutorial-datamoshing-the-beauty-of-glitch/)
+    * glitch is where a system breaks down and reveals something about itself in the process.
+    * [mojibake](https://en.wikipedia.org/wiki/Mojibake)
+        * [extended ASCII](http://en.wikipedia.org/wiki/Extended_ASCII)
+        * [unicode](https://en.wikipedia.org/wiki/Unicode#Philosophical_and_completeness_criticisms)
+    * hex editing
+        * [realtime jpg glitch](http://snorpey.github.io/jpg-glitch/)
+        * “on compression” by cory arcangel
+        * [jpg header remix](http://www.ffd8.org/header_remix/)
+        * [0xed hex editor](http://www.suavetech.com/0xed/)
+        * [hexfiend hex editor](http://ridiculousfish.com/hexfiend/)
+    * [datamosh](http://bitsynthesis.com/2009/04/tutorial-datamoshing-the-beauty-of-glitch/)
 * documentation
-	◦	recording/collecting “objective”
-	▪	[jill magid](http://www.jillmagid.net/EvidenceLocker.php)
-	▪	[katsu](http://www.youtube.com/watch?v=_rEu50n8EDA)
-	◦	transcribing/describing “subjective/interpreted”
-	▪	sophie calle
-	▪	[install view](http://www.google.com/imgres?sa=X&biw=1431&bih=806&tbs=isz:l&tbm=isch&tbnid=ov6tQqZDP3uXhM:&imgrefurl=http://updownacross.co/sophie-calle-at-paula-cooper/&docid=ym0mJop0TvgpxM&imgurl=http://updownacross.files.wordpress.com/2009/05/img_2523.jpg&w=1600&h=1200&ei=qgQuUvuVCtP94APA9YGoCQ&zoom=1&ved=1t:3588,r:35,s:0,i:199&iact=rc&page=2&tbnh=185&tbnw=245&start=19&ndsp=29&tx=167&ty=51)
-	▪	[photos](http://ileanapascalau.files.wordpress.com/2009/11/calle_51.jpg)
-	▪	[entering the louvre](http://ileanapascalau.files.wordpress.com/2009/11/calle_51.jpg)
-	◦	deconstructing
-	▪	[Mark Lombardi on wikipedia](http://en.wikipedia.org/wiki/Mark_Lombardi)
-	▪	[Mark Lombardi article](http://socks-studio.com/2012/08/22/mark-lombardi/)
-	▪	[technical flowcharts](http://en.wikipedia.org/wiki/File:Activity_conducting.svg)
+    * recording/collecting “objective”
+        * [jill magid](http://www.jillmagid.net/EvidenceLocker.php)
+        * [katsu](http://www.youtube.com/watch?v=_rEu50n8EDA)
+    * transcribing/describing “subjective/interpreted”
+        * sophie calle
+        * [install view](http://www.google.com/imgres?sa=X&biw=1431&bih=806&tbs=isz:l&tbm=isch&tbnid=ov6tQqZDP3uXhM:&imgrefurl=http://updownacross.co/sophie-calle-at-paula-cooper/&docid=ym0mJop0TvgpxM&imgurl=http://updownacross.files.wordpress.com/2009/05/img_2523.jpg&w=1600&h=1200&ei=qgQuUvuVCtP94APA9YGoCQ&zoom=1&ved=1t:3588,r:35,s:0,i:199&iact=rc&page=2&tbnh=185&tbnw=245&start=19&ndsp=29&tx=167&ty=51)
+        * [photos](http://ileanapascalau.files.wordpress.com/2009/11/calle_51.jpg)
+        * [entering the louvre](http://ileanapascalau.files.wordpress.com/2009/11/calle_51.jpg)
+    * deconstructing
+        * [Mark Lombardi on wikipedia](http://en.wikipedia.org/wiki/Mark_Lombardi)
+        * [Mark Lombardi article](http://socks-studio.com/2012/08/22/mark-lombardi/)
+        * [technical flowcharts](http://en.wikipedia.org/wiki/File:Activity_conducting.svg)
 * _assignment due 9/16:_
     * read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1)
     * read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing)
