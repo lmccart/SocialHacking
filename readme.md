@@ -78,8 +78,8 @@ This four-point course will meet in the first twelve weeks of the semester.
 * _assignment due 9/16:_
     * read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1)
     * read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing)
-    * post one tweet inspired by each with #socialhacking
-    * programmatically create and document a social glitch involving technology
+    * post one tweet inspired by each reading, tagged with #socialhacking
+    * programmatically create and document a social glitch involving technology, post it and tag it with #socialhacking
 
 ####Weeks 2-3 (9/16, 9/23): social automation and APIs
 * how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? 
