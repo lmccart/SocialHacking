@@ -36,7 +36,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * breaching experiments, sociology, garfinkel, goffman, and milgram
 * glitch
 * _assignment: 
-&nbsp;&nbsp;&nbsp;&nbsp;* ad
+    * ad
 
 ####Weeks 2-3 (9/16, 9/23): social automation and APIs
 * how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? 
