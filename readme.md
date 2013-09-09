@@ -33,6 +33,8 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 ####Week 1 (9/9): data representation and glitch
 * what spaces are social? what are rules? how do we test them? what happens when we don’t follow them? how do we misinterpret each other? failures, communication breakdowns and arguments, ambiguity?
+* breaching experiments, sociology, garfinkel, goffman, and milgram
+* glitch
 
 ####Weeks 2-3 (9/16, 9/23): social automation and APIs
 * how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? 
