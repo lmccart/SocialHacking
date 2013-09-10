@@ -56,7 +56,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [unicode](https://en.wikipedia.org/wiki/Unicode#Philosophical_and_completeness_criticisms)
     * hex editing
         * [realtime jpg glitch](http://snorpey.github.io/jpg-glitch/)
-        * “on compression” by cory arcangel
+        * “on compression” by Cory Arcangel
         * [jpg header remix](http://www.ffd8.org/header_remix/)
         * [0xed hex editor](http://www.suavetech.com/0xed/)
         * [hexfiend hex editor](http://ridiculousfish.com/hexfiend/)
