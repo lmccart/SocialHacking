@@ -9,14 +9,14 @@ Appropriating Interaction Technologies
 ###Important links
 
 * [github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
-* [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and docs shared with the class only.
+* [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
 * [mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
 * [#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
 
 
 ###Course description
 
-This course explores the structures and systems of social interactions, identity, and representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
+This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
 How do the things we build and use limit and expand the way we understand and relate to each other? We'll explore this question by building new tools and creating new situations for breaking us out of existing patterns, and discussing contextual examples from media art, performance art, psychology and pop culture. Technologies explored will include computer vision (face/body/eye tracking with openFrameworks), data representation and glitch, browser extensions and plugins (in Chrome), computer security, mobile platforms, and social automation and APIs (Facebook, Twitter, Mechanical Turk).
 
