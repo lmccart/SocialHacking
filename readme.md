@@ -1,9 +1,9 @@
 Appropriating Interaction Technologies
 ======================================
 
-NYU ITP Fall 2013
-Mondays 3:30-5:30, ITP rm 447
-Office hour Fridays 3:30-4:30, ITP adjunct lounge
+* NYU ITP Fall 2013
+* Mondays 3:30-5:30, ITP rm 447
+* Office hour Fridays 3:30-4:30, ITP adjunct lounge
 
 ###Important links
 
