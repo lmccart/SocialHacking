@@ -88,7 +88,8 @@ users.each(function(user) {
 		"<td>" +
 		"<img src='" + userInfo.profile_image_url + "' class='profile-image'/> " +
 		"<a href='http://twitter.com/" + userInfo.screen_name + "'>" + userInfo.name + "</a> " +
-		"<small>(" + userInfo.screen_name + ")</small></td>");
+		//"<small>(" + userInfo.screen_name + ")</small>" +
+		"</td>");
 	assignments.each(function(assignment) {
 		// get date range for this week
 		startDate = new Date(assignment.date);
