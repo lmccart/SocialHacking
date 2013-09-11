@@ -28,7 +28,7 @@ class TwitterOAuth {
   /* Respons format. */
   public $format = 'json';
   /* Decode returned json data. */
-  public $decode_json = TRUE;
+  public $decode_json = FALSE;
   /* Contains the last HTTP headers returned. */
   public $http_info;
   /* Set the useragnet. */
@@ -140,7 +140,6 @@ class TwitterOAuth {
    */
   function get($url, $parameters = array()) {
     $response = $this->oAuthRequest($url, 'GET', $parameters);
-    echo $response;
     if ($this->format === 'json' && $this->decode_json) {
       return json_decode($response);
     }
