@@ -24,7 +24,7 @@ $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH
 
 // If method is set change API call made. Test is called by default.
 $content = $connection->get('search/tweets', array('q' => '#socialhacking'));
-file_put_contents("cache.js", $content);
+file_put_contents("db.js", "db=".$content.";");
 
 $json = json_decode($content, true);
 $statuses = $json["statuses"];

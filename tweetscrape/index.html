@@ -1,0 +1,35 @@
+<html>
+<head>
+	<style>
+	body {
+		font-family: sans-serif;
+	}
+	div {
+		border: 1px solid black;
+		margin: 1em;
+		padding: 1em;
+	}
+	</style>
+</head>
+	<body>
+		<script src="db.js"></script>
+		<script>
+		statuses = db['statuses'];
+		document.write("<h1>" + statuses.length + " results</h1>")
+		for(i in statuses) {
+			var cur = statuses[i];
+			var text = cur['text'];
+			var user = cur['user'];
+			document.write(
+				"<div>" +
+					"<h2>" +
+						"<img src='" + user['profile_image_url'] + "'/> " +
+						user['name'] + " (" + user['screen_name'] + ")" +
+					"</h2>" +
+					"<p>" + text + "</p>" +
+				"</div>"
+			);
+		}
+		</script>
+	</body>
+</html>
