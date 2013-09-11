@@ -5,6 +5,7 @@
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/sugar/1.3.9/sugar.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+<script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <script src="db.js"></script>
 
@@ -29,7 +30,10 @@ tr td:first-child, tr th:first-child {
 </style>
 </head>
 <body>
+
 <h1>Appropriating Interaction Technologies</h1>
+
+<h2><a href="https://twitter.com/search?q=%23socialhacking&f=realtime">#socialhacking</a></h2>
 
 <script>
 assignments = [
@@ -130,13 +134,19 @@ document.write("</tbody>");
 document.write("</table>");
 </script>
 
+<div id="tweets"></div>
+
 <script>
 function showTweets(user, date) {
-	$("tweets").text(sorted[user][date]);
 	console.log(sorted[user][date]);
+	$("#tweets").empty();
+	$("#tweets").hide();
+	sorted[user][date].each(function(status) {
+		$("#tweets").prepend('<blockquote class="twitter-tweet"><a href="https://twitter.com/tweet/status/' + status.id_str + '"></a></blockquote>');
+	});
+	twttr.widgets.load();
+	$("#tweets").show();
 }
 </script>
-<div id="tweets">
-</div>
 </body>
 </html>
