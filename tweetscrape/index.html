@@ -1,91 +1,142 @@
 <html>
 <head>
-	<style>
-	body {
-		padding: 1em;
-	}
-	</style>
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/sugar/1.3.9/sugar.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
 
-	<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"></script>
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/sugar/1.3.9/sugar.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+<script src="db.js"></script>
 
-	<script src="db.js"></script>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+body {
+	padding: 1em;
+}
+*,h1,h2 {
+	font-family: Lato;
+}
+.profile-image {
+	width: 24px;
+	height: 24px;
+}
+th, td {
+	text-align: center;
+}
+tr td:first-child, tr th:first-child {
+	text-align: left;
+}
+</style>
 </head>
 <body>
-	<script>
-	dates = [
-		"September 9, 2013",
-		"September 16, 2013",
-		"September 23, 2013",
-		"September 30, 2013",
-		"October 7, 2013",
-		"October 21, 2013",
-		"October 28, 2013",
-		"November 4, 2013",
-		"November 11, 2013",
-		"November 18, 2013",
-		"November 25, 2013",
-		"December 2, 2013",
-	];
+<h1>Appropriating Interaction Technologies</h1>
 
-	statuses = db['statuses'];
+<script>
+assignments = [
+	{date: "September 9, 2013", total: 3},
+	{date: "September 16, 2013", total: 0},
+	{date: "September 23, 2013", total: 0},
+	{date: "September 30, 2013", total: 0},
+	{date: "October 7, 2013", total: 0},
+	{date: "October 21, 2013", total: 0},
+	{date: "October 28, 2013", total: 0},
+	{date: "November 4, 2013", total: 0},
+	{date: "November 11, 2013", total: 0},
+	{date: "November 18, 2013", total: 0},
+	{date: "November 25, 2013", total: 0},
+	{date: "December 2, 2013", total: 0},
+];
 
-	// remove retweets
-	statuses = statuses.findAll(function(status) {
-		return !status.retweeted_status;
-	});
+now = new Date();
 
-	// get unique users
-	users = statuses.map(function(status) {
-		return status.user.screen_name;
-	}).unique().sort();
+statuses = db['statuses'];
 
-	document.write("<table class='table table-bordered table-striped table-condensed'>");
-	document.write("<thead><tr>");
-	document.write("<th>Person</th>");
-	dates.each(function(date) {
-		document.write("<th>" + new Date(date).toString("MMM d") + "</th>");
-	});
-	document.write("</tr></thead>");
-	document.write("<tbody>");
-	users.each(function(user) {
-		document.write("<tr>");
-		document.write("<td>" + user + "</td>");
-		dates.each(function(date) {
-			// get date range for this week
-			startDate = new Date(date);
-			endDate = startDate.clone().addWeeks(1);
-			// find all tweets from this user in date range
-			cur = statuses.findAll(function(status) {
-				return status.user.screen_name == user &&
-					new Date(status.created_at).between(startDate, endDate);
-			});
-			document.write("<td>" + cur.length + "</td>");
+// remove retweets
+statuses = statuses.findAll(function(status) {
+	return !status.retweeted_status;
+});
+
+// get unique users, replace this with manual list
+users = statuses.map(function(status) {
+	return status.user.screen_name;
+}).unique().sort();
+
+// users = [
+// 	"nyuaesthetic"
+// ];
+
+sorted = {};
+
+document.write("<table class='table table-bordered table-striped table-condensed table-hover'>");
+document.write("<thead><tr>");
+document.write("<th>Person</th>");
+assignments.each(function(assignment) {
+	document.write("<th>" + new Date(assignment.date).toString("MMM d") + "</th>");
+});
+document.write("</tr></thead>");
+document.write("<tbody>");
+users.each(function(user) {
+	userInfo = statuses.find(function(status) {
+		return status.user.screen_name == user;
+	}).user;
+	document.write("<tr>");
+	document.write(
+		"<td>" +
+		"<img src='" + userInfo.profile_image_url + "' class='profile-image'/> " +
+		"<a href='http://twitter.com/" + userInfo.screen_name + "'>" + userInfo.name + "</a> " +
+		"<small>(" + userInfo.screen_name + ")</small></td>");
+	assignments.each(function(assignment) {
+		// get date range for this week
+		startDate = new Date(assignment.date);
+		endDate = startDate.clone().addWeeks(1);
+		// find all tweets from this user in date range
+		all = statuses.findAll(function(status) {
+			return status.user.screen_name == user &&
+				new Date(status.created_at).between(startDate, endDate);
 		});
-		document.write("</tr>");
+		sorted[user] = sorted[user] || {};
+		sorted[user][assignment.date] = all;
+		if(now.isBefore(startDate)) {
+			// fill the future full of asterisks
+			document.write("<td><span class='glyphicon glyphicon-asterisk btn-xs'></span></td>");
+		} else {
+			document.write("<td onmousedown='showTweets(\"" + user + "\",\"" + assignment.date + "\");' ");
+			if(all.length == 0) {
+				// no tweets shows red warning sign
+				document.write("class='danger'><span class='glyphicon glyphicon-warning-sign'></span>");
+			} else if(all.length < assignment.total) {
+				// some tweets shows yellow
+				document.write("class='warning'>");
+			} else {
+				// finished shows green full star
+				document.write("class='success'><span class='glyphicon glyphicon-star'></span>");
+			}
+			all.each(function(status) {
+				// add link icons for each url
+				status.entities.urls && status.entities.urls.each(function(url) {
+					document.write("<a href='" + url.expanded_url + "'><span class='glyphicon glyphicon-link'></span></a>");
+				});
+				// add image icons for each media
+				status.entities.media && status.entities.media.each(function(media) {
+					document.write("<a href='" + media.expanded_url + "'><span class='glyphicon glyphicon-picture'></span></a>");
+				});
+			});
+			document.write("</td>");
+		}
 	});
-	document.write("</tbody>");
-	document.write("</table>");
+	document.write("</tr>");
+});
+document.write("</tbody>");
+document.write("</table>");
+</script>
 
-	document.write("<hr/>");
-
-	document.write("<h1>" + statuses.length + " results</h1>");
-	document.write("<table class='table table-bordered table-striped table-condensed'>");
-	document.write("<thead><tr><th>Profile</th><th>Name</th><th>Screen name</th><th>Tweet</th></tr></thead>");
-	document.write("<tbody>");
-	statuses.each(function(status) {
-		document.write("<tr>");
-		document.write("<td><img src='" + status.user.profile_image_url + "'/></td>");
-		document.write("<td>" + status.user.name + "</td>");
-		document.write("<td>" + status.user.screen_name + "</td>");
-		document.write("<td>" + status.text + "</td>");
-		document.write("</tr>");
-	});
-	document.write("</tbody>");
-	document.write("</table>");
-	</script>
+<script>
+function showTweets(user, date) {
+	$("tweets").text(sorted[user][date]);
+	console.log(sorted[user][date]);
+}
+</script>
+<div id="tweets">
+</div>
 </body>
 </html>
