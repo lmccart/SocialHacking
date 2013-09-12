@@ -23,7 +23,7 @@ if (CONSUMER_KEY === '' || CONSUMER_SECRET === '' || CONSUMER_KEY === 'CONSUMER_
 $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
 
 // If method is set change API call made. Test is called by default.
-$content = $connection->get('search/tweets', array('q' => '#socialhacking'));
+$content = $connection->get('search/tweets', array('q' => '#socialhacking', 'count' => '100', 'result_type' => 'recent'));
 file_put_contents("db.js", "db=".$content.";");
 
 $json = json_decode($content, true);
