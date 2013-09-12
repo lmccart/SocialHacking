@@ -7,8 +7,6 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
 <script src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<script src="db.js"></script>
-
 <style>
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 body {
@@ -38,7 +36,73 @@ tr td:first-child, tr th:first-child {
 
 <h2><a href="https://twitter.com/search?q=%23socialhacking&f=realtime">#socialhacking</a></h2>
 
+<?php
+if(array_key_exists("update", $_GET)) {
+	require_once('twitteroauth/twitteroauth.php');
+	require_once('config.php');
+
+	if (CONSUMER_KEY === '' || CONSUMER_SECRET === '' || CONSUMER_KEY === 'CONSUMER_KEY_HERE' || CONSUMER_SECRET === 'CONSUMER_SECRET_HERE') {
+	  echo 'You need a consumer key and secret to test the sample code. Get one from <a href="https://dev.twitter.com/apps">dev.twitter.com/apps</a>';
+	  exit;
+	}
+
+	// Build TwitterOAuth object with client credentials.
+	$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
+
+	// If method is set change API call made. Test is called by default.
+	$content = $connection->get('search/tweets', array('q' => '#socialhacking', 'count' => '100', 'result_type' => 'recent'));
+	$json = json_decode($content, true);
+
+	if($json == null || !array_key_exists("statuses", $json)) {
+		echo "Error retrieving results from Twitter.";
+		return;
+	}
+
+	if(file_exists("db.json")) {
+		$db = json_decode(file_get_contents("db.json"), true);
+	} else {
+		$db = array();
+	}
+
+	$statuses = $json["statuses"];
+	foreach($statuses as $newStatus) {
+		$exists = false;
+		foreach($db as $oldStatus) {
+			if($newStatus["id"] == $oldStatus["id"]) {
+				$exists = true;
+				break;
+			}
+		}
+		if(!$exists) {
+			array_unshift($db, $newStatus);
+		}
+	}
+
+	file_put_contents("db.json", json_encode($db));
+
+	foreach($statuses as $item) {
+		$user = $item["user"];
+		$text = $item["text"];
+		?>
+		<div>
+			<h2>
+				<img src="<?php echo($user["profile_image_url"]);?>">
+				<?php echo($user["name"]);?> (<?php echo($user["screen_name"]);?>)
+			</h2>
+			<p><?php echo($text);?></p>
+		</div>
+		<?php
+	}
+} else {
+	if(!file_exists("db.json")) {
+		echo "<p>There is no saved cache of tweets, <a href='./?update'>update the database</a>.</p>";
+	}
+}
+?>
+
 <script>
+statuses = <?php include 'db.json'; ?>;
+
 assignments = [
 	{date: "September 9, 2013", total: 3},
 	{date: "September 16, 2013", total: 0},
@@ -55,8 +119,6 @@ assignments = [
 ];
 
 now = new Date();
-
-statuses = db['statuses'];
 
 // remove retweets
 statuses = statuses.findAll(function(status) {
