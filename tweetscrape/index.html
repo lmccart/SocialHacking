@@ -24,6 +24,9 @@ body {
 th, td {
 	text-align: center;
 }
+.clickable {
+	cursor: hand;
+}
 tr td:first-child, tr th:first-child {
 	text-align: left;
 }
@@ -108,13 +111,13 @@ users.each(function(user) {
 			document.write("<td onmousedown='showTweets(\"" + user + "\",\"" + assignment.date + "\");' ");
 			if(all.length == 0) {
 				// no tweets shows red warning sign
-				document.write("class='danger'><span class='glyphicon glyphicon-warning-sign'></span>");
+				document.write("class='clickable danger'><span class='glyphicon glyphicon-warning-sign'></span>");
 			} else if(all.length < assignment.total) {
 				// some tweets shows yellow
-				document.write("class='warning'>");
+				document.write("class='clickable warning'>");
 			} else {
 				// finished shows green full star
-				document.write("class='success'><span class='glyphicon glyphicon-star'></span>");
+				document.write("class='clickable success'><span class='glyphicon glyphicon-star'></span>");
 			}
 			all.each(function(status) {
 				// add link icons for each url
