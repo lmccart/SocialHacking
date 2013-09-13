@@ -4,7 +4,7 @@ Appropriating Interaction Technologies
 * Kyle McDonald and Lauren McCarthy
 * NYU ITP Fall 2013
 * Mondays 2:30-5:30, ITP rm 447
-* Office hour Fridays 3:30-4:30, ITP adjunct lounge
+* Office hours Fridays 3:30-6:30, ITP adjunct lounge
 
 ###Important links
 
