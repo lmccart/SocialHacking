@@ -1,4 +1,5 @@
 // Updated 9/15/13, based on tutorial by Jer Thorp http://blog.blprnt.com/blog/blprnt/updated-quick-tutorial-processing-twitter
+// See http://twitter4j.org/en/code-examples.html for more examples and details.
 
 // 1. Visit https://dev.twitter.com/ and login with your twitter username and password.
 // 2. On the top right, click on your icon and then "My Applications" from the dropdown menu.

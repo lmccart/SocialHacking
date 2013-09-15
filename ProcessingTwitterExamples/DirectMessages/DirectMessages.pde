@@ -10,9 +10,9 @@
 // To get the other two values that we need, click on the button that says ‘Create my access token’.
 // 6. Fill in these four values as strings in the cb fields below.
 
-// To post a tweet, you must update your token settings to Read and Write:
+// To post a tweet, you must update your token settings to Read and Write and Access DMs:
 // 1. Click on the "Settings" tab.
-// 2. Under "Application Type" choose "Read and Write".
+// 2. Under "Application Type" choose "Read and Write and Access Direct Messages".
 // 3. Click the "Update this Twitter application's settings" button. It may take a minute to take effect.
 
 
@@ -25,12 +25,13 @@ void setup() {
   cb.setOAuthAccessTokenSecret("oauth_access_token_secret");
   
   
-  
   Twitter twitter = new TwitterFactory(cb.build()).getInstance();
   
   try {
-    Status status = twitter.updateStatus("testing #socialhacking");
-    System.out.println("Successfully updated the status to [" + status.getText() + "].");
+    String recipientId = "user_handle";
+    String text = "test_message_to_send";
+    DirectMessage message = twitter.sendDirectMessage(recipientId, text);
+    println("Sent: " + message.getText() + " to @" + message.getRecipientScreenName());
   }
   catch (TwitterException te) {
     println("Couldn't connect: " + te);
