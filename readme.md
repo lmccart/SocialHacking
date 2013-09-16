@@ -80,10 +80,86 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Post one tweet inspired by each reading, tagged with #socialhacking.
     * Create and document a social glitch involving technology, post it and tag it with #socialhacking.
 
-####Weeks 2-3 (9/16, 9/23): social automation and APIs
-* how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? 
-* negotiating social rules for new technologies
-* IFTTT, Facebook, Twitter, Mechanical Turk
+####Week 2-3 (9/16): Social automation and APIs
+* This week in hacks
+    * EZ Pass RFID
+    * Instagram uploading (start thinking about this)
+* Review work from past week
+    * One more related to social glitch - [Crying to Dragon](http://www.sophiabrueckner.com)
+* Creatively (mis)usings APIs and automation
+    * Custom API
+        * [Dronestream](http://dronestre.am/)
+        * [Dronestagram](http://dronestagram.tumblr.com/)
+        * [Botanicalls](http://www.botanicalls.com/kits/)
+    * Twitter
+        * [Everyword](https://twitter.com/everyword)
+        * [On Kawara tribute](https://twitter.com/On_Kawara)
+        * [keytweeter](https://twitter.com/keytweeter)
+    * Facebook
+        * [Face To Facebook](http://www.face-to-facebook.net/)
+        * [Ssocial Roulette](http://socialroulette.net)
+        * [Web 2.0 Suicide Machine](http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine)
+        * [I Like What I See](https://github.com/sklise/i-like-what-i-see)
+        * [The Whatever Button](http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/)
+    * Mechanical Turk
+        * [Social Turkers](http://socialturkers.com/)
+        * [Laborers of Love](http://www.jeffcrouse.info/project/laborers_of_love.html)
+        * [Crowd Workers of the World Unite](http://www.crowdworkersoftheworldunite.com/)
+    * Foursquare
+        * [Hell is other people](http://hell.j38.net/)
+        * [Girls around me](http://girlsaround.me/)
+        * [Please rob me](http://pleaserobme.com/)
+    * Dating
+        * https://github.com/shawn-simon/OkCupid
+        * [A More Perfect Union](http://music.columbia.edu/~luke/projects/index.shtml?id=perfect)
+    * SMS
+        * [Breakup Text](https://itunes.apple.com/us/app/breakuptext/id674333306?ls=1&mt=8)
+        * [Makeup Text](https://itunes.apple.com/us/app/makeuptext/id681601569?ls=1&mt=8)
+    * Death
+        * [Fatalatour](http://fatalatour.com)
+    * Amazon
+        * [Other People Also Bought](http://otherpeoplealsobought.com/)
+    * Google
+        * [Search by image](http://vimeo.com/34949864)
+        * [Google Translate](http://www.penacosta.com/163814/1231921/gallery/gaagoo-translate-singer)
+        * [GWEI](http://www.gwei.org/index.php)
+    * Other automation
+        * http://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/
+        * [Self Portrait Bot](http://stfj.net/index2.php?project=art/2008/Self-Portrait%20Bot)
+        * [DanmatsuMouse](http://exonemo.com/DanmatsuMouse/indexE.html)
+        * [DesktopDAM](http://www.youtube.com/watch?v=p9gTcP5aIkA)
+    * Other rules and protocols
+        * [The Essential Guide to Performing Michael Mandiberg](http://www.mandiberg.com/the-essential-guide-to-performing-michael-mandiberg/)
+        * [Learning to Love You More](http://www.learningtoloveyoumore.com/)
+* Tools
+    * Google scripting
+        * http://www.google.com/script/start/
+        * [InboxUnread source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/InboxUnread)
+    * OAuth 1.0
+        * https://github.com/bakercp/ofxOAuth - an OF OAuth 1.0 system (via liboauth) with pin-less verification via a mini callback server Examples for Twitter, Tumblr, Vimeo, Fitbit, etc.
+    * Twitter - https://dev.twitter.com
+        * https://github.com/drewvergara/ofxTwitter - implementation of Twitter API with OF
+        * [keytweeter source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/keytweeter)
+    * Facebook - https://developers.facebook.com/
+        * https://github.com/igiso/ofxFacebook - implementation of FB SDK 3.0 with OF
+    * Mechanical Turk
+        * [Kitchen Table Coders workshop resouces](http://kitchentablecoders.com/2013/08/10/mturk-workshop/)
+        * https://github.com/jefftimesten/mturk - nodejs wrapper for MTurk
+        * https://github.com/mdp/rturk - ruby wrapper for MTurk
+        * https://github.com/twitter/clockworkraven - webapp for MTurk interface, created by Twitter
+        * http://aws.amazon.com/code/Amazon-Mechanical-Turk
+    * IFTTT
+        * https://ifttt.com/channels
+        * https://github.com/cido/ifttt-channel-extensions - create custom IFTTT channels
+    * OkCupid
+        * https://github.com/trek/lonely_coder - ruby scraper interface
+        * https://github.com/shawn-simon/OkCupid - nodejs scraper / automated message sender interface
+    * Computer interaction
+        * [RobotDemo source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/RobotDemo) - using the java robot to type and move the mouse
+        * [EmojiPaster source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/EmojiPaster) - using the java robot to paste text
+
+####Week 3 (9/23): Social automation and APIs
+* Dan Moore guest
 
 ####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
 * who are you? how do you communicate/represent this? identity shaped by context
