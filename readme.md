@@ -157,7 +157,11 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Computer interaction
         * [RobotDemo source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/RobotDemo) - using the java robot to type and move the mouse
         * [EmojiPaster source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/EmojiPaster) - using the java robot to paste text
-
+* _Assignment due 9/30:_
+    * Create an HPI (human programming interface) that allows others to control some aspect of your life. By __next week (9/23)__ you should have the system built and in place and ready for a one week trial / performance / experiment.
+    * Creatively misuse an existing API in order to reveal something about the service.
+    * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
+ 
 ####Week 3 (9/23): Social automation and APIs
 * Dan Moore guest
 
