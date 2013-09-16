@@ -82,7 +82,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 ####Week 2-3 (9/16): Social automation and APIs
 * This week in hacks
-    * EZ Pass RFID
+    * http://www.forbes.com/sites/kashmirhill/2013/09/12/e-zpasses-get-read-all-over-new-york-not-just-at-toll-booths/
     * Instagram uploading (start thinking about this)
 * Review work from past week
     * One more related to social glitch - [Crying to Dragon](http://www.sophiabrueckner.com)
@@ -127,7 +127,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * http://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/
         * [Self Portrait Bot](http://stfj.net/index2.php?project=art/2008/Self-Portrait%20Bot)
         * [DanmatsuMouse](http://exonemo.com/DanmatsuMouse/indexE.html)
-        * [DesktopDAM](http://www.youtube.com/watch?v=p9gTcP5aIkA)
+        * [DesktopBAM](http://www.youtube.com/watch?v=p9gTcP5aIkA)
     * Other rules and protocols
         * [The Essential Guide to Performing Michael Mandiberg](http://www.mandiberg.com/the-essential-guide-to-performing-michael-mandiberg/)
         * [Learning to Love You More](http://www.learningtoloveyoumore.com/)
