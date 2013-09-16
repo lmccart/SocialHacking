@@ -88,26 +88,25 @@ This four-point course will meet in the first twelve weeks of the semester.
     * One more related to social glitch - [Crying to Dragon](http://www.sophiabrueckner.com)
 * Creatively (mis)usings APIs and automation
     * Custom API
-        * Dronestream http://dronestre.am/
-        * Dronestagram http://dronestagram.tumblr.com/
-        * Botanicalls http://www.botanicalls.com/kits/
+        * [Dronestream](http://dronestre.am/)
+        * [Dronestagram](http://dronestagram.tumblr.com/)
+        * [Botanicalls](http://www.botanicalls.com/kits/)
     * Twitter
-        * Everyword https://twitter.com/everyword
-        * On Kawara tribute https://twitter.com/On_Kawara
-        * keytweeter https://twitter.com/keytweeter
+        * [Everyword](https://twitter.com/everyword)
+        * [On Kawara tribute](https://twitter.com/On_Kawara)
+        * [keytweeter](https://twitter.com/keytweeter)
     * Facebook
-        * Face To Facebook http://www.face-to-facebook.net/
-        * socialroulette http://socialroulette.net
-        * web 2.0 suicide machine http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine
-        * I like what i see https://github.com/sklise/i-like-what-i-see
-        * whatever button http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/
+        * [Face To Facebook](http://www.face-to-facebook.net/)
+        * [Ssocial Roulette](http://socialroulette.net)
+        * [Web 2.0 Suicide Machine](http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine)
+        * [I Like What I See](https://github.com/sklise/i-like-what-i-see)
+        * [The Whatever Button](http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/)
     * Mechanical Turk
-    Social Turkers http://socialturkers.com/
-    
+        * [Social Turkers](http://socialturkers.com/)
     * Foursquare
-        * Hell is other people http://hell.j38.net/
-        * Girls around me http://girlsaround.me/
-        * Please rob me http://pleaserobme.com/
+        * [Hell is other people](http://hell.j38.net/)
+        * [Girls around me](http://girlsaround.me/)
+        * [Please rob me](http://pleaserobme.com/)
     * Dating
         * https://github.com/shawn-simon/OkCupid
         * A More Perfect Union http://music.columbia.edu/~luke/projects/index.shtml?id=perfect
