@@ -91,6 +91,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Dronestream](http://dronestre.am/)
         * [Dronestagram](http://dronestagram.tumblr.com/)
         * [Botanicalls](http://www.botanicalls.com/kits/)
+		* [Tracking Transience](http://trackingtransience.net/) ([NYT Article](http://www.nytimes.com/2011/10/30/opinion/sunday/giving-the-fbi-what-it-wants.html?pagewanted=all&_r=1&))
     * Twitter
         * [Everyword](https://twitter.com/everyword)
         * [On Kawara tribute](https://twitter.com/On_Kawara)

@@ -137,8 +137,8 @@ statuses = statuses.findAll(function(status) {
 });
 
 // get unique users, replace this with manual list
-users = statuses.map(function(status) {
-	return status.user.screen_name;
+userIds = statuses.map(function(status) {
+	return status.user.id;
 }).unique().sort();
 
 // users = [
@@ -155,9 +155,9 @@ assignments.each(function(assignment) {
 });
 document.write("</tr></thead>");
 document.write("<tbody>");
-users.each(function(user) {
+userIds.each(function(userId) {
 	userInfo = statuses.find(function(status) {
-		return status.user.screen_name == user;
+		return status.user.id == userId;
 	}).user;
 	document.write("<tr>");
 	document.write(
@@ -172,16 +172,16 @@ users.each(function(user) {
 		endTime = startTime.clone().addWeeks(1);
 		// find all tweets from this user in date range
 		all = statuses.findAll(function(status) {
-			return status.user.screen_name == user &&
+			return status.user.id == userId &&
 				new Date(status.created_at).between(startTime, endTime);
 		});
-		sorted[user] = sorted[user] || {};
-		sorted[user][assignment.date] = all;
+		sorted[userId] = sorted[userId] || {};
+		sorted[userId][assignment.date] = all;
 		if(now.isBefore(startTime)) {
 			// fill the future full of asterisks
 			document.write("<td><span class='glyphicon glyphicon-asterisk btn-xs'></span></td>");
 		} else {
-			document.write("<td onmousedown='showTweets(\"" + user + "\",\"" + assignment.date + "\");' ");
+			document.write("<td onmousedown='showTweets(\"" + userId + "\",\"" + assignment.date + "\");' ");
 			if(all.length == 0) {
 				// no tweets shows red warning sign
 				document.write("class='clickable danger'><span class='glyphicon glyphicon-warning-sign'></span>");
@@ -190,7 +190,10 @@ users.each(function(user) {
 				document.write("class='clickable warning'>");
 			} else {
 				// finished shows green full star
-				document.write("class='clickable success'><span class='glyphicon glyphicon-star'></span>");
+				document.write("class='clickable success'><span class='glyphicon glyphicon-star-empty'></span>");
+				if(all.length > assignment.total) {
+					document.write("<span class='count'>" + all.length + "</span>");
+				}
 			}
 			urls = [], media = [];
 			all.each(function(status) {
