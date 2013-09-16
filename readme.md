@@ -80,10 +80,52 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Post one tweet inspired by each reading, tagged with #socialhacking.
     * Create and document a social glitch involving technology, post it and tag it with #socialhacking.
 
-####Weeks 2-3 (9/16, 9/23): social automation and APIs
-* how do we share things with each other? how do we influence each other? how do we control each other? how do we push back? 
-* negotiating social rules for new technologies
-* IFTTT, Facebook, Twitter, Mechanical Turk
+####Week 2-3 (9/16): Social automation and APIs
+* This week in hacks
+    * EZ Pass RFID
+    * Instagram uploading (start thinking about this)
+* Review work from past week
+    * One more related to social glitch - [Crying to Dragon](http://www.sophiabrueckner.com)
+* Creatively (mis)usings APIs and automation
+    * Custom API
+        * Dronestream http://dronestre.am/
+        * Dronestagram http://dronestagram.tumblr.com/
+        * Botanicalls http://www.botanicalls.com/kits/
+    * Twitter
+        * Everyword https://twitter.com/everyword
+        * On Kawara tribute https://twitter.com/On_Kawara
+        * keytweeter https://twitter.com/keytweeter
+    * Facebook
+        * Face To Facebook http://www.face-to-facebook.net/
+        * socialroulette http://socialroulette.net
+        * web 2.0 suicide machine http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine
+        * I like what i see https://github.com/sklise/i-like-what-i-see
+        * whatever button http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/
+    * Mechanical Turk
+    Social Turkers http://socialturkers.com/
+    
+    * Foursquare
+        * Hell is other people http://hell.j38.net/
+        * Girls around me http://girlsaround.me/
+        * Please rob me http://pleaserobme.com/
+    * Dating
+        * https://github.com/shawn-simon/OkCupid
+        * A More Perfect Union http://music.columbia.edu/~luke/projects/index.shtml?id=perfect
+    * SMS
+        * Breakup Text https://itunes.apple.com/us/app/breakuptext/id674333306?ls=1&mt=8
+        * Makeup Text https://itunes.apple.com/us/app/makeuptext/id681601569?ls=1&mt=8
+    * Death
+        * Fatalatour http://fatalatour.com
+    * Amazon
+        * Other People Also Bought http://otherpeoplealsobought.com/
+    * Google
+        * Search by image http://vimeo.com/34949864
+        * Google Translate http://www.penacosta.com/163814/1231921/gallery/gaagoo-translate-singer
+* IFTTT, Facebook, Twitter, Mechanical Turk, Google scripting, etc.
+
+
+####Week 3 (9/23): Social automation and APIs
+* Dan Moore guest
 
 ####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
 * who are you? how do you communicate/represent this? identity shaped by context
