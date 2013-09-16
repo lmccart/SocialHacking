@@ -141,9 +141,23 @@ userIds = statuses.map(function(status) {
 	return status.user.id;
 }).unique().sort();
 
-// users = [
-// 	"nyuaesthetic"
-// ];
+students = [
+	"hanbyul-here",
+	"allisonburtch",
+	"juyoungp88",
+	"atraciuk",
+	"m1keall1son",
+	"lawn___mower",
+	"carljamilkowski",
+	"m4ckaroni",
+	"harryhow",
+	"iamsukim",
+	"gal_sasson",
+	"taranagupta",
+	"dd_yj",
+	"noterrain",
+	"nyuaesthetic"
+];
 
 sorted = {};
 

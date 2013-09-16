@@ -159,6 +159,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Computer interaction
         * [RobotDemo source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/RobotDemo) - using the java robot to type and move the mouse
         * [EmojiPaster source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/EmojiPaster) - using the java robot to paste text
+		* [phantom.js](http://phantomjs.org/)
 * __Assignment due 9/30:__
     * Create an HPI (human programming interface) that allows others to control some aspect of your life. By __next week (9/23)__ you should have the system built and in place and ready for a one week trial / performance / experiment.
     * Creatively misuse an existing API in order to reveal something about the service.
