@@ -121,8 +121,45 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Search by image](http://vimeo.com/34949864)
         * [Google Translate](http://www.penacosta.com/163814/1231921/gallery/gaagoo-translate-singer)
         * [GWEI](http://www.gwei.org/index.php)
-* IFTTT, Facebook, Twitter, Mechanical Turk, Google scripting, etc.
+        * 
+        * 
+        * Learning to love you more
+        * http://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/
+    * Other automation
+        * http://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/
+        * [Self Portrait Bot](http://stfj.net/index2.php?project=art/2008/Self-Portrait%20Bot)
+        * [DanmatsuMouse](http://exonemo.com/DanmatsuMouse/indexE.html)
+        * [DesktopDAM](http://www.youtube.com/watch?v=p9gTcP5aIkA)
+    * Other rules and protocols
+        * [The Essential Guide to Performing Michael Mandiberg](http://www.mandiberg.com/the-essential-guide-to-performing-michael-mandiberg/)
+        * [Learning to Love You More](http://www.learningtoloveyoumore.com/)
+* Tools
+    * Google scripting
+        * http://www.google.com/script/start/
+        * https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/InboxUnread
+    * OAuth 1.0
+        * https://github.com/bakercp/ofxOAuth - an OF OAuth 1.0 system (via liboauth) with pin-less verification via a mini callback server Examples for Twitter, Tumblr, Vimeo, Fitbit, etc.
+    * Twitter - https://dev.twitter.com
+        * https://github.com/drewvergara/ofxTwitter - implementation of Twitter API with OF
+        * https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/keytweeter
+    * Facebook - https://developers.facebook.com/
+        * https://github.com/igiso/ofxFacebook - implementation of FB SDK 3.0 with OF
+    * Mechanical Turk
+        * http://kitchentablecoders.com/2013/08/10/mturk-workshop/ - Kitchen Table Coders workshop resouces
+        * https://github.com/jefftimesten/mturk - nodejs wrapper for MTurk
+        * https://github.com/mdp/rturk - ruby wrapper for MTurk
+        * https://github.com/twitter/clockworkraven - webapp for MTurk interface, created by Twitter
+        * http://aws.amazon.com/code/Amazon-Mechanical-Turk
 
+    * IFTTT
+        * https://ifttt.com/channels
+        * https://github.com/cido/ifttt-channel-extensions - custom IFTTT channels
+    * OkCupid
+        * https://github.com/trek/lonely_coder - ruby scraper interface
+        * https://github.com/shawn-simon/OkCupid - nodejs scraper / automated message sender interface
+    * Computer interaction
+        * https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/RobotDemo using the java robot to type and move the mouse
+        * https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/EmojiPaster using the java robot to paste text
 
 ####Week 3 (9/23): Social automation and APIs
 * Dan Moore guest
