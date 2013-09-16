@@ -12,7 +12,7 @@ Appropriating Interaction Technologies
 * [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
 * [mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
 * [#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
-
+* [#socialhacking aggregator](http://kylemcdonald.net/itp/AppropriatingInteractionTechnologies/tweetscrape/)
 
 ###Course description
 
