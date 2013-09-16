@@ -74,7 +74,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Mark Lombardi on wikipedia](http://en.wikipedia.org/wiki/Mark_Lombardi)
         * [Mark Lombardi article](http://socks-studio.com/2012/08/22/mark-lombardi/)
         * [technical flowcharts](http://en.wikipedia.org/wiki/File:Activity_conducting.svg)
-* _Assignment due 9/16:_
+* __Assignment due 9/16:__
     * Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1).
     * Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing).
     * Post one tweet inspired by each reading, tagged with #socialhacking.
@@ -157,7 +157,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Computer interaction
         * [RobotDemo source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/RobotDemo) - using the java robot to type and move the mouse
         * [EmojiPaster source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/EmojiPaster) - using the java robot to paste text
-* _Assignment due 9/30:_
+* __Assignment due 9/30:__
     * Create an HPI (human programming interface) that allows others to control some aspect of your life. By __next week (9/23)__ you should have the system built and in place and ready for a one week trial / performance / experiment.
     * Creatively misuse an existing API in order to reveal something about the service.
     * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
