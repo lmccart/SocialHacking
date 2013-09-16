@@ -141,6 +141,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Twitter - https://dev.twitter.com
         * https://github.com/drewvergara/ofxTwitter - implementation of Twitter API with OF
         * [keytweeter source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/keytweeter)
+        * [Processing examples with Twitter4J](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/ProcessingTwitterExamples)
     * Facebook - https://developers.facebook.com/
         * https://github.com/igiso/ofxFacebook - implementation of FB SDK 3.0 with OF
     * Mechanical Turk
