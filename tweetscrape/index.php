@@ -15,6 +15,20 @@ body {
 *,h1,h2 {
 	font-family: Lato;
 }
+.glyphicon {
+	margin: 0 2px;
+}
+.count {
+	background-color: rgba(255, 255, 255, .8);
+	font-size: 50%;
+	margin-left: -10px;
+	position: relative;
+	top: 5px;
+	padding: 2px;
+}
+.glyphicon-asterisk {
+	color: #ccc;
+}
 .profile-image {
 	width: 24px;
 	height: 24px;
@@ -178,16 +192,29 @@ users.each(function(user) {
 				// finished shows green full star
 				document.write("class='clickable success'><span class='glyphicon glyphicon-star'></span>");
 			}
+			urls = [], media = [];
 			all.each(function(status) {
-				// add link icons for each url
-				status.entities.urls && status.entities.urls.each(function(url) {
-					document.write("<a href='" + url.expanded_url + "'><span class='glyphicon glyphicon-link'></span></a>");
-				});
-				// add image icons for each media
-				status.entities.media && status.entities.media.each(function(media) {
-					document.write("<a href='" + media.expanded_url + "'><span class='glyphicon glyphicon-picture'></span></a>");
-				});
+				if(status.entities.urls) {
+					urls = urls.concat(status.entities.urls);
+				}
+				if(status.entities.media) {
+					media = media.concat(status.entities.media);
+				}
 			});
+			if(urls.length > 0) {
+				if(urls.length > 1) {
+					document.write("<span class='glyphicon glyphicon-link'></span><span class='count'>" + urls.length + "</span>");
+				} else {
+					document.write("<a href='" + urls[0].expanded_url + "'><span class='glyphicon glyphicon-link'></span></a>");
+				}
+			}
+			if(media.length > 0) {
+				if(media.length > 1) {
+					document.write("<span class='glyphicon glyphicon-picture'></span><span class='count'>" + media.length + "</span>");
+				} else {
+					document.write("<a href='" + media[0].expanded_url + "'><span class='glyphicon glyphicon-picture'></span></a>");
+				}
+			}
 			document.write("</td>");
 		}
 	});
@@ -201,7 +228,6 @@ document.write("</table>");
 
 <script>
 function showTweets(user, date) {
-	console.log(sorted[user][date]);
 	$("#tweets").empty();
 	$("#tweets").hide();
 	sorted[user][date].each(function(status) {
