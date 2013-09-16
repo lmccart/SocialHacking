@@ -98,6 +98,8 @@ if(array_key_exists("update", $_GET)) {
 <script>
 statuses = <?php include 'db.json'; ?>;
 
+classTime = "2:35PM";
+
 assignments = [
 	{date: "September 9, 2013", total: 3},
 	{date: "September 16, 2013", total: 0},
@@ -152,16 +154,16 @@ users.each(function(user) {
 		"</td>");
 	assignments.each(function(assignment) {
 		// get date range for this week
-		startDate = new Date(assignment.date);
-		endDate = startDate.clone().addWeeks(1);
+		startTime = Date.parse(classTime + " " + assignment.date);
+		endTime = startTime.clone().addWeeks(1);
 		// find all tweets from this user in date range
 		all = statuses.findAll(function(status) {
 			return status.user.screen_name == user &&
-				new Date(status.created_at).between(startDate, endDate);
+				new Date(status.created_at).between(startTime, endTime);
 		});
 		sorted[user] = sorted[user] || {};
 		sorted[user][assignment.date] = all;
-		if(now.isBefore(startDate)) {
+		if(now.isBefore(startTime)) {
 			// fill the future full of asterisks
 			document.write("<td><span class='glyphicon glyphicon-asterisk btn-xs'></span></td>");
 		} else {
