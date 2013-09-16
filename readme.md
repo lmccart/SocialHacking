@@ -109,17 +109,18 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Please rob me](http://pleaserobme.com/)
     * Dating
         * https://github.com/shawn-simon/OkCupid
-        * A More Perfect Union http://music.columbia.edu/~luke/projects/index.shtml?id=perfect
+        * [A More Perfect Union](http://music.columbia.edu/~luke/projects/index.shtml?id=perfect)
     * SMS
-        * Breakup Text https://itunes.apple.com/us/app/breakuptext/id674333306?ls=1&mt=8
-        * Makeup Text https://itunes.apple.com/us/app/makeuptext/id681601569?ls=1&mt=8
+        * [Breakup Text](https://itunes.apple.com/us/app/breakuptext/id674333306?ls=1&mt=8)
+        * [Makeup Text](https://itunes.apple.com/us/app/makeuptext/id681601569?ls=1&mt=8)
     * Death
-        * Fatalatour http://fatalatour.com
+        * [Fatalatour](http://fatalatour.com)
     * Amazon
-        * Other People Also Bought http://otherpeoplealsobought.com/
+        * [Other People Also Bought](http://otherpeoplealsobought.com/)
     * Google
-        * Search by image http://vimeo.com/34949864
-        * Google Translate http://www.penacosta.com/163814/1231921/gallery/gaagoo-translate-singer
+        * [Search by image](http://vimeo.com/34949864)
+        * [Google Translate](http://www.penacosta.com/163814/1231921/gallery/gaagoo-translate-singer)
+        * [GWEI](http://www.gwei.org/index.php)
 * IFTTT, Facebook, Twitter, Mechanical Turk, Google scripting, etc.
 
 
