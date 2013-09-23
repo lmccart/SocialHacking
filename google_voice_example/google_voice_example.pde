@@ -40,7 +40,7 @@ import processing.core.PApplet;
 Voice mVoice;
 Elbot elbot;
 Database smsDB;
-String DB_PATH_PREFIX = "/Users/dantheman/Documents/Processing/google_voice_example/";
+String DB_PATH_PREFIX = "";
 String USER_NAME="";
 String PASSWORD="";
 void setup() {
