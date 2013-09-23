@@ -35,7 +35,10 @@ All dependances are included as JARS.  Please check the [google-voice-java](http
 
 Please note this paragraph from the [google-voice-java documentation](https://code.google.com/p/google-voice-java/wiki/GettingStarted) and correct your code accordingly. 
 
-    When creating the Voice object, your login details are stored in memory and the Google    Client Login token or "auth" key is obtained. This token is passed back on all subsequent calls. If your programme runs long enough, that token will expire and any further calls to the Voice object will either result in an exception, or HTML for the Google Voice login screen.
+    When creating the Voice object, your login details are stored in memory and the Google Client Login 
+    token or "auth" key is obtained. This token is passed back on all subsequent calls. If your programme 
+    runs long enough, that token will expire and any further calls to the Voice object will either result 
+    in an exception, or HTML for the Google Voice login screen.
   
   
     
