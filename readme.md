@@ -168,7 +168,17 @@ This four-point course will meet in the first twelve weeks of the semester.
     * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
  
 ####Week 3 (9/23): Social automation and APIs
-* Dan Moore guest
+* Dan Moore [guest lecture](https://docs.google.com/a/makeitdoathing.com/presentation/d/1g9-Mnm9OYgM_zTpynk3wGVNENRecVD2I9CNQDFjjUsc/edit?usp=sharing)
+* HPI presentations and feedback
+* [Mechanical Turk](http://mturk.com/) Farm and discussion
+	* 20 minutes to make as much money as possible
+	* all the bounty goes to treats for next week
+* Task Rabbit
+	* [NYC](https://www.taskrabbit.com/new-york-city)
+	* [Human alarm clock](https://www.taskrabbit.com/new-york-new-york-city/t/human-alarm-clock-for-2-weeks)
+	* [Example Task Rabbit](https://www.taskrabbit.com/profile/jesserafe)
+* [Gigwalk](http://gigwalk.com/)
+* Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
 ####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
 * who are you? how do you communicate/represent this? identity shaped by context
