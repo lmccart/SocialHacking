@@ -1,9 +1,10 @@
 //
 // Google Voice Unoffical API Example
-// How to programmatically send and receive SMS messages
+// Programmatically Send and Receive SMS Messages
 // By Dan Moore
 // @theDANtheMAN
 // 
+
 import com.techventus.server.voice.Voice;
 import com.techventus.server.voice.datatypes.records.SMS;
 import com.techventus.server.voice.datatypes.records.SMSThread;
@@ -39,12 +40,15 @@ import processing.core.PApplet;
 Voice mVoice;
 Elbot elbot;
 Database smsDB;
+String DB_PATH_PREFIX = "/Users/dantheman/Documents/Processing/google_voice_example/";
+String USER_NAME="";
+String PASSWORD="";
 void setup() {
   size(500, 500);
   smsDB = new Database(this);
   elbot = new Elbot();
   try {
-    mVoice = new Voice("unofficial.api.itp@gmail.com", "1234567890asdfghjkl;");
+    mVoice = new Voice(USER_NAME, PASSWORD);
   } 
   catch (IOException e) {
   }
@@ -61,7 +65,7 @@ void draw() {
 
 
 void sendMessage() {
-  sendSMS("9172929662", "hey robit whats up?");//so this will actually start the process of having a robit text a human.
+  sendSMS("", "I like cake");
 }
 
 void sendSMS(String number, String message) {
@@ -175,8 +179,8 @@ public class Elbot {
     line = line.substring(line.indexOf("   -->")+6, line.indexOf("<!-- E"));
 
 
-    line = line.replace("a robot", "REPLACE ME");
-    line = line.replace("robot", "REPLACE ME");
+    line = line.replace("a robot", "an artificial life form");
+    line = line.replace("robot", "sculpture");
     line = line.replace("to computer trade shows", "to the mountains");
     line = line.replace("Elbot", "YOUR NAME HERE").replace("Robot", "YOUR NAME HERE").replace("Artificial Solutions", "SOMETHING CLEVER ABOUT WHO MADE YOU");
     line = line.replace(hRef, "");
@@ -189,7 +193,7 @@ public class Database {
   public  String SMS_DB = "sms.db";
   public  String SMS_TABLE = "message";
   public SQLite db;
-  public  String DB_PATH_PREFIX = "/Users/dantheman/Documents/Processing/google_voice_example/";
+ 
   public Database(PApplet p) {
     db = new SQLite(p, String.format("%s/%s", DB_PATH_PREFIX, SMS_DB));
     db.setDebug(true);
