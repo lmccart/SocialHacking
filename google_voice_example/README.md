@@ -2,7 +2,21 @@
 
 I wouldn't normally write code like this with so many nested classes.  This is more of a proof of concept demo I ripped out of a project. 
 
-You should change the DB_PATH_PREFIX to point to the directory of you sms.db file or change the code to reference the Sketch's data path. For more information about using SQLite and Processing please reference this [tutorial](http://cs.smith.edu/dftwiki/index.php/Tutorial:_SQLite_and_Processing,_Part_I). 
+You should change the DB_PATH_PREFIX to point to the directory of your sms.db file or change the code to reference the Sketch's data path. For more information about using SQLite and Processing please reference this [tutorial](http://cs.smith.edu/dftwiki/index.php/Tutorial:_SQLite_and_Processing,_Part_I).
+You can recreate the sms.db using the follwing commands:
+
+    $ sqlite3 sms.db
+
+will launch sqlite3, if you do not already have sqlite3 please install it. You should see the following:
+    
+    SQLite version 3.7.17 2013-05-20 00:56:22
+    Enter ".help" for instructions
+    Enter SQL statements terminated with a ";"
+    
+We then create the table:
+    
+    sqlite> CREATE TABLE message(from_ID STRING, from_Name STRING, from_Number STRING, date STRING, message STRING);
+    sqlite> .exit    
 
 You will need to supply a Google Voice Username and Password.  You should enter those as the values of USER_NAME and PASSWORD at the top of the sketch. 
 
