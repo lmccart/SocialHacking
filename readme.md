@@ -189,7 +189,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * Examples
 	* Making an invisible layer on top of normal social space, you have to know the code or have the extension to see it.
 		* [ShiftSpace](http://www.youtube.com/watch?v=Sum_5GdvFG0)
-		* [Handkerchief Code](http://en.wikipedia.org/wiki/Handkerchief_code)http://www.google.com/imgres?imgurl=http://www.readingrailmen.net/hanky%2520colors.jpg&imgrefurl=http://www.mazdaspeedforums.org/forum/f505/cp-e-discounts-82514/&h=1966&w=1104&sz=349&tbnid=yw-g-heTRAM5ZM:&tbnh=82&tbnw=46&zoom=1&usg=__zBZrRKiws_2a7mo6TL2xEr_CqHQ=&docid=uZmkX2Pdq63UtM&sa=X&ei=xeFJUpP_HcPC4AOS44H4Bg&ved=0CFMQ9QEwBQ
+		* [Handkerchief Code](http://en.wikipedia.org/wiki/Handkerchief_code), [Handkerchief code key](http://www.readingrailmen.net/hanky%20colors.jpg)
 		* [Situationist](http://www.designboom.com/technology/benrik-situationist-iphone-app/) and [Inneract](http://inneract.us/)
 	* Making the world appear to you the way you want it to be
 		* [Artzilla](http://artzilla.org/)
