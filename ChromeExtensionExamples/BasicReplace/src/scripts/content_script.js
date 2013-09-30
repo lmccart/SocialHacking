@@ -13,9 +13,7 @@ $("document").ready(function(){
 
 
 function changeText() {
-    // do shit
-    //$('p').hide();
-    $('p').each(function(){$(this).html(getRandom(new_lines))});
+    $('p, h2 a, h3 a, h4 a, h5 a').each(function(){$(this).html(getRandom(new_lines))});
 }
 
 
