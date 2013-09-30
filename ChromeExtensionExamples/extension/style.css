@@ -1,0 +1,14 @@
+#sabotage {
+	width: 100%;
+	height: 100%;
+	position: absolute;	
+    top:0px;
+    left:0px;
+    background-color: gray;
+}
+
+#words {
+	font-size: 34pt;
+	font-family: helvetica;
+	color: white;
+}

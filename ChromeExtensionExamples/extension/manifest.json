@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "bg ext",
+  "description": "example background extension",
+  "version": "1.0",
+
+  "permissions": ["tabs", "http://*/*", "https://*/*", "<all_urls>", "background"],
+  "content_scripts": [
+    {
+      "matches": ["http://www.youtube.com/*"],
+      "js": ["contentscript.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"],
+    "html": ["background.html"]
+  },
+  "web_accessible_resources": [],
+  "browser_action": {
+    "default_title": "hi",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

@@ -59,13 +59,37 @@ if(array_key_exists("update", $_GET)) {
 	$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET);
 
 	// If method is set change API call made. Test is called by default.
-	$content = $connection->get('search/tweets', array('q' => '#socialhacking', 'count' => '100', 'result_type' => 'recent'));
-	$json = json_decode($content, true);
 
-	if($json == null || !array_key_exists("statuses", $json)) {
-		echo "Error retrieving results from Twitter.";
-		return;
+
+	$students = array(
+		"hanbyul-here",
+		"juyoungp88",
+		"atraciuk",
+		"m1keall1son",
+		"lawn___mower",
+		"carljamilkowski",
+		"m4ckaroni",
+		"harryhow",
+		"iamsukim",
+		"gal_sasson",
+		"taranagupta",
+		"dd_yj",
+		"noterrain",
+		"nyuaesthetic"
+	);
+
+
+	$statuses = array();
+	foreach($students as $u) {
+		$content = $connection->get('statuses/user_timeline', array('screen_name' => $u, 'count' => '200', 'include_rts' => 'false'));
+		$json = json_decode($content, true);
+		foreach($json as $status) {
+			if(stristr($status['text'], '#socialhacking')) {
+				$statuses[] = $status;
+			}
+		}
 	}
+
 
 	if(file_exists("db.json")) {
 		$db = json_decode(file_get_contents("db.json"), true);
@@ -73,7 +97,6 @@ if(array_key_exists("update", $_GET)) {
 		$db = array();
 	}
 
-	$statuses = $json["statuses"];
 	foreach($statuses as $newStatus) {
 		$exists = false;
 		foreach($db as $oldStatus) {
@@ -110,7 +133,7 @@ if(array_key_exists("update", $_GET)) {
 ?>
 
 <script>
-statuses = <?php include 'db.json'; ?>;
+statuses = <?php include('db.json'); ?>;
 
 classTime = "2:35PM";
 
@@ -141,23 +164,6 @@ userIds = statuses.map(function(status) {
 	return status.user.id;
 }).unique().sort();
 
-students = [
-	"hanbyul-here",
-	"allisonburtch",
-	"juyoungp88",
-	"atraciuk",
-	"m1keall1son",
-	"lawn___mower",
-	"carljamilkowski",
-	"m4ckaroni",
-	"harryhow",
-	"iamsukim",
-	"gal_sasson",
-	"taranagupta",
-	"dd_yj",
-	"noterrain",
-	"nyuaesthetic"
-];
 
 sorted = {};
 
