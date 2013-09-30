@@ -1,0 +1,36 @@
+{
+    "name": "Basic replace",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Basic replace",
+    "icons": { 
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.nytimes.com/*"
+            ],
+            "js": [
+                "scripts/jquery.js",
+                "scripts/content_script.js"
+            ]
+        }
+    ],
+    "content_security_policy": "script-src 'self' http://localhost; object-src 'self' http://localhost",
+    "incognito": "split",
+    "offline_enabled": false,
+    "permissions": [
+        "tabs",
+        "http://www.nytimes.com/*",
+        "http://localhost/*"
+    ],
+    "update_url": "http://path/to/updateInfo.xml",
+    "web_accessible_resources": [
+        "manifest.json",
+        "data/new_lines.txt",
+        "glitter_cursor.gif"
+    ]
+}
