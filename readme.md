@@ -233,7 +233,9 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* debugging tutorial: http://developer.chrome.com/extensions/tut_debugging.html
 	* more extension samples: http://developer.chrome.com/extensions/samples.html
 	* chrome APIs to interact with browser: http://developer.chrome.com/extensions/api_index.html
+	* other APIs: http://developer.chrome.com/extensions/api_other.html
 	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
+	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
 
 ####Weeks 6-7 (10/21, 10/28): security and privacy
