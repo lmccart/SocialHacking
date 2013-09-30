@@ -183,20 +183,19 @@ This four-point course will meet in the first twelve weeks of the semester.
 ####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
 * Review HPI and misused API work
 * Break
-* Discussion extension and customization
-	* Extensions change your experience transparently, instead of drawing our attention to the object itself.
-	* Difference from API
-	* Goffman reading. How do these things fit together? 
-* Look at examples
+* Discussion: extension and customization
+	* Extensions change your experience transparently, instead of drawing our attention to the object itself. While an API is something that exposes specific ways of interacting with a system, shielding the system from direct manipulation, an extension is generally something that is integrated directly with a system.
+	* Remember the Goffman reading. How do these things fit together?
+* Examples
 	* Making an invisible layer on top of normal social space, you have to know the code or have the extension to see it.
-	* http://www.youtube.com/watch?v=Sum_5GdvFG0
-	* hanky code
-	* benrik, situationist app http://www.designboom.com/technology/benrik-situationist-iphone-app/ / inneract
-	* Making the world appear to you the way you want it to be.
-		* http://fffff.at/shaved-bieber/
-		* http://artzilla.org/
-		* http://happytube.org/
-		* http://bengrosser.com/projects/facebook-demetricator/
+		* [ShiftSpace](http://www.youtube.com/watch?v=Sum_5GdvFG0)
+		* [Handkerchief Code](http://en.wikipedia.org/wiki/Handkerchief_code)
+		* [Situationist](http://www.designboom.com/technology/benrik-situationist-iphone-app/) and [Inneract](http://inneract.us/)
+	* Making the world appear to you the way you want it to be
+		* [Artzilla](http://artzilla.org/)
+		* [Shaved Bieber](http://fffff.at/shaved-bieber/)
+		* [Happy Tube](http://happytube.org/)
+		* [Facebook Demetricator](http://bengrosser.com/projects/facebook-demetricator/)
 		* https://github.com/wheresaddie/girlsvsgit
 		* http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png
 		* http://www.accessibleicon.org/
@@ -237,7 +236,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
 
 
-####Weeks 6-7 (10/21, 10/28): computer security
+####Weeks 6-7 (10/21, 10/28): security and privacy
 * what does it mean to be hacked? can you hack yourself? 
 * social engineering, phishing, cross-site scripting, trolling, authenticity
 
