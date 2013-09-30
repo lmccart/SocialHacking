@@ -181,7 +181,61 @@ This four-point course will meet in the first twelve weeks of the semester.
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
 ####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
-* who are you? how do you communicate/represent this? identity shaped by context
+* Review HPI and misused API work
+* Break
+* Discussion extension and customization
+	* Extensions change your experience transparently, instead of drawing our attention to the object itself.
+	* Difference from API
+	* Goffman reading. How do these things fit together? 
+* Look at examples
+	* Making an invisible layer on top of normal social space, you have to know the code or have the extension to see it.
+	* http://www.youtube.com/watch?v=Sum_5GdvFG0
+	* hanky code
+	* benrik, situationist app http://www.designboom.com/technology/benrik-situationist-iphone-app/ / inneract
+	* Making the world appear to you the way you want it to be.
+		* http://fffff.at/shaved-bieber/
+		* http://artzilla.org/
+		* http://happytube.org/
+		* http://bengrosser.com/projects/facebook-demetricator/
+		* https://github.com/wheresaddie/girlsvsgit
+		* http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png
+		* http://www.accessibleicon.org/
+	* Helping you to fit in
+		* peiying lin, guiltless excuses http://peiyinglin.net/ongoing/guiltless-excuses/
+		* kelly dobson, scream body http://www.youtube.com/watch?v=yU2KUMKsGNI, http://web.media.mit.edu/~monster/screambody/screambodydiag.jpg
+	* Providing a means of expression not normally possible (body/communication extension)
+		* http://www.interrogative.org/projects/1999/dis-armor
+		* http://www.interrogative.org/projects/1993/porte-parole
+		* eyewriter?
+		* http://www.marcowens.co.uk/Virtual-Transgender-Suit
+		* http://www.herrloh.de/amaeapparatus.php
+		* http://www.creativeapplications.net/objects/devices-for-mindless-communication-objects/
+	* Communicate / share your experience with others
+		* MIT, Age Suit http://ablersite.org/2011/10/01/agnes-the-age-suit/?
+		* Sputniko, menstruation machine http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html
+	* See self through different perspective
+		* http://www.marcowens.co.uk/Selfless-Mirror
+		* http://www.marcowens.co.uk/Avatar-Machine
+		* http://juliusvonbismarck.com/bank/index.php?/projects/topshot-helmet/
+		* micha cardenas?
+	* Connecting people in a way they might not normally be connected
+		* http://brianhouse.net/works/tanglr/
+		* http://jonaslund.biz/works/we-see-in-every-direction/
+		* http://jonaslund.biz/works/selfsurfing/ and http://jonaslund.biz/works/public-access-me/
+		* http://www.hahahaha.org/projPurse.html
+		* http://www.studiogoodone.com/projects/expressions-dispatcher/
+		* http://thegreeneyl.com/call-me-choke-me
+		* http://jaeyeopkim.com/The-Messenger
+	* instruction pieces
+* Assignment and extension demo (0:30)
+	* Create an extension for someone else (a specific person).
+	* http://developer.chrome.com/extensions/getstarted.html
+	* chrome extension overview: http://developer.chrome.com/extensions/overview.html
+	* debugging tutorial: http://developer.chrome.com/extensions/tut_debugging.html
+	* more extension samples: http://developer.chrome.com/extensions/samples.html
+	* chrome APIs to interact with browser: http://developer.chrome.com/extensions/api_index.html
+	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
+
 
 ####Weeks 6-7 (10/21, 10/28): computer security
 * what does it mean to be hacked? can you hack yourself? 
