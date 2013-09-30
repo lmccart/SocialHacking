@@ -64,7 +64,7 @@ if(array_key_exists("update", $_GET)) {
 	$students = array(
 		"hanbyul-here",
 		"juyoungp88",
-		"atraciuk",
+		"ataraciuk",
 		"m1keall1son",
 		"lawn___mower",
 		"carljamilkowski",
@@ -75,7 +75,8 @@ if(array_key_exists("update", $_GET)) {
 		"taranagupta",
 		"dd_yj",
 		"noterrain",
-		"nyuaesthetic"
+		"nyuaesthetic",
+		"kwangde7"
 	);
 
 
