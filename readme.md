@@ -210,13 +210,13 @@ This four-point course will meet in the first twelve weeks of the semester.
 		* http://www.herrloh.de/amaeapparatus.php
 		* http://www.creativeapplications.net/objects/devices-for-mindless-communication-objects/
 	* Communicate / share your experience with others
-		* MIT, Age Suit http://ablersite.org/2011/10/01/agnes-the-age-suit/?
-		* Sputniko, menstruation machine http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html
-	* See self through different perspective
-		* http://www.marcowens.co.uk/Selfless-Mirror
-		* http://www.marcowens.co.uk/Avatar-Machine
-		* http://juliusvonbismarck.com/bank/index.php?/projects/topshot-helmet/
-		* micha cardenas?
+		* [MIT, Age Suit](http://ablersite.org/2011/10/01/agnes-the-age-suit/?)
+		* [Sputniko, Menstruation Machine](http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html
+	* See self through different perspective)
+		* [Marc Owens, Selfless Mirror](http://www.marcowens.co.uk/Selfless-Mirror)
+		* [Marc Owens, Avatar Machine](http://www.marcowens.co.uk/Avatar-Machine)
+		* [Julius von Bismarck, Top Shot Helmet](http://juliusvonbismarck.com/bank/index.php?/projects/topshot-helmet/)
+		* micha cardenas
 	* Connecting people in a way they might not normally be connected
 		* http://brianhouse.net/works/tanglr/
 		* http://jonaslund.biz/works/we-see-in-every-direction/
