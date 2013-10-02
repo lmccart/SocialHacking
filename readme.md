@@ -203,25 +203,25 @@ This four-point course will meet in the first twelve weeks of the semester.
 		* peiying lin, guiltless excuses http://peiyinglin.net/ongoing/guiltless-excuses/
 		* kelly dobson, scream body http://www.youtube.com/watch?v=yU2KUMKsGNI, http://web.media.mit.edu/~monster/screambody/screambodydiag.jpg
 	* Providing a means of expression not normally possible (body/communication extension)
-		* http://www.interrogative.org/projects/1999/dis-armor
-		* http://www.interrogative.org/projects/1993/porte-parole
-		* eyewriter?
-		* http://www.marcowens.co.uk/Virtual-Transgender-Suit
-		* http://www.herrloh.de/amaeapparatus.php
-		* http://www.creativeapplications.net/objects/devices-for-mindless-communication-objects/
+		* [Krzysztof Wodiczko, Dis-armor](http://www.interrogative.org/projects/1999/dis-armor)
+		* [Krzysztof Wodiczko, Porte Parole](http://www.interrogative.org/projects/1993/porte-parole)
+		* [EyeWriter](http://eyewriter.org/)
+		* [Marc Owens, Virtual Transgender Suit](http://www.marcowens.co.uk/Virtual-Transgender-Suit)
+		* [Jonas Loh, Amae Apparatus](http://www.herrloh.de/amaeapparatus.php)
+		* [Gerard Rallo, Devices for Mindless Communication](http://www.creativeapplications.net/objects/devices-for-mindless-communication-objects/)
 	* Communicate / share your experience with others
 		* [MIT, Age Suit](http://ablersite.org/2011/10/01/agnes-the-age-suit/?)
-		* [Sputniko, Menstruation Machine](http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html
-	* See self through different perspective)
+		* [Sputniko, Menstruation Machine](http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html)
+	* See self through different perspective
 		* [Marc Owens, Selfless Mirror](http://www.marcowens.co.uk/Selfless-Mirror)
 		* [Marc Owens, Avatar Machine](http://www.marcowens.co.uk/Avatar-Machine)
 		* [Julius von Bismarck, Top Shot Helmet](http://juliusvonbismarck.com/bank/index.php?/projects/topshot-helmet/)
-		* micha cardenas
+		* [Micha Cardenas, Becoming Dragon](http://transreal.org/category/becoming-dragon/)
 	* Connecting people in a way they might not normally be connected
-		* http://brianhouse.net/works/tanglr/
-		* http://jonaslund.biz/works/we-see-in-every-direction/
-		* http://jonaslund.biz/works/selfsurfing/ and http://jonaslund.biz/works/public-access-me/
-		* http://www.hahahaha.org/projPurse.html
+		* [Brian House, Tanglr](http://brianhouse.net/works/tanglr/)
+		* [Jonas Lund, We See In Every Direction](http://jonaslund.biz/works/we-see-in-every-direction/)
+		* [Jonas Lund, Selfsurfing](http://jonaslund.biz/works/selfsurfing) and [Public Access Me](http://jonaslund.biz/works/public-access-me/)
+		* [Haha, Purse](http://www.hahahaha.org/projPurse.html)
 		* http://www.studiogoodone.com/projects/expressions-dispatcher/
 		* http://thegreeneyl.com/call-me-choke-me
 		* http://jaeyeopkim.com/The-Messenger
