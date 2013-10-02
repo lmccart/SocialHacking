@@ -193,15 +193,15 @@ This four-point course will meet in the first twelve weeks of the semester.
 		* [Situationist](http://www.designboom.com/technology/benrik-situationist-iphone-app/) and [Inneract](http://inneract.us/)
 	* Making the world appear to you the way you want it to be
 		* [Artzilla](http://artzilla.org/)
-		* [Shaved Bieber](http://fffff.at/shaved-bieber/)
+		* [Greg Leuch, Shaved Bieber](http://fffff.at/shaved-bieber/)
 		* [Happy Tube](http://happytube.org/)
-		* [Facebook Demetricator](http://bengrosser.com/projects/facebook-demetricator/)
-		* https://github.com/wheresaddie/girlsvsgit
-		* http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png
+		* [Ben Grosser, Facebook Demetricator](http://bengrosser.com/projects/facebook-demetricator/)
+		* [Addie Wagenknecht, Girls vs Git](https://github.com/wheresaddie/girlsvsgit)
+		* [Wendy Jacob, Explorer's Club](http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png)
 		* http://www.accessibleicon.org/
 	* Helping you to fit in
-		* peiying lin, guiltless excuses http://peiyinglin.net/ongoing/guiltless-excuses/
-		* kelly dobson, scream body http://www.youtube.com/watch?v=yU2KUMKsGNI, http://web.media.mit.edu/~monster/screambody/screambodydiag.jpg
+		* [Peiying Lin, Guiltless Excuses](http://peiyinglin.net/ongoing/guiltless-excuses/)
+		* [Kelly Dobson, Scream Body](http://www.youtube.com/watch?v=yU2KUMKsGNI)
 	* Providing a means of expression not normally possible (body/communication extension)
 		* [Krzysztof Wodiczko, Dis-armor](http://www.interrogative.org/projects/1999/dis-armor)
 		* [Krzysztof Wodiczko, Porte Parole](http://www.interrogative.org/projects/1993/porte-parole)
@@ -222,9 +222,9 @@ This four-point course will meet in the first twelve weeks of the semester.
 		* [Jonas Lund, We See In Every Direction](http://jonaslund.biz/works/we-see-in-every-direction/)
 		* [Jonas Lund, Selfsurfing](http://jonaslund.biz/works/selfsurfing) and [Public Access Me](http://jonaslund.biz/works/public-access-me/)
 		* [Haha, Purse](http://www.hahahaha.org/projPurse.html)
-		* http://www.studiogoodone.com/projects/expressions-dispatcher/
-		* http://thegreeneyl.com/call-me-choke-me
-		* http://jaeyeopkim.com/The-Messenger
+		* [Gerard Rallo, Expression Dispacher](http://www.studiogoodone.com/projects/expressions-dispatcher/)
+		* [The Green Eyl, Call Me Choke Me](http://thegreeneyl.com/call-me-choke-me)
+		* [Jae Yeop Kim, The Messenger](http://jaeyeopkim.com/The-Messenger)
 	* instruction pieces
 * Assignment and extension demo (0:30)
 	* Create an extension for someone else (a specific person).
