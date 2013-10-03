@@ -199,6 +199,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 		* [Addie Wagenknecht, Girls vs Git](https://github.com/wheresaddie/girlsvsgit)
 		* [Wendy Jacob, Explorer's Club](http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png)
 		* http://www.accessibleicon.org/
+		* [MAICgregator](http://maicgregator.org/statement)
 	* Helping you to fit in
 		* [Peiying Lin, Guiltless Excuses](http://peiyinglin.net/ongoing/guiltless-excuses/)
 		* [Kelly Dobson, Scream Body](http://www.youtube.com/watch?v=yU2KUMKsGNI)
