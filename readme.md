@@ -180,7 +180,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * [Gigwalk](http://gigwalk.com/)
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
-####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
+####Weeks 4 (9/30): extensions and customization
 * Review HPI and misused API work
 * Break
 * Discussion: extension and customization
@@ -238,6 +238,8 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
+
+####Weeks 5 (10/7): extensions and customization
 
 ####Weeks 6-7 (10/21, 10/28): security and privacy
 * what does it mean to be hacked? can you hack yourself? 
