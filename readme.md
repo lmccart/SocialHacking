@@ -180,7 +180,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * [Gigwalk](http://gigwalk.com/)
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
-####Weeks 4-5 (9/30, 10/7): browser extensions and plugins (in Chrome)
+####Weeks 4 (9/30): extensions and customization
 * Review HPI and misused API work
 * Break
 * Discussion: extension and customization
@@ -193,38 +193,39 @@ This four-point course will meet in the first twelve weeks of the semester.
 		* [Situationist](http://www.designboom.com/technology/benrik-situationist-iphone-app/) and [Inneract](http://inneract.us/)
 	* Making the world appear to you the way you want it to be
 		* [Artzilla](http://artzilla.org/)
-		* [Shaved Bieber](http://fffff.at/shaved-bieber/)
+		* [Greg Leuch, Shaved Bieber](http://fffff.at/shaved-bieber/)
 		* [Happy Tube](http://happytube.org/)
-		* [Facebook Demetricator](http://bengrosser.com/projects/facebook-demetricator/)
-		* https://github.com/wheresaddie/girlsvsgit
-		* http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png
+		* [Ben Grosser, Facebook Demetricator](http://bengrosser.com/projects/facebook-demetricator/)
+		* [Addie Wagenknecht, Girls vs Git](https://github.com/wheresaddie/girlsvsgit)
+		* [Wendy Jacob, Explorer's Club](http://wendyjacob.net/wp-content/gallery/tape/explorers-club_1.png)
 		* http://www.accessibleicon.org/
+		* [MAICgregator](http://maicgregator.org/statement)
 	* Helping you to fit in
-		* peiying lin, guiltless excuses http://peiyinglin.net/ongoing/guiltless-excuses/
-		* kelly dobson, scream body http://www.youtube.com/watch?v=yU2KUMKsGNI, http://web.media.mit.edu/~monster/screambody/screambodydiag.jpg
+		* [Peiying Lin, Guiltless Excuses](http://peiyinglin.net/ongoing/guiltless-excuses/)
+		* [Kelly Dobson, Scream Body](http://www.youtube.com/watch?v=yU2KUMKsGNI)
 	* Providing a means of expression not normally possible (body/communication extension)
-		* http://www.interrogative.org/projects/1999/dis-armor
-		* http://www.interrogative.org/projects/1993/porte-parole
-		* eyewriter?
-		* http://www.marcowens.co.uk/Virtual-Transgender-Suit
-		* http://www.herrloh.de/amaeapparatus.php
-		* http://www.creativeapplications.net/objects/devices-for-mindless-communication-objects/
+		* [Krzysztof Wodiczko, Dis-armor](http://www.interrogative.org/projects/1999/dis-armor)
+		* [Krzysztof Wodiczko, Porte Parole](http://www.interrogative.org/projects/1993/porte-parole)
+		* [EyeWriter](http://eyewriter.org/)
+		* [Marc Owens, Virtual Transgender Suit](http://www.marcowens.co.uk/Virtual-Transgender-Suit)
+		* [Jonas Loh, Amae Apparatus](http://www.herrloh.de/amaeapparatus.php)
+		* [Gerard Rallo, Devices for Mindless Communication](http://www.creativeapplications.net/objects/devices-for-mindless-communication-objects/)
 	* Communicate / share your experience with others
-		* MIT, Age Suit http://ablersite.org/2011/10/01/agnes-the-age-suit/?
-		* Sputniko, menstruation machine http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html
+		* [MIT, Age Suit](http://ablersite.org/2011/10/01/agnes-the-age-suit/?)
+		* [Sputniko, Menstruation Machine](http://www.di10.rca.ac.uk/hiromiozaki/menstruation-machine.html)
 	* See self through different perspective
-		* http://www.marcowens.co.uk/Selfless-Mirror
-		* http://www.marcowens.co.uk/Avatar-Machine
-		* http://juliusvonbismarck.com/bank/index.php?/projects/topshot-helmet/
-		* micha cardenas?
+		* [Marc Owens, Selfless Mirror](http://www.marcowens.co.uk/Selfless-Mirror)
+		* [Marc Owens, Avatar Machine](http://www.marcowens.co.uk/Avatar-Machine)
+		* [Julius von Bismarck, Top Shot Helmet](http://juliusvonbismarck.com/bank/index.php?/projects/topshot-helmet/)
+		* [Micha Cardenas, Becoming Dragon](http://transreal.org/category/becoming-dragon/)
 	* Connecting people in a way they might not normally be connected
-		* http://brianhouse.net/works/tanglr/
-		* http://jonaslund.biz/works/we-see-in-every-direction/
-		* http://jonaslund.biz/works/selfsurfing/ and http://jonaslund.biz/works/public-access-me/
-		* http://www.hahahaha.org/projPurse.html
-		* http://www.studiogoodone.com/projects/expressions-dispatcher/
-		* http://thegreeneyl.com/call-me-choke-me
-		* http://jaeyeopkim.com/The-Messenger
+		* [Brian House, Tanglr](http://brianhouse.net/works/tanglr/)
+		* [Jonas Lund, We See In Every Direction](http://jonaslund.biz/works/we-see-in-every-direction/)
+		* [Jonas Lund, Selfsurfing](http://jonaslund.biz/works/selfsurfing) and [Public Access Me](http://jonaslund.biz/works/public-access-me/)
+		* [Haha, Purse](http://www.hahahaha.org/projPurse.html)
+		* [Gerard Rallo, Expression Dispacher](http://www.studiogoodone.com/projects/expressions-dispatcher/)
+		* [The Green Eyl, Call Me Choke Me](http://thegreeneyl.com/call-me-choke-me)
+		* [Jae Yeop Kim, The Messenger](http://jaeyeopkim.com/The-Messenger)
 	* instruction pieces
 * Assignment and extension demo (0:30)
 	* Create an extension for someone else (a specific person).
@@ -237,6 +238,8 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
+
+####Weeks 5 (10/7): extensions and customization
 
 ####Weeks 6-7 (10/21, 10/28): security and privacy
 * what does it mean to be hacked? can you hack yourself? 
