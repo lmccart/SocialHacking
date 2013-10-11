@@ -2,13 +2,17 @@
     "name": "FriendFlop",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "FriendFlop",
+    "description": "Refresh your tired timelines by randomly swapping your friends' names and avatars!",
+    "icons": { 
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
     "content_scripts": [
         {
             "matches": [
                 "https://twitter.com/*",
-                "https://www.facebook.com/",
-                "http://processing.org/*"
+                "https://www.facebook.com/"
             ],
             "js": [
                 "scripts/jquery.js",
@@ -27,8 +31,6 @@
     ],
     "update_url": "http://path/to/updateInfo.xml",
     "web_accessible_resources": [
-        "manifest.json",
-        "data/new_lines.txt",
-        "glitter_cursor.gif"
+        "manifest.json"
     ]
 }
