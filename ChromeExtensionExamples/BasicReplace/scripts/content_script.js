@@ -6,6 +6,8 @@ $("document").ready(function(){
 
     //change cursor
     $("body").css("cursor", "url('"+chrome.extension.getURL('glitter_cursor.gif')+"'), default");
+   
+    // load new sentences from text file
     new_lines = loadStrings("data/new_lines.txt");
 
     changeText();
@@ -13,7 +15,10 @@ $("document").ready(function(){
 
 
 function changeText() {
-    $('p, h2 a, h3 a, h4 a, h5 a').each(function(){$(this).html(getRandom(new_lines))});
+    $('a, p').each(function(){
+        //$(this).html(getRandom(new_lines))
+        $(this).hide();
+    });
 }
 
 
