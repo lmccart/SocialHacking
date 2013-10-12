@@ -1,6 +1,6 @@
 {
     "name": "FriendFlop",
-    "version": "1.0",
+    "version": "0.2",
     "manifest_version": 2,
     "description": "Refresh your tired timelines by randomly swapping your friends' names and avatars!",
     "icons": { 
@@ -29,7 +29,6 @@
         "https://www.facebook.com/",
         "http://localhost/*"
     ],
-    "update_url": "http://path/to/updateInfo.xml",
     "web_accessible_resources": [
         "manifest.json"
     ]

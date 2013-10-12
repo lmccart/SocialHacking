@@ -47,14 +47,12 @@ function grabFriends() {
                 var photo = $(this).find('.actorPhoto');
                 var header = $(this).find('.uiStreamHeadline');
                 var name = header.find('a').html();
-                console.log(name);
                 if (!(name in friends)) {
                     friends[name] = {photo: photo.html(), header: header.html()};
                 }
             }
         });
     }
-    //console.log(friends);
 }
 
 function flopFriends() {
