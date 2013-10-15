@@ -3,9 +3,7 @@
     "version": "0.2",
     "manifest_version": 2,
     "description": "Refresh your tired timelines by randomly swapping your friends' names and avatars!",
-    "icons": { 
-        "16": "icons/icon16.png",
-        "48": "icons/icon48.png",
+    "icons": {
         "128": "icons/icon128.png"
     },
     "content_scripts": [
