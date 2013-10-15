@@ -1,6 +1,6 @@
 {
     "name": "FriendFlop",
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 2,
     "description": "Refresh your tired timelines by randomly swapping your friends' names and avatars! Supports Twitter and Facebook.",
     "icons": {
