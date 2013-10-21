@@ -275,7 +275,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
 
-* __Assignment due 10/28:__ Dick one or more of the following:
+* __Assignment due 10/28:__ Do one or more of the following:
 	* Document (yourself or someone else)
 	* Share: public/private (share everything wrt one area/situation)
 	* Intercept
