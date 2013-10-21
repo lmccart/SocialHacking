@@ -244,6 +244,36 @@ This four-point course will meet in the first twelve weeks of the semester.
 ####Weeks 6-7 (10/21, 10/28): security and privacy
 * what does it mean to be hacked? can you hack yourself? 
 * social engineering, phishing, cross-site scripting, trolling, authenticity
+* 
+* * Intro
+	* [Ghost Writer](https://www.youtube.com/watch?feature=player_embedded&v=bLlj_GeKniA)
+	* [Hacking in 1903](http://www.newscientist.com/article/mg21228440.700-dotdashdiss-the-gentleman-hackers-1903-lulz.html#.UmGEjpTk-Ik)
+	* [Perception of privacy](http://www.f-secure.com/weblog/archives/Special_Eurobarometer_359_Page21.png)
+* Early Work
+	* [Seedbed](http://en.wikipedia.org/wiki/Seedbed_(performance_piece))
+	* [Steve Mann](http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life)
+	* Jill Magid
+	* Sophie Calle
+	* [Surveillance Camera Players](http://www.notbored.org/the-scp.html)
+* Recent Work
+	* [supervillainizer](http://www.anninaruest.com/a/supervillainizer/index.html)
+	* [keytweeter](https://vimeo.com/9922212) inspired by [Thoughts on Total Openness of Information](http://plainfront.wordpress.com/2009/02/18/thoughts-on-total-openness-of-information/)
+	* [Default To Public](http://www.defaulttopublic.net/)
+	* ["$", A Document](http://manbartlett.tumblr.com/post/11325368476/a-document)
+	* [two point four](http://www.recyclism.com/twopointfour.php)
+	* [Newstweek](http://newstweek.com/overview) and [video](https://vimeo.com/32149926) and [Critical Engineering Manifesto](http://criticalengineering.org/)
+	* ~"Men in black suits"
+	* Ai Weiwei [surveillance camera blocker](http://www.designboom.com/art/ai-weiwei-surveillance-camera-blocker/) 
+* Culture
+	* [We Live In Public](http://en.wikipedia.org/wiki/We_Live_in_Public) and [trailer](http://www.youtube.com/watch?v=_XSTwfdFwIY)
+	* [Quantified spouse movement](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html)
+	* [Cloze](https://www.cloze.com/)
+	* [Raytheon social media](http://www.theguardian.com/world/2013/feb/10/software-tracks-social-media-defence?CMP=twt_gu)
+	* DDOS from [Anonymous](http://mashable.com/2010/12/09/how-operation-payback-executes-its-attacks/) and as [protest](http://www.utsandiego.com/news/2010/apr/09/ucsd-prof-turns-meeting-protest-rally/)
+* Research
+	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
+	* [Immersion](https://immersion.media.mit.edu/)
+
 
 ####Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
