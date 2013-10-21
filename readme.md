@@ -180,7 +180,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * [Gigwalk](http://gigwalk.com/)
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
-####Weeks 4 (9/30): extensions and customization
+####Week 4 (9/30): extensions and customization
 * Review HPI and misused API work
 * Break
 * Discussion: extension and customization
@@ -241,7 +241,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 ####Weeks 5 (10/7): extensions and customization
 
-####Weeks 6-7 (10/21, 10/28): security and privacy
+####Week 6 (10/21): security, surveillance and privacy
 * what does it mean to be hacked? can you hack yourself? 
 * social engineering, phishing, cross-site scripting, trolling, authenticity
 * 
@@ -274,6 +274,28 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
 
+* __Assignment due 10/28:__ Dick one or more of the following:
+	* Document (yourself or someone else)
+	* Share: public/private (share everything wrt one area/situation)
+	* Intercept
+	* Impersonate
+	* Anonymize (present something anonymously)
+	* Misinterpret/misrepresent (collect too much or curated information, use some of it to tell a fake story)
+
+* __Discussion due 10/28:__  Each pair will prepare one of the following readings ~5 min presentation, 5 min class discussion leading.
+	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/)
+	* [Quantified self](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html)
+	* [Steve Mann](http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life)
+	* [Living offline without being tracked](http://www.fastcompany.com/3019847/think-you-can-live-offline-without-being-tracked-heres-what-it-takes)
+	* [What’s in a name?](http://events.ccc.de/congress/2011/Fahrplan/events/4713.en.html) and http://www.youtube.com/watch?v=pbxaA6B8tfc
+	* Bruce Schneier [security vs privacy](https://www.schneier.com/crypto-gram-0802.html#1) and [trading security for convenience](https://www.schneier.com/crypto-gram-1306.html#3)
+	* Bruce Schneier [privacy salience and social networking sites](https://www.schneier.com/crypto-gram-0908.html#2) and [privacy and control](https://www.schneier.com/crypto-gram-1004.html#1)
+	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance)
+
+
+
+
+####Week 7 (10/28): security, surveillance and privacy
 
 ####Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
