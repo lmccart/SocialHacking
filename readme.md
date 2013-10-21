@@ -262,6 +262,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* ["$", A Document](http://manbartlett.tumblr.com/post/11325368476/a-document)
 	* [two point four](http://www.recyclism.com/twopointfour.php)
 	* [Newstweek](http://newstweek.com/overview) and [video](https://vimeo.com/32149926) and [Critical Engineering Manifesto](http://criticalengineering.org/)
+	* [thegreathatsby](http://themissinghat.livejournal.com/286.html)
 	* [Men in Grey](http://meningrey.net/video/)
 	* Ai Weiwei [surveillance camera blocker](http://www.designboom.com/art/ai-weiwei-surveillance-camera-blocker/) 
 * Culture
