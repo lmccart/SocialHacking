@@ -246,6 +246,11 @@ This four-point course will meet in the first twelve weeks of the semester.
 ####Week 6 (10/21): security, surveillance and privacy
 * What does it mean to be hacked? Can you hack yourself? 
 * Social engineering, phishing, cross-site scripting, trolling, authenticity.
+* Michael Auger guest lecture
+	* http://www.securitytube.net
+	* http://opensecuritytraining.info/
+	* https://hackeracademy.com/
+	* http://www.irongeek.com/
 * Intro
 	* [Ghost Writer](https://www.youtube.com/watch?feature=player_embedded&v=bLlj_GeKniA)
 	* [Hacking in 1903](http://www.newscientist.com/article/mg21228440.700-dotdashdiss-the-gentleman-hackers-1903-lulz.html#.UmGEjpTk-Ik)
