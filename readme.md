@@ -239,13 +239,14 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
 
-####Weeks 5 (10/7): extensions and customization
+####Week 5 (10/7): extensions and customization
+* Joanne McNeil [guest lecture](http://joannemcneil.com/index.php?/talks-and-such/the-dream-must-be-continuous/)
+* [David Leonard](http://davidleonard.tv) guest lecture
 
 ####Week 6 (10/21): security, surveillance and privacy
-* what does it mean to be hacked? can you hack yourself? 
-* social engineering, phishing, cross-site scripting, trolling, authenticity
-* 
-* * Intro
+* What does it mean to be hacked? Can you hack yourself? 
+* Social engineering, phishing, cross-site scripting, trolling, authenticity.
+* Intro
 	* [Ghost Writer](https://www.youtube.com/watch?feature=player_embedded&v=bLlj_GeKniA)
 	* [Hacking in 1903](http://www.newscientist.com/article/mg21228440.700-dotdashdiss-the-gentleman-hackers-1903-lulz.html#.UmGEjpTk-Ik)
 	* [Perception of privacy](http://www.f-secure.com/weblog/archives/Special_Eurobarometer_359_Page21.png)
