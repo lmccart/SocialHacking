@@ -290,7 +290,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* Misinterpret/misrepresent (collect too much or curated information, use some of it to tell a fake story)
 
 * __Discussion due 10/28:__  Each pair will prepare one of the following readings ~5 min presentation, 5 min class discussion leading.
-	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/)
+	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/) - Hanbyul, Carl
 	* [Quantified self](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html) - Tarana, Su
 	* [Steve Mann](http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life) - Andrés, Bill
 	* [Living offline without being tracked](http://www.fastcompany.com/3019847/think-you-can-live-offline-without-being-tracked-heres-what-it-takes) - Tianyu, Harry
