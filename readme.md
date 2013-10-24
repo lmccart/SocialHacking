@@ -297,7 +297,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [What’s in a name?](http://events.ccc.de/congress/2011/Fahrplan/events/4713.en.html) and http://www.youtube.com/watch?v=pbxaA6B8tfc - Ben, Mike
 	* Bruce Schneier [security vs privacy](https://www.schneier.com/crypto-gram-0802.html#1) and [trading security for convenience](https://www.schneier.com/crypto-gram-1306.html#3)
 	* Bruce Schneier [privacy salience and social networking sites](https://www.schneier.com/crypto-gram-0908.html#2) and [privacy and control](https://www.schneier.com/crypto-gram-1004.html#1) - Ju and Ilwon
-	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance)
+	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance) - Mack, Gal
 
 
 
