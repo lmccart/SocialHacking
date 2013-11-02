@@ -10,6 +10,7 @@ public:
 	void setup();
 	void draw();
 	void loadFace(string filename);
+	void substitute(int srcIndex, int dstIndex);
 	
 	ofxFaceTracker tracker;
 	

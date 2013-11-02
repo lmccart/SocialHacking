@@ -23,7 +23,8 @@ void testApp::loadFace(string filename) {
 
 void testApp::setup() {
 	tracker.setup();
-	tracker.setIterations(25);
+	tracker.setIterations(30);
+	tracker.setClamp(4);
 	tracker.setAttempts(4);
 	
 	ofFbo::Settings settings;
@@ -32,12 +33,19 @@ void testApp::setup() {
 	srcFbo.allocate(settings);
 	clone.setup(settings.width, settings.height);
 	
-	loadFace("src.jpg");
-	loadFace("dst.jpg");
+	ofDirectory dir;
+	dir.listDir("faces");
+	for(int i = 0; i < dir.size(); i++) {
+		loadFace(dir.getPath(i));
+	}
 	
-	ofMesh blendMesh = meshes[1];
+	substitute(0, 1);
+}
+
+void testApp::substitute(int srcIndex, int dstIndex) {
+	ofMesh blendMesh = meshes[dstIndex];
 	blendMesh.clearTexCoords();
-	blendMesh.addTexCoords(getPoints(meshes[0]));
+	blendMesh.addTexCoords(getPoints(meshes[srcIndex]));
 	
 	maskFbo.begin();
 	ofClear(0, 255);
@@ -46,13 +54,13 @@ void testApp::setup() {
 	
 	srcFbo.begin();
 	ofClear(0, 255);
-	images[0].bind();
+	images[srcIndex].bind();
 	blendMesh.draw();
-	images[0].unbind();
+	images[srcIndex].unbind();
 	srcFbo.end();
 	
 	clone.setStrength(16);
-	clone.update(srcFbo.getTextureReference(), images[1].getTextureReference(), maskFbo.getTextureReference());
+	clone.update(srcFbo.getTextureReference(), images[dstIndex].getTextureReference(), maskFbo.getTextureReference());
 }
 
 void testApp::draw() {
@@ -60,8 +68,7 @@ void testApp::draw() {
 	clone.draw(0, 0);
 	
 	ofTranslate(480, 0);
-	srcFbo.draw(0, 0);
-	
-	ofTranslate(480, 0);
-	maskFbo.draw(0, 0);
+	ofScale(.5, .5);
+	images[0].draw(0, 0);
+	images[1].draw(0, 720);
 }
