@@ -10,15 +10,11 @@ public:
 	void setup();
 	void draw();
 	
-	ofxFaceTracker dstTracker;
-	ofImage dst;
-	vector<ofVec2f> dstPoints;
+	ofxFaceTracker tracker;
 	
-	ofxFaceTracker srcTracker;
-	ofImage src;
+	ofImage src, dst;
 	vector<ofVec2f> srcPoints;
 	
-	bool cloneReady;
 	Clone clone;
 	ofFbo srcFbo, maskFbo;
 };
