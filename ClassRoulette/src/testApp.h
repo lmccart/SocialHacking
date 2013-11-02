@@ -9,11 +9,12 @@ class testApp : public ofBaseApp {
 public:
 	void setup();
 	void draw();
+	void loadFace(string filename);
 	
 	ofxFaceTracker tracker;
 	
-	ofImage src, dst;
-	vector<ofVec2f> srcPoints;
+	vector<ofImage> images;
+	vector<ofMesh> meshes;
 	
 	Clone clone;
 	ofFbo srcFbo, maskFbo;
