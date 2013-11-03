@@ -76,6 +76,7 @@ public:
 	Clone clone;
 	ofFbo srcFbo, maskFbo;
 	
+	bool ready;
 	ExponentialTimer bodyTimer, faceTimer;
 	
 	int srcIndex, dstIndex;
@@ -106,6 +107,7 @@ public:
 		tracker.setClamp(4);
 		tracker.setAttempts(4);
 		
+		ready = false;
 		bodyTimer.setup(50, 1);
 		faceTimer.setup(100, 2);
 		
@@ -146,7 +148,7 @@ public:
 	
 	template <class T>
 	T popRandom(vector<T>& all) {
-		int i = (int) ofRandom(all.size());
+		int i = ofClamp(ofRandom(all.size()), 0, all.size() - 1);
 		T cur = all[i];
 		all.erase(all.begin() + i);
 		return cur;
@@ -155,16 +157,22 @@ public:
 	void draw() {
 		ofBackground(0);
 		
-		if(indices.size() > 0) {
+		if(ready && indices.size() > 0) {
 			bool updateSubstitute = false;
 			if(ofGetFrameNum() == 0 || bodyTimer.getTick()) {
-				bodyIndices = indices;
-				dstIndex = popRandom(bodyIndices);
+				int prev = dstIndex;
+				while(indices.size() > 1 && dstIndex == prev) {
+					bodyIndices = indices;
+					dstIndex = popRandom(bodyIndices);
+				}
 				updateSubstitute = true;
 			}
 			if(ofGetFrameNum() == 0 || faceTimer.getTick()) {
-				faceIndices = bodyIndices;
-				srcIndex = popRandom(faceIndices);
+				int prev = srcIndex;
+				while(bodyIndices.size() > 1 && srcIndex == prev) {
+					faceIndices = bodyIndices;
+					srcIndex = popRandom(faceIndices);
+				}
 				updateSubstitute = true;
 			}
 			if(faceTimer.getFinish()) {
@@ -175,15 +183,17 @@ public:
 			}
 		}
 		
-		ofSetColor(255);
-		clone.draw(0, 0);
-		
-		ofPushMatrix();
-		ofTranslate(480, 0);
-		ofScale(.5, .5);
-		images[srcIndex].draw(0, 0);
-		images[dstIndex].draw(0, 720);
-		ofPopMatrix();
+		if(ready) {
+			ofSetColor(255);
+			clone.draw(0, 0);
+			
+			ofPushMatrix();
+			ofTranslate(480, 0);
+			ofScale(.5, .5);
+			images[srcIndex].draw(0, 0);
+			images[dstIndex].draw(0, 720);
+			ofPopMatrix();
+		}
 		
 		ofPushMatrix();
 		ofTranslate(0, 720 * .9);
@@ -206,6 +216,7 @@ public:
 	
 	void keyPressed(int key) {
 		if(key == ' ') {
+			ready = true;
 			bodyTimer.reset();
 			faceTimer.reset();
 		}
