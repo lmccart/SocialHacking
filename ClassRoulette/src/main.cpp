@@ -72,6 +72,7 @@ public:
 	
 	vector<ofImage> images;
 	vector<ofMesh> meshes;
+	vector<string> names;
 	
 	Clone clone;
 	ofFbo srcFbo, maskFbo;
@@ -122,6 +123,7 @@ public:
 		for(int i = 0; i < dir.size(); i++) {
 			loadFace(dir.getPath(i));
 			indices.push_back(i);
+			names.push_back(dir.getFile(i).getBaseName());
 		}
 	}
 	
@@ -191,7 +193,9 @@ public:
 			ofTranslate(480, 0);
 			ofScale(.5, .5);
 			images[srcIndex].draw(0, 0);
+			ofDrawBitmapString(names[srcIndex], 20, 40);
 			images[dstIndex].draw(0, 720);
+			ofDrawBitmapString(names[dstIndex], 20, 780);
 			ofPopMatrix();
 		}
 		

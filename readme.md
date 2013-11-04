@@ -308,18 +308,15 @@ Overview of projects and readings from last week.
 * 3 groups presenting the remaining readings from last week.
 * Two late assignments to share.
 * Discuss midpoint feedback.
-
-* Overview of Computer Vision
-	* History
-	* Applications
-* Face Tracking
-	* FaceTracker, FaceOSC
-* Body Tracking / Skeleton Tracking
-	* Kinect with OpenNI and MS SDK
-* Eye Tracking / Gaze Estimation
-	* EyeOSC
+* Computer vision overview. We'll be working mainly from a public document called [Computer Vision in Interactive Art](https://docs.google.com/document/d/1Yky5TpKrxNDQzD7sXQ8gGpYFTsQhac1PrjYLQ3X_zJQ/edit?usp=sharing) which is part of a workshop. But there are a few links contained there that are also important references:
+	* [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin
+	* [Interactive Art and Computational Design](http://golancourses.net/2013/lectures/lecture-02-25/) by Golan Levin
+	* [Face Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2) for Appropriating New Technologies / Face as Interface workshop
+	* [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/) by Richard Szeliski
 
 * __Assignment__: First we'll assign groups. In that group we ask you to create a filter or adapter using computer vision. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
+* __Reading__: Read all of [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin and tweet one thought about something in the essay.
+
 
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
 
