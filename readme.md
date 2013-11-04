@@ -314,8 +314,8 @@ Overview of projects and readings from last week.
 	* [Face Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2) for Appropriating New Technologies / Face as Interface workshop
 	* [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/) by Richard Szeliski
 
-* __Assignment__: First we'll assign groups. In that group we ask you to create a filter or adapter using computer vision. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
 * __Reading__: Read all of [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin and tweet one thought about something in the essay.
+* __Assignment__: First we'll assign partners. In that group we ask you to create a filter or adapter using computer vision that improves your interaction with each other. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
 
 
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
