@@ -313,6 +313,7 @@ Overview of projects and readings from last week.
 	* [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin
 	* [Interactive Art and Computational Design](http://golancourses.net/2013/lectures/lecture-02-25/) by Golan Levin
 	* [Face Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2) for Appropriating New Technologies / Face as Interface workshop
+	* [Eye Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-5) for Appropriating New Technologies
 	* [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/) by Richard Szeliski
 
 * __Reading__: Read all of [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin and tweet one thought about something in the essay. For a really great more academic introduction to computer vision that doesn't relate to art, see [3D Computer Vision: Past, Present and Future](http://www.youtube.com/watch?v=kyIzMr917Rc) a presentation by Steve Seitz at Google.
