@@ -1,12 +1,12 @@
-Appropriating Interaction Technologies
-======================================
+# Appropriating Interaction Technologies
+
 
 * Kyle McDonald and Lauren McCarthy
 * NYU ITP Fall 2013
 * Mondays 2:30-5:30, ITP rm 447
 * Office hours Fridays 3:30-6:30, ITP adjunct lounge
 
-###Important links
+##Important links
 
 * [github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
 * [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
@@ -14,7 +14,7 @@ Appropriating Interaction Technologies
 * [#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
 * [#socialhacking aggregator](http://kylemcdonald.net/itp/AppropriatingInteractionTechnologies/tweetscrape/)
 
-###Course description
+##Course description
 
 This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
@@ -23,15 +23,15 @@ How do the things we build and use limit and expand the way we understand and re
 Students will develop projects that alter or disrupt social space in an attempt to reveal existing patterns or truths about our experiences and technologies, and possibilities for richer interactions. Different
 tactics for intervention and performance will be explored, first through a set of short prompts or experiments, and then through a larger, more thorough intervention.
 
-###Technical requirements
+##Technical requirements
 
 A conviction that creative people can derail society for the best, a deep love for code, and a willingness to explore uncomfortable situations. You should at least have taken Introduction to Computational Media or have similar experience with programming.
 
 This four-point course will meet in the first twelve weeks of the semester.
 
-###Syllabus
+##Syllabus
 
-####Week 1 (9/9): Data representation and glitch
+###Week 1 (9/9): Data representation and glitch
 * Class overview
     * Policy regarding auditing: if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
     * Policy regarding attendance: you can miss one class, anything else you fail.
@@ -80,7 +80,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Post one tweet inspired by each reading, tagged with #socialhacking.
     * Create and document a social glitch involving technology, post it and tag it with #socialhacking.
 
-####Week 2-3 (9/16): Social automation and APIs
+###Week 2-3 (9/16): Social automation and APIs
 * This week in hacks
     * http://www.forbes.com/sites/kashmirhill/2013/09/12/e-zpasses-get-read-all-over-new-york-not-just-at-toll-booths/
     * Instagram uploading (start thinking about this)
@@ -167,7 +167,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Creatively misuse an existing API in order to reveal something about the service.
     * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
  
-####Week 3 (9/23): Social automation and APIs
+###Week 3 (9/23): Social automation and APIs
 * Dan Moore [guest lecture](https://docs.google.com/a/makeitdoathing.com/presentation/d/1g9-Mnm9OYgM_zTpynk3wGVNENRecVD2I9CNQDFjjUsc/edit?usp=sharing)
 * HPI presentations and feedback
 * [Mechanical Turk](http://mturk.com/) Farm and discussion
@@ -180,7 +180,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * [Gigwalk](http://gigwalk.com/)
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
-####Week 4 (9/30): extensions and customization
+###Week 4 (9/30): extensions and customization
 * Review HPI and misused API work
 * Break
 * Discussion: extension and customization
@@ -239,11 +239,11 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
 
-####Week 5 (10/7): extensions and customization
+###Week 5 (10/7): extensions and customization
 * Joanne McNeil [guest lecture](http://joannemcneil.com/index.php?/talks-and-such/the-dream-must-be-continuous/)
 * [David Leonard](http://davidleonard.tv) guest lecture
 
-####Week 6 (10/21): security, surveillance and privacy
+###Week 6 (10/21): security, surveillance and privacy
 * What does it mean to be hacked? Can you hack yourself? 
 * Social engineering, phishing, cross-site scripting, trolling, authenticity.
 * Michael Auger guest lecture
@@ -299,15 +299,14 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* Bruce Schneier [privacy salience and social networking sites](https://www.schneier.com/crypto-gram-0908.html#2) and [privacy and control](https://www.schneier.com/crypto-gram-1004.html#1) - Ju and Ilwon
 	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance) - Mack, Gal
 
+###Week 7 (10/28): security, surveillance and privacy
 
+Overview of projects and readings from last week.
 
-
-####Week 7 (10/28): security, surveillance and privacy
-
-####Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
+###Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
 * surveillance, privacy, warfare, video chat and mediated video-based interaction
 
-####Weeks 10-12 (11/18, 11/25, 12/2): mobile platforms
+###Weeks 10-12 (11/18, 11/25, 12/2): mobile platforms
 * how do we find each other? how do we connect? how do we initially engage? 
 * how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
 * location awareness, social networking
