@@ -324,8 +324,52 @@ Overview of projects and readings from last week.
 * how do we find each other? how do we connect? how do we initially engage? 
 * how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
 * location awareness, social networking
-
-
- 
-
-
+* References
+	* Transportation: these afford an opporunity for you as a driver to connect with riders in a way that you would not otherwise be able to.
+		* [Uber](https://www.uber.com/)
+		* [Sidecar](http://www.side.cr/)
+		* [Lyft](http://www.lyft.me/)
+	* Location and proximity to places: can just be a reference, but can take on a new meaning when it modifies your decisions on the spot.
+		* [Foursquare](https://foursquare.com/)
+		* [Yelp](http://www.yelp.com/)
+		* [Layar](https://www.layar.com/)
+		* [Google Now](http://www.youtube.com/watch?v=pPqliPzHYyc)
+		* ["Avoid ghetto" patent](http://news.cnet.com/8301-17852_3-57354445-71/the-joy-of-microsofts-avoid-ghetto-gps-patent/)
+	* Dating and proximity to people: some of these are just mobile versions of what [otherwise exists online](http://www.slate.com/blogs/xx_factor/2013/01/04/the_atlantic_says_online_dating_is_killing_marriage_magazine_calls_internet.html), others add a new dimension by providing extra information about people around you.
+		* [Grindr](http://grindr.com/)
+		* [Tinder](http://www.gotinder.com/)
+		* [Girls around me](http://girlsaround.me/)
+		* [Bang with Friend/Down](http://www.thenextbang.com/)
+		* [Carrot Dating](http://venturebeat.com/2013/10/21/this-disgusting-dating-app-lets-nerdy-guys-bribe-hot-women-to-date-them/)
+		* [Hula](http://www.techhive.com/article/2059218/hula-hopes-to-make-hookup-apps-more-responsible-and-the-std-talk-a-little-more-fun.html)
+		* [Color](http://mashable.com/2012/10/17/color-shuts-down/)
+	* Identification
+		* [Shazam](http://www.shazam.com/)
+		* [Word Lens](http://www.youtube.com/watch?v=h2OfQdYrHRs)
+		* [Google Goggles](http://www.youtube.com/watch?v=Hhgfz0zPmH4)
+	* Using sensors in weird ways?
+		* [FreeFall High score](http://www.freefallhighscore.com/) and [Send me to heaven](http://www.youtube.com/watch?v=pXr84w1cWIU)
+		* [Bump](https://bu.mp/)
+* Tools
+	* [UI Stencils](http://www.uistencils.com/products/iphone-sketch-pad)
+	* [ofxiPhoneSocial](https://github.com/claytical/ofxiPhoneSocial/blob/master/src/ofxiPhoneSocial.h)
+	* [PhoneGap](http://phonegap.com/)
+* Reading
+	* [Mark Skwarek](http://www.markskwarek.com/) and [The AR Art Manifesto](http://www.manifestar.info/)
+	* [The Street is the Stage](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_schechner.pdf)
+	* [Urban Hacking / Interventions in Public Space](https://docs.google.com/document/d/1UQNJNXH_H0P8FTnBjxCBt9ruuhEjlf5SMcLEFPyrslM/edit)
+	* [Urban Hacking (4): Hacking structuring space](http://blog.inpolis.com/2012/09/27/urban-hacking-4-hacking-structuring-space/)
+	* From [Mediated Environments](http://christianepaul.info/mediatedenvironments/2013/syllabus/))
+		* [Introduction to a Critique of Urban Geography](http://www.bopsecrets.org/SI/urbgeog.htm)
+		* Architecture, Pervasive Computing, and Environmental Knowing: [Embodied Predispositions](http://www.intelligentagent.com/ME/DigitalGround1.pdf), [Habitual Contexts](http://www.intelligentagent.com/ME/DigitalGround2.pdf)
+		* Finding Flow - The Psychology of Engagement with Everyday Life: [The Content of Experience](http://www.intelligentagent.com/ME/Flow.pdf)
+		* [Redefining the Basemap](http://www.intelligentagent.com/archive/Vol6_No2_interactive_city_sant.htm)
+		* [Future City](http://www.newleftreview.org/?view=2449)
+		* [Cityness in the Urban Age](http://www.intelligentagent.com/ME/Saskia_Sassen_2005-Cityness_In_The_Urban_Age-Bulletin2.pdf)
+		* [Urban Computing and its Discontents](http://www.intelligentagent.com/ME/UrbanscaleST1-Urban_Computing.pdf)
+		* [Cities in Transition](http://www.intelligentagent.com/ME/IFTF2010_CitiesInTransitionForecast.pdf)
+		* [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
+		* [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml)
+		* The Practice of Everyday Life: [Walking in the city](http://www.intelligentagent.com/ME/Certeau1.pdf), [Spatial Stories](http://www.intelligentagent.com/ME/Certeau2.pdf)
+		* [Cyber-animism and augmented dreams](http://www.leoalmanac.org/wp-content/uploads/2011/04/LEA_Cyber-Animism_TamikoThiel.pdf)
+		* [Are you in the Biennale, or aren't you? Both, thanks to Augmented Reality](http://www.nmdnet.org/2011/06/13/are-you-in-the-biennale-or-arent-you-both-thanks-to-augmented-reality/)
