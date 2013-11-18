@@ -344,10 +344,21 @@ Overview of projects and readings from last week.
 		* [Hula](http://www.techhive.com/article/2059218/hula-hopes-to-make-hookup-apps-more-responsible-and-the-std-talk-a-little-more-fun.html)
 		* [Pure](http://www.getpure.org/en/)
 		* [Color](http://mashable.com/2012/10/17/color-shuts-down/)
-	* Identification
+	* Social Improvement
+		* [Refresh.io](http://refresh.io)
+		* [Couple](http://couple.me/)
+		* [Kahnoodle](https://www.kahnoodle.com)
+		* [Between](http://appbetween.us/en/)
+	* Identification and understanding
 		* [Shazam](http://www.shazam.com/)
 		* [Word Lens](http://www.youtube.com/watch?v=h2OfQdYrHRs)
 		* [Google Goggles](http://www.youtube.com/watch?v=Hhgfz0zPmH4)
+	* Self Tracking
+		* [RunKeeper](http://runkeeper.com/)
+		* [Fuel band](http://www.nike.com/us/en_us/c/nikeplus-fuelband)
+		* [Fitbit](http://www.fitbit.com/)
+		* [Jawbone](https://jawbone.com/)
+		* [Sleep Cycle](http://www.sleepcycle.com/)
 	* Using sensors in weird ways?
 		* [FreeFall High score](http://www.freefallhighscore.com/) and [Send me to heaven](http://www.youtube.com/watch?v=pXr84w1cWIU)
 		* [Bump](https://bu.mp/)
