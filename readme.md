@@ -351,6 +351,7 @@ Overview of projects and readings from last week.
 	* Using sensors in weird ways?
 		* [FreeFall High score](http://www.freefallhighscore.com/) and [Send me to heaven](http://www.youtube.com/watch?v=pXr84w1cWIU)
 		* [Bump](https://bu.mp/)
+		* [ZYX](http://www.zyx-app.com/)
 * Tools
 	* [UI Stencils](http://www.uistencils.com/products/iphone-sketch-pad)
 	* [ofxiPhoneSocial](https://github.com/claytical/ofxiPhoneSocial/blob/master/src/ofxiPhoneSocial.h)
