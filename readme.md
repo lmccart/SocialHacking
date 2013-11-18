@@ -342,6 +342,7 @@ Overview of projects and readings from last week.
 		* [Bang with Friend/Down](http://www.thenextbang.com/)
 		* [Carrot Dating](http://venturebeat.com/2013/10/21/this-disgusting-dating-app-lets-nerdy-guys-bribe-hot-women-to-date-them/)
 		* [Hula](http://www.techhive.com/article/2059218/hula-hopes-to-make-hookup-apps-more-responsible-and-the-std-talk-a-little-more-fun.html)
+		* [Pure](http://www.getpure.org/en/)
 		* [Color](http://mashable.com/2012/10/17/color-shuts-down/)
 	* Identification
 		* [Shazam](http://www.shazam.com/)
