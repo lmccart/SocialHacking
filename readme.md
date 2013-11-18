@@ -372,22 +372,29 @@ Overview of projects and readings from last week.
 	* [UI Stencils](http://www.uistencils.com/products/iphone-sketch-pad)
 	* [ofxiPhoneSocial](https://github.com/claytical/ofxiPhoneSocial/blob/master/src/ofxiPhoneSocial.h)
 	* [PhoneGap](http://phonegap.com/)
+* Assignment
+	* We will give one-day assignments for seven days (November 18 to November 24) that involve reflecting on the way you use your phone. We will share and discuss our experiences in class on November 25.
+	* Pick one of the following and document your work before the last class, to be shared in the last class:
+		* Create an app that fills a void that otherwise fills a void that you would otherwise imagine a person filling.
+		* Imagine the most difficult social interaction you've ever had, and create an app that would have made it easier.
+		* Create an app that has an effect on others that aren't using the app.
+		* Create an app that causes or enables people to meet for a specific purpose.
 * Reading
-	* [Mark Skwarek](http://www.markskwarek.com/) and [The AR Art Manifesto](http://www.manifestar.info/)
-	* [The Street is the Stage](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_schechner.pdf)
-	* [Urban Hacking / Interventions in Public Space](https://docs.google.com/document/d/1UQNJNXH_H0P8FTnBjxCBt9ruuhEjlf5SMcLEFPyrslM/edit)
-	* [Urban Hacking (4): Hacking structuring space](http://blog.inpolis.com/2012/09/27/urban-hacking-4-hacking-structuring-space/)
-	* From [Mediated Environments](http://christianepaul.info/mediatedenvironments/2013/syllabus/))
-		* [Introduction to a Critique of Urban Geography](http://www.bopsecrets.org/SI/urbgeog.htm)
-		* Architecture, Pervasive Computing, and Environmental Knowing: [Embodied Predispositions](http://www.intelligentagent.com/ME/DigitalGround1.pdf), [Habitual Contexts](http://www.intelligentagent.com/ME/DigitalGround2.pdf)
-		* Finding Flow - The Psychology of Engagement with Everyday Life: [The Content of Experience](http://www.intelligentagent.com/ME/Flow.pdf)
-		* [Redefining the Basemap](http://www.intelligentagent.com/archive/Vol6_No2_interactive_city_sant.htm)
-		* [Future City](http://www.newleftreview.org/?view=2449)
-		* [Cityness in the Urban Age](http://www.intelligentagent.com/ME/Saskia_Sassen_2005-Cityness_In_The_Urban_Age-Bulletin2.pdf)
-		* [Urban Computing and its Discontents](http://www.intelligentagent.com/ME/UrbanscaleST1-Urban_Computing.pdf)
-		* [Cities in Transition](http://www.intelligentagent.com/ME/IFTF2010_CitiesInTransitionForecast.pdf)
-		* [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
-		* [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml)
-		* The Practice of Everyday Life: [Walking in the city](http://www.intelligentagent.com/ME/Certeau1.pdf), [Spatial Stories](http://www.intelligentagent.com/ME/Certeau2.pdf)
-		* [Cyber-animism and augmented dreams](http://www.leoalmanac.org/wp-content/uploads/2011/04/LEA_Cyber-Animism_TamikoThiel.pdf)
-		* [Are you in the Biennale, or aren't you? Both, thanks to Augmented Reality](http://www.nmdnet.org/2011/06/13/are-you-in-the-biennale-or-arent-you-both-thanks-to-augmented-reality/)
+	* __Required__: post one tweet about [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml) and if you want more context for Krzysztof's work read [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
+	* __Recommended__:
+		* [Mark Skwarek](http://www.markskwarek.com/) and [The AR Art Manifesto](http://www.manifestar.info/)
+		* [The Street is the Stage](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_schechner.pdf)
+		* Reading list from [Urban Hacking / Interventions in Public Space](https://docs.google.com/document/d/1UQNJNXH_H0P8FTnBjxCBt9ruuhEjlf5SMcLEFPyrslM/edit)
+			* [Urban Hacking (4): Hacking structuring space](http://blog.inpolis.com/2012/09/27/urban-hacking-4-hacking-structuring-space/)
+		* Reading list from [Mediated Environments](http://christianepaul.info/mediatedenvironments/2013/syllabus/)
+			* [Introduction to a Critique of Urban Geography](http://www.bopsecrets.org/SI/urbgeog.htm)
+			* Architecture, Pervasive Computing, and Environmental Knowing: [Embodied Predispositions](http://www.intelligentagent.com/ME/DigitalGround1.pdf), [Habitual Contexts](http://www.intelligentagent.com/ME/DigitalGround2.pdf)
+			* Finding Flow - The Psychology of Engagement with Everyday Life: [The Content of Experience](http://www.intelligentagent.com/ME/Flow.pdf)
+			* [Redefining the Basemap](http://www.intelligentagent.com/archive/Vol6_No2_interactive_city_sant.htm)
+			* [Future City](http://www.newleftreview.org/?view=2449)
+			* [Cityness in the Urban Age](http://www.intelligentagent.com/ME/Saskia_Sassen_2005-Cityness_In_The_Urban_Age-Bulletin2.pdf)
+			* [Urban Computing and its Discontents](http://www.intelligentagent.com/ME/UrbanscaleST1-Urban_Computing.pdf)
+			* [Cities in Transition](http://www.intelligentagent.com/ME/IFTF2010_CitiesInTransitionForecast.pdf)
+			* The Practice of Everyday Life: [Walking in the city](http://www.intelligentagent.com/ME/Certeau1.pdf), [Spatial Stories](http://www.intelligentagent.com/ME/Certeau2.pdf)
+			* [Cyber-animism and augmented dreams](http://www.leoalmanac.org/wp-content/uploads/2011/04/LEA_Cyber-Animism_TamikoThiel.pdf)
+			* [Are you in the Biennale, or aren't you? Both, thanks to Augmented Reality](http://www.nmdnet.org/2011/06/13/are-you-in-the-biennale-or-arent-you-both-thanks-to-augmented-reality/)
