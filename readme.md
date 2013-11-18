@@ -325,6 +325,9 @@ Overview of projects and readings from last week.
 * how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
 * location awareness, social networking
 * References
+	* "Classic" Social Media
+		* 1.0: Twitter, Instagram, Facebook
+		* 2.0: [Snapchat](http://www.snapchat.com/) and [Poke](https://www.facebook.com/help/397568030328686)
 	* Transportation: these afford an opporunity for you as a driver to connect with riders in a way that you would not otherwise be able to.
 		* [Uber](https://www.uber.com/)
 		* [Sidecar](http://www.side.cr/)
@@ -335,6 +338,8 @@ Overview of projects and readings from last week.
 		* [Layar](https://www.layar.com/)
 		* [Google Now](http://www.youtube.com/watch?v=pPqliPzHYyc)
 		* ["Avoid ghetto" patent](http://news.cnet.com/8301-17852_3-57354445-71/the-joy-of-microsofts-avoid-ghetto-gps-patent/)
+		* [Commons](http://techpresident.com/blog-entry/meet-commons-mobile-social-gamification-311) for 311 reporting
+		* [Crime Sounds](http://benedikt-gross.de/log/2012/01/social-computing-crime-sounds-app/)
 	* Dating and proximity to people: some of these are just mobile versions of what [otherwise exists online](http://www.slate.com/blogs/xx_factor/2013/01/04/the_atlantic_says_online_dating_is_killing_marriage_magazine_calls_internet.html), others add a new dimension by providing extra information about people around you.
 		* [Grindr](http://grindr.com/)
 		* [Tinder](http://www.gotinder.com/)
