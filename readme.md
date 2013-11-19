@@ -321,9 +321,9 @@ Overview of projects and readings from last week.
 	* [Taller Than Most](http://www.jacobtonski.com/tallerthanmost/) 
 
 ###Weeks 10-12 (11/18, 11/25, 12/2): mobile platforms
-* how do we find each other? how do we connect? how do we initially engage? 
-* how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
-* location awareness, social networking
+* How do we find each other? How do we connect? How do we initially engage? 
+* How do we interact with each other in public social spaces? What are the patterns and rules and expectations? 
+* Thinking about... communication, conversation, location awareness, social networking.
 * References
 	* "Classic" Social Media
 		* 1.0: Twitter, Instagram, Facebook
@@ -384,7 +384,7 @@ Overview of projects and readings from last week.
 		* Create an app that has an effect on others that aren't using the app.
 		* Create an app that causes or enables people to meet for a specific purpose.
 * Reading
-	* __Required__: post one tweet about [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml) and if you want more context for Krzysztof's work read [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
+	* __Required__: Post one tweet about [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml) and if you want more context for Krzysztof's work read [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
 	* __Recommended__:
 		* [Mark Skwarek](http://www.markskwarek.com/) and [The AR Art Manifesto](http://www.manifestar.info/)
 		* [The Street is the Stage](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_schechner.pdf)
