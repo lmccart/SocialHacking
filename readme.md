@@ -337,6 +337,7 @@ Overview of projects and readings from last week.
 		* [Yelp](http://www.yelp.com/)
 		* [Layar](https://www.layar.com/)
 		* [Google Now](http://www.youtube.com/watch?v=pPqliPzHYyc)
+		* [Checkmark](https://vimeo.com/44479512#)
 		* ["Avoid ghetto" patent](http://news.cnet.com/8301-17852_3-57354445-71/the-joy-of-microsofts-avoid-ghetto-gps-patent/)
 		* [Commons](http://techpresident.com/blog-entry/meet-commons-mobile-social-gamification-311) for 311 reporting
 		* [Crime Sounds](http://benedikt-gross.de/log/2012/01/social-computing-crime-sounds-app/)
