@@ -165,7 +165,9 @@ This four-point course will meet in the first twelve weeks of the semester.
 * __Assignment due 9/30:__
     * Create an HPI (human programming interface) that allows others to control some aspect of your life. By __next week (9/23)__ you should have the system built and in place and ready for a one week trial / performance / experiment.
     * Creatively misuse an existing API in order to reveal something about the service.
-    * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
+* __Read:__
+    * [Objects of intense feeling: the case of the Twitter API](http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api)  
+    * Jer Thorp, [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api)
  
 ###Week 3 (9/23): Social automation and APIs
 * Dan Moore [guest lecture](https://docs.google.com/a/makeitdoathing.com/presentation/d/1g9-Mnm9OYgM_zTpynk3wGVNENRecVD2I9CNQDFjjUsc/edit?usp=sharing)
