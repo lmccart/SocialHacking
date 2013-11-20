@@ -378,9 +378,12 @@ Overview of projects and readings from last week.
 	* [PhoneGap](http://phonegap.com/)
 * Assignment
 	* We will give one-day assignments for seven days (November 18 to November 24) that involve reflecting on the way you use your phone. We will share and discuss our experiences in class on November 25.
+
 	        * Day 1 - Delete all contacts you do not plan on contacting again.
 	        * Day 2 - Put your phone in "do not disturb" mode (that is, silence all rings, buzzes, notifications, etc).
+	        * Day 3 - Download an app you've been avoiding and overuse it all day.
 	* Pick one of the following and document your work before the last class, to be shared in the last class:
+
 		* Create an app that fills a void that otherwise fills a void that you would otherwise imagine a person filling.
 		* Imagine the most difficult social interaction you've ever had, and create an app that would have made it easier.
 		* Create an app that has an effect on others that aren't using the app.
