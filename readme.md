@@ -49,6 +49,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * [The Presentation of Self in Everyday Life](http://ecx.images-amazon.com/images/I/51wDkBDP%2BwL.jpg)
     * [Interaction Ritual](http://www.riverwashbooks.com/shop_image/product/SOC0846.jpg)
     * [Stanley Milgram bus experiments](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1)
+    * [Matthias Gommel, Delayed](http://abler.gizmodo.com/missed-connections-matthias-gommels-delayed-1469931449)
 * Glitch
     * Glitch is where a system breaks down and reveals something about itself in the process.
     * [mojibake](https://en.wikipedia.org/wiki/Mojibake)
