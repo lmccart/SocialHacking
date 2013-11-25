@@ -426,6 +426,13 @@ Overview of projects and readings from last week.
 	* Social Practice
 	* Man Bartlett, 24 hour tweet series
 	* Steve Lambert [Talk with Anyone](http://visitsteve.com/made/talkwithanyone)
-	* Graffiti Research Lab, Laser Tag, LED Throwies
+	* Graffiti Research Lab, Laser Tag, LED Throwies (compare to [Voina](http://www.youtube.com/watch?feature=player_detailpage&v=Q8Yw8LmH7fA#t=163))
 	* Blast Theory, [Can you see me now](http://www.blasttheory.co.uk/projects/can-you-see-me-now/)
 	* [Las madres de la plaza de mayo](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_witness_waller.pdf)
+* Excerpts from [public sphere_s](http://www.medienkunstnetz.de/themes/public_sphere_s/public_sphere_s/) by Steve Dietz
+	 * [Blinkenlights](http://www.medienkunstnetz.de/works/blinkenlights/)
+	 * [Conversation map](http://www.medienkunstnetz.de/works/conversation-map/)
+	 * [Agonistics](http://www.medienkunstnetz.de/works/agonistics/)
+	 * [Imaginary Landscape](http://www.medienkunstnetz.de/works/imaginary-landscape-4/)
+	 * [Pockets full of memories](http://www.medienkunstnetz.de/works/pockets-full-of-memory/)
+	 * [Bumplist](http://www.medienkunstnetz.de/works/bumplist/)
