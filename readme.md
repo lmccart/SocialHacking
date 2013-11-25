@@ -409,7 +409,7 @@ Overview of projects and readings from last week.
 			* The Practice of Everyday Life: [Walking in the city](http://www.intelligentagent.com/ME/Certeau1.pdf), [Spatial Stories](http://www.intelligentagent.com/ME/Certeau2.pdf)
 			* [Cyber-animism and augmented dreams](http://www.leoalmanac.org/wp-content/uploads/2011/04/LEA_Cyber-Animism_TamikoThiel.pdf)
 			* [Are you in the Biennale, or aren't you? Both, thanks to Augmented Reality](http://www.nmdnet.org/2011/06/13/are-you-in-the-biennale-or-arent-you-both-thanks-to-augmented-reality/)
-			
+
 ### Weeks 11 & 12 (11/25, 12/2)
 
 * Share phone experiences.
@@ -430,6 +430,7 @@ Overview of projects and readings from last week.
 	* Blast Theory, [Can you see me now](http://www.blasttheory.co.uk/projects/can-you-see-me-now/)
 	* [Unviewed](http://osmankhan.com/works.asp?name=Unviewed)
 	* [Las madres de la plaza de mayo](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_witness_waller.pdf)
+	* [Public Face 1](http://juliusvonbismarck.com/bank/index.php?/projects/stimmungsgasometer/)
 * Excerpts from [public sphere_s](http://www.medienkunstnetz.de/themes/public_sphere_s/public_sphere_s/) by Steve Dietz
 	* [Blinkenlights](http://www.medienkunstnetz.de/works/blinkenlights/)
 	* [Conversation map](http://www.medienkunstnetz.de/works/conversation-map/)
@@ -437,5 +438,10 @@ Overview of projects and readings from last week.
 	* [Imaginary Landscape](http://www.medienkunstnetz.de/works/imaginary-landscape-4/)
 	* [Pockets full of memories](http://www.medienkunstnetz.de/works/pockets-full-of-memory/)
 	* [Bumplist](http://www.medienkunstnetz.de/works/bumplist/)
+	* [One trees](http://www.medienkunstnetz.de/works/one-trees/)
+	* [Vectorial Elevation](http://www.medienkunstnetz.de/works/vectorial-elevation/)
+	* [A People's Portrait](http://www.medienkunstnetz.de/works/peoples-portrait/)
+	* [Access](http://www.medienkunstnetz.de/works/access/)
+	* [Swipe](http://www.medienkunstnetz.de/works/swipe-bar/)
 * Recommended readings
 	* [Radical Street Performance](http://www.amazon.com/Radical-Street-Performance-International-Anthology/dp/0415152313)
