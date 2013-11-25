@@ -428,13 +428,14 @@ Overview of projects and readings from last week.
 	* Steve Lambert [Talk with Anyone](http://visitsteve.com/made/talkwithanyone)
 	* Graffiti Research Lab, Laser Tag, LED Throwies (compare to [Voina](http://www.youtube.com/watch?feature=player_detailpage&v=Q8Yw8LmH7fA#t=163))
 	* Blast Theory, [Can you see me now](http://www.blasttheory.co.uk/projects/can-you-see-me-now/)
+	* [Unviewed](http://osmankhan.com/works.asp?name=Unviewed)
 	* [Las madres de la plaza de mayo](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_witness_waller.pdf)
 * Excerpts from [public sphere_s](http://www.medienkunstnetz.de/themes/public_sphere_s/public_sphere_s/) by Steve Dietz
-	 * [Blinkenlights](http://www.medienkunstnetz.de/works/blinkenlights/)
-	 * [Conversation map](http://www.medienkunstnetz.de/works/conversation-map/)
-	 * [Agonistics](http://www.medienkunstnetz.de/works/agonistics/)
-	 * [Imaginary Landscape](http://www.medienkunstnetz.de/works/imaginary-landscape-4/)
-	 * [Pockets full of memories](http://www.medienkunstnetz.de/works/pockets-full-of-memory/)
-	 * [Bumplist](http://www.medienkunstnetz.de/works/bumplist/)
-* Recommended readings:
-        * [Radical Street Performance](http://www.amazon.com/Radical-Street-Performance-International-Anthology/dp/0415152313)
+	* [Blinkenlights](http://www.medienkunstnetz.de/works/blinkenlights/)
+	* [Conversation map](http://www.medienkunstnetz.de/works/conversation-map/)
+	* [Agonistics](http://www.medienkunstnetz.de/works/agonistics/)
+	* [Imaginary Landscape](http://www.medienkunstnetz.de/works/imaginary-landscape-4/)
+	* [Pockets full of memories](http://www.medienkunstnetz.de/works/pockets-full-of-memory/)
+	* [Bumplist](http://www.medienkunstnetz.de/works/bumplist/)
+* Recommended readings
+* 	* [Radical Street Performance](http://www.amazon.com/Radical-Street-Performance-International-Anthology/dp/0415152313)
