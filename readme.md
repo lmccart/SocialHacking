@@ -165,7 +165,9 @@ This four-point course will meet in the first twelve weeks of the semester.
 * __Assignment due 9/30:__
     * Create an HPI (human programming interface) that allows others to control some aspect of your life. By __next week (9/23)__ you should have the system built and in place and ready for a one week trial / performance / experiment.
     * Creatively misuse an existing API in order to reveal something about the service.
-    * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
+* __Read:__
+    * [Objects of intense feeling: the case of the Twitter API](http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api)  
+    * Jer Thorp, [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api)
  
 ### Week 3 (9/23): Social automation and APIs
 * Dan Moore [guest lecture](https://docs.google.com/a/makeitdoathing.com/presentation/d/1g9-Mnm9OYgM_zTpynk3wGVNENRecVD2I9CNQDFjjUsc/edit?usp=sharing)
@@ -320,13 +322,10 @@ Overview of projects and readings from last week.
 * __Assignment__: First we'll assign partners. In that group we ask you to create a filter or adapter using computer vision that improves your interaction with each other. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
 	* [Taller Than Most](http://www.jacobtonski.com/tallerthanmost/) 
 
-### Week 10 (11/18): mobile platforms
-* Questions
-	* How do we find each other?
-	* How do we connect?
-	* How do we initially engage? 
-	* How do we interact with each other in public social spaces?
-	* What are the patterns and rules and expectations?
+###Weeks 10-12 (11/18, 11/25, 12/2): mobile platforms
+* How do we find each other? How do we connect? How do we initially engage? 
+* How do we interact with each other in public social spaces? What are the patterns and rules and expectations? 
+* Thinking about... communication, conversation, location awareness, social networking.
 * References
 	* "Classic" Social Media
 		* 1.0: Twitter, Instagram, Facebook
@@ -340,6 +339,7 @@ Overview of projects and readings from last week.
 		* [Yelp](http://www.yelp.com/)
 		* [Layar](https://www.layar.com/)
 		* [Google Now](http://www.youtube.com/watch?v=pPqliPzHYyc)
+		* [Checkmark](https://vimeo.com/44479512#)
 		* ["Avoid ghetto" patent](http://news.cnet.com/8301-17852_3-57354445-71/the-joy-of-microsofts-avoid-ghetto-gps-patent/)
 		* [Commons](http://techpresident.com/blog-entry/meet-commons-mobile-social-gamification-311) for 311 reporting
 		* [Crime Sounds](http://benedikt-gross.de/log/2012/01/social-computing-crime-sounds-app/)
@@ -367,6 +367,7 @@ Overview of projects and readings from last week.
 		* [Fitbit](http://www.fitbit.com/)
 		* [Jawbone](https://jawbone.com/)
 		* [Sleep Cycle](http://www.sleepcycle.com/)
+		* [Spreadsheets](http://spreadsheetsapp.com/)
 	* Using sensors in weird ways?
 		* [FreeFall High score](http://www.freefallhighscore.com/) and [Send me to heaven](http://www.youtube.com/watch?v=pXr84w1cWIU)
 		* [Bump](https://bu.mp/)
@@ -377,20 +378,20 @@ Overview of projects and readings from last week.
 	* [PhoneGap](http://phonegap.com/)
 * Assignment
 	* We will give one-day assignments for seven days (November 18 to November 24) that involve reflecting on the way you use your phone. We will share and discuss our experiences in class on November 25.
-		* Delete any contacts that you won't be contacting.
-		* Disable all notifications on your phone (rings, buzzes, etc.)
-		* Overuse an app you've been avoiding completely.
-		* Use your phone in "voice-only" mode (i.e., pretend it's a dumb phone).
-		* Count how many times you check your phone.
-		* Don't use your phone.
-		* Trade your phone with someone else.
+		* Day 1 - Delete all contacts you do not plan on contacting again.
+		* Day 2 - Put your phone in "do not disturb" mode (that is, silence all rings, buzzes, notifications, etc).
+		* Day 3 - Download an app you've been avoiding and overuse it all day.
+		* Day 4 - Use your phone in "voice-only" mode (i.e., pretend it's a dumb phone).
+		* Day 5 - Count how many times you check your phone.
+		* Day 6 - Don't use your phone.
+		* Day 7 - Trade your phone with someone else.
 	* Pick one of the following and document your work before the last class, to be shared in the last class:
 		* Create an app that fills a void that otherwise fills a void that you would otherwise imagine a person filling.
 		* Imagine the most difficult social interaction you've ever had, and create an app that would have made it easier.
 		* Create an app that has an effect on others that aren't using the app.
 		* Create an app that causes or enables people to meet for a specific purpose.
 * Reading
-	* __Required__: post one tweet about [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml) and if you want more context for Krzysztof's work read [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
+	* __Required__: Post one tweet about [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml) and if you want more context for Krzysztof's work read [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
 	* __Recommended__:
 		* [Mark Skwarek](http://www.markskwarek.com/) and [The AR Art Manifesto](http://www.manifestar.info/)
 		* [The Street is the Stage](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_schechner.pdf)
