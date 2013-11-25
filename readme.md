@@ -438,4 +438,4 @@ Overview of projects and readings from last week.
 	* [Pockets full of memories](http://www.medienkunstnetz.de/works/pockets-full-of-memory/)
 	* [Bumplist](http://www.medienkunstnetz.de/works/bumplist/)
 * Recommended readings
-* 	* [Radical Street Performance](http://www.amazon.com/Radical-Street-Performance-International-Anthology/dp/0415152313)
+	* [Radical Street Performance](http://www.amazon.com/Radical-Street-Performance-International-Anthology/dp/0415152313)
