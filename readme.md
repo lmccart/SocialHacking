@@ -415,7 +415,7 @@ Overview of projects and readings from last week.
 * Share phone experiences.
 * Talk project ideas.
 * More discussion & history
-	* Augusto Boal, [Invisible Theater](http://en.wikipedia.org/wiki/Invisible_theater), Theater of the Oppressed
+	* Augusto Boal, [Invisible Theater](http://www.booki.cc/the-digital-legacies-of-the-avant-garde/invisible-theater/), Theater of the Oppressed
 	* Valie Export, [tapp und tastkino](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/02/VALIE-EXPORT-Touch-Cinema-1968.jpg) (tap and touch cinema)
 	* Adrian Piper, [Calling Card](http://wendyjanegrossman.com/wp-content/uploads/2013/01/adrain-piper-calling-card.jpg), [I am not here to pick anyone up](http://www.dalatdesigns.com/blog/wp-content/uploads/2013/07/flowerstreet1.jpg)
 	* [Tehching Hsieh](http://www.nytimes.com/slideshow/2009/03/01/arts/20090301_HSIEH_SLIDESHOW_3.html) 
