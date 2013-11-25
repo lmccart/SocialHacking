@@ -429,3 +429,5 @@ Overview of projects and readings from last week.
 	* Graffiti Research Lab, Laser Tag, LED Throwies
 	* Blast Theory, [Can you see me now](http://www.blasttheory.co.uk/projects/can-you-see-me-now/)
 	* [Las madres de la plaza de mayo](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_witness_waller.pdf)
+* Recommended readings:
+        * [Radical Street Performance](http://www.amazon.com/Radical-Street-Performance-International-Anthology/dp/0415152313)
