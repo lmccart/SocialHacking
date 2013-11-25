@@ -415,15 +415,18 @@ Overview of projects and readings from last week.
 * Share phone experiences.
 * Talk project ideas.
 * More discussion & history
+	* Augusto Boal, [Invisible Theater](http://en.wikipedia.org/wiki/Invisible_theater), Theater of the Oppressed
 	* Valie Export, [tapp und tastkino](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/02/VALIE-EXPORT-Touch-Cinema-1968.jpg) (tap and touch cinema)
 	* Adrian Piper, [Calling Card](http://wendyjanegrossman.com/wp-content/uploads/2013/01/adrain-piper-calling-card.jpg), [I am not here to pick anyone up](http://www.dalatdesigns.com/blog/wp-content/uploads/2013/07/flowerstreet1.jpg)
 	* [Tehching Hsieh](http://www.nytimes.com/slideshow/2009/03/01/arts/20090301_HSIEH_SLIDESHOW_3.html) 
 	* Vito Acconci, [Storefront for Art and Architecture](http://en.wikipedia.org/wiki/Storefront_for_Art_and_Architecture), [Seedbed](http://www.ubu.com/film/acconci_seedbed.html)
-	* Lynn Hershman 
+	* Lynn Hershman, [Robert Breitmore](http://www.lynnhershman.com/files/lynnhershman-robertabreitmore.pdf)
+	* Andrea Fraser, [Little Frank and His Carp](http://whitehotmagazine.com/articles/temporary-contemporary-at-geffen-moca/images/article_images/Andreas%20Fraser,%20Little%20Frank%20and%20His%20Carp,2001.jpg)
 	* Wafaa Bilal, [Domestic Tension](http://wafaabilal.com/domestic-tension/)
 	* Yes Men
 	* Improv Everywhere
 	* Social Practice
+	* Jae Rhim Lee, [Alternatives for Urination](http://zonezerozerostudio.com/urination)
 	* Man Bartlett, 24 hour tweet series
 	* Steve Lambert [Talk with Anyone](http://visitsteve.com/made/talkwithanyone)
 	* Graffiti Research Lab, Laser Tag, LED Throwies (compare to [Voina](http://www.youtube.com/watch?feature=player_detailpage&v=Q8Yw8LmH7fA#t=163))
