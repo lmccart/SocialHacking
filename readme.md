@@ -6,7 +6,7 @@
 * Mondays 2:30-5:30, ITP rm 447
 * Office hours Fridays 3:30-6:30, ITP adjunct lounge
 
-##Important links
+## Important links
 
 * [github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
 * [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
@@ -14,7 +14,7 @@
 * [#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
 * [#socialhacking aggregator](http://kylemcdonald.net/itp/AppropriatingInteractionTechnologies/tweetscrape/)
 
-##Course description
+## Course description
 
 This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
@@ -23,15 +23,15 @@ How do the things we build and use limit and expand the way we understand and re
 Students will develop projects that alter or disrupt social space in an attempt to reveal existing patterns or truths about our experiences and technologies, and possibilities for richer interactions. Different
 tactics for intervention and performance will be explored, first through a set of short prompts or experiments, and then through a larger, more thorough intervention.
 
-##Technical requirements
+## Technical requirements
 
 A conviction that creative people can derail society for the best, a deep love for code, and a willingness to explore uncomfortable situations. You should at least have taken Introduction to Computational Media or have similar experience with programming.
 
 This four-point course will meet in the first twelve weeks of the semester.
 
-##Syllabus
+## Syllabus
 
-###Week 1 (9/9): Data representation and glitch
+### Week 1 (9/9): Data representation and glitch
 * Class overview
     * Policy regarding auditing: if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
     * Policy regarding attendance: you can miss one class, anything else you fail.
@@ -80,7 +80,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Post one tweet inspired by each reading, tagged with #socialhacking.
     * Create and document a social glitch involving technology, post it and tag it with #socialhacking.
 
-###Week 2-3 (9/16): Social automation and APIs
+### Week 2-3 (9/16): Social automation and APIs
 * This week in hacks
     * http://www.forbes.com/sites/kashmirhill/2013/09/12/e-zpasses-get-read-all-over-new-york-not-just-at-toll-booths/
     * Instagram uploading (start thinking about this)
@@ -167,7 +167,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Creatively misuse an existing API in order to reveal something about the service.
     * By __next week (9/23)__ read exerpt sent out, post a tweet inspired by it tagged #socialhacking.
  
-###Week 3 (9/23): Social automation and APIs
+### Week 3 (9/23): Social automation and APIs
 * Dan Moore [guest lecture](https://docs.google.com/a/makeitdoathing.com/presentation/d/1g9-Mnm9OYgM_zTpynk3wGVNENRecVD2I9CNQDFjjUsc/edit?usp=sharing)
 * HPI presentations and feedback
 * [Mechanical Turk](http://mturk.com/) Farm and discussion
@@ -180,7 +180,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * [Gigwalk](http://gigwalk.com/)
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
 
-###Week 4 (9/30): extensions and customization
+### Week 4 (9/30): extensions and customization
 * Review HPI and misused API work
 * Break
 * Discussion: extension and customization
@@ -239,11 +239,11 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
 
-###Week 5 (10/7): extensions and customization
+### Week 5 (10/7): extensions and customization
 * Joanne McNeil [guest lecture](http://joannemcneil.com/index.php?/talks-and-such/the-dream-must-be-continuous/)
 * [David Leonard](http://davidleonard.tv) guest lecture
 
-###Week 6 (10/21): security, surveillance and privacy
+### Week 6 (10/21): security, surveillance and privacy
 * What does it mean to be hacked? Can you hack yourself? 
 * Social engineering, phishing, cross-site scripting, trolling, authenticity.
 * Michael Auger guest lecture
@@ -299,11 +299,11 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* Bruce Schneier [privacy salience and social networking sites](https://www.schneier.com/crypto-gram-0908.html#2) and [privacy and control](https://www.schneier.com/crypto-gram-1004.html#1) - Ju and Ilwon
 	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance) - Mack, Gal
 
-###Week 7 (10/28): security, surveillance and privacy
+### Week 7 (10/28): security, surveillance and privacy
 
 Overview of projects and readings from last week.
 
-###Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
+### Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
 
 * Quick travel report.
 * 3 groups presenting the remaining readings from last week.
@@ -320,10 +320,13 @@ Overview of projects and readings from last week.
 * __Assignment__: First we'll assign partners. In that group we ask you to create a filter or adapter using computer vision that improves your interaction with each other. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
 	* [Taller Than Most](http://www.jacobtonski.com/tallerthanmost/) 
 
-###Weeks 10-12 (11/18, 11/25, 12/2): mobile platforms
-* how do we find each other? how do we connect? how do we initially engage? 
-* how do we interact with each other in public social spaces? what are the patterns and rules and expectations? communication, conversation
-* location awareness, social networking
+### Week 10 (11/18): mobile platforms
+* Questions
+	* How do we find each other?
+	* How do we connect?
+	* How do we initially engage? 
+	* How do we interact with each other in public social spaces?
+	* What are the patterns and rules and expectations?
 * References
 	* "Classic" Social Media
 		* 1.0: Twitter, Instagram, Facebook
@@ -374,6 +377,13 @@ Overview of projects and readings from last week.
 	* [PhoneGap](http://phonegap.com/)
 * Assignment
 	* We will give one-day assignments for seven days (November 18 to November 24) that involve reflecting on the way you use your phone. We will share and discuss our experiences in class on November 25.
+		* Delete any contacts that you won't be contacting.
+		* Disable all notifications on your phone (rings, buzzes, etc.)
+		* Overuse an app you've been avoiding completely.
+		* Use your phone in "voice-only" mode (i.e., pretend it's a dumb phone).
+		* Count how many times you check your phone.
+		* Don't use your phone.
+		* Trade your phone with someone else.
 	* Pick one of the following and document your work before the last class, to be shared in the last class:
 		* Create an app that fills a void that otherwise fills a void that you would otherwise imagine a person filling.
 		* Imagine the most difficult social interaction you've ever had, and create an app that would have made it easier.
@@ -398,3 +408,23 @@ Overview of projects and readings from last week.
 			* The Practice of Everyday Life: [Walking in the city](http://www.intelligentagent.com/ME/Certeau1.pdf), [Spatial Stories](http://www.intelligentagent.com/ME/Certeau2.pdf)
 			* [Cyber-animism and augmented dreams](http://www.leoalmanac.org/wp-content/uploads/2011/04/LEA_Cyber-Animism_TamikoThiel.pdf)
 			* [Are you in the Biennale, or aren't you? Both, thanks to Augmented Reality](http://www.nmdnet.org/2011/06/13/are-you-in-the-biennale-or-arent-you-both-thanks-to-augmented-reality/)
+			
+### Weeks 11 & 12 (11/25, 12/2)
+
+* Share phone experiences.
+* Talk project ideas.
+* More discussion & history
+	* Valie Export, [tapp und tastkino](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/02/VALIE-EXPORT-Touch-Cinema-1968.jpg) (tap and touch cinema)
+	* Adrian Piper, [Calling Card](http://wendyjanegrossman.com/wp-content/uploads/2013/01/adrain-piper-calling-card.jpg), [I am not here to pick anyone up](http://www.dalatdesigns.com/blog/wp-content/uploads/2013/07/flowerstreet1.jpg)
+	* [Tehching Hsieh](http://www.nytimes.com/slideshow/2009/03/01/arts/20090301_HSIEH_SLIDESHOW_3.html) 
+	* Vito Acconci, [Storefront for Art and Architecture](http://en.wikipedia.org/wiki/Storefront_for_Art_and_Architecture), [Seedbed](http://www.ubu.com/film/acconci_seedbed.html)
+	* Lynn Hershman 
+	* Wafaa Bilal, [Domestic Tension](http://wafaabilal.com/domestic-tension/)
+	* Yes Men
+	* Improv Everywhere
+	* Social Practice
+	* Man Bartlett, 24 hour tweet series
+	* Steve Lambert [Talk with Anyone](http://visitsteve.com/made/talkwithanyone)
+	* Graffiti Research Lab, Laser Tag, LED Throwies
+	* Blast Theory, [Can you see me now](http://www.blasttheory.co.uk/projects/can-you-see-me-now/)
+	* [Las madres de la plaza de mayo](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_witness_waller.pdf)
