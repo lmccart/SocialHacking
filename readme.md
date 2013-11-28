@@ -239,6 +239,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* chrome APIs to interact with browser: http://developer.chrome.com/extensions/api_index.html
 	* other APIs: http://developer.chrome.com/extensions/api_other.html
 	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
+	* [gmail API library](https://github.com/KartikTalwar/gmail.js)
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
 
