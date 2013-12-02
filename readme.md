@@ -376,6 +376,7 @@ Overview of projects and readings from last week.
 		* [ZYX](http://www.zyx-app.com/)
 * Tools
 	* [UI Stencils](http://www.uistencils.com/products/iphone-sketch-pad)
+	* [proto.io](http://proto.io/) - mobile prototyping
 	* [ofxiPhoneSocial](https://github.com/claytical/ofxiPhoneSocial/blob/master/src/ofxiPhoneSocial.h)
 	* [PhoneGap](http://phonegap.com/)
 * Assignment
