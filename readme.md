@@ -380,6 +380,7 @@ Overview of projects and readings from last week.
 	* [ofxiPhoneSocial](https://github.com/claytical/ofxiPhoneSocial/blob/master/src/ofxiPhoneSocial.h)
 	* [PhoneGap](http://phonegap.com/)
 	* [PhoneGap emulator](http://emulate.phonegap.com/)
+	* [PhoneGap cloud packager](http://build.phonegap.com/)
 * Assignment
 	* We will give one-day assignments for seven days (November 18 to November 24) that involve reflecting on the way you use your phone. We will share and discuss our experiences in class on November 25.
 		* Day 1 - Delete all contacts you do not plan on contacting again.
