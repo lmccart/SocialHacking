@@ -45,7 +45,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * [Nathan for you STDs](http://comedycentral.tumblr.com/post/52336234961/nathan-is-at-it-again-if-you-missed-his-last-few)
     * [Nathan for you 2 grams](http://comedycentral.tumblr.com/post/48862017449/this-was-hilarious-via-nathanfielder-for)
     * [Oversharer](http://socialmediacollective.org/2011/07/29/the-oversharer-and-other-social-media-experiments/)
-    * [Erving Goffman](en.wikipedia.org/wiki/Erving_Goffman) - sociologist studied face-to-face interaction, related to performance
+    * [Erving Goffman](en.wikipedia.org/wiunki/Erving_Goffman) - sociologist studied face-to-face interaction, related to performance
     * [The Presentation of Self in Everyday Life](http://ecx.images-amazon.com/images/I/51wDkBDP%2BwL.jpg)
     * [Interaction Ritual](http://www.riverwashbooks.com/shop_image/product/SOC0846.jpg)
     * [Stanley Milgram bus experiments](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1)
@@ -281,10 +281,10 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [Cloze](https://www.cloze.com/)
 	* [Raytheon social media](http://www.theguardian.com/world/2013/feb/10/software-tracks-social-media-defence?CMP=twt_gu)
 	* DDOS from [Anonymous](http://mashable.com/2010/12/09/how-operation-payback-executes-its-attacks/) and as [protest](http://www.utsandiego.com/news/2010/apr/09/ucsd-prof-turns-meeting-protest-rally/)
+	* [Ellen Page Is Naked In The Uncanny Valley](http://www.fastcodesign.com/3020630/ellen-page-is-naked-in-the-uncanny-valley?partner=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fastcompany%2Fheadlines+%28Fast+Company%29)
 * Research
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
-	* [Ellen Page Is Naked In The Uncanny Valley](http://www.fastcodesign.com/3020630/ellen-page-is-naked-in-the-uncanny-valley?partner=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fastcompany%2Fheadlines+%28Fast+Company%29)
 
 * __Assignment due 10/28:__ Do one or more of the following:
 	* Document (yourself or someone else)
