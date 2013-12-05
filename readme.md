@@ -284,6 +284,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * Research
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
+	* [Ellen Page Is Naked In The Uncanny Valley](http://www.fastcodesign.com/3020630/ellen-page-is-naked-in-the-uncanny-valley?partner=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fastcompany%2Fheadlines+%28Fast+Company%29)
 
 * __Assignment due 10/28:__ Do one or more of the following:
 	* Document (yourself or someone else)
