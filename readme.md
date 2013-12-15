@@ -45,7 +45,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * [Nathan for you STDs](http://comedycentral.tumblr.com/post/52336234961/nathan-is-at-it-again-if-you-missed-his-last-few)
     * [Nathan for you 2 grams](http://comedycentral.tumblr.com/post/48862017449/this-was-hilarious-via-nathanfielder-for)
     * [Oversharer](http://socialmediacollective.org/2011/07/29/the-oversharer-and-other-social-media-experiments/)
-    * [Erving Goffman](en.wikipedia.org/wiunki/Erving_Goffman) - sociologist studied face-to-face interaction, related to performance
+    * [Erving Goffman](http://en.wikipedia.org/wiki/Erving_Goffman) - sociologist studied face-to-face interaction, related to performance
     * [The Presentation of Self in Everyday Life](http://ecx.images-amazon.com/images/I/51wDkBDP%2BwL.jpg)
     * [Interaction Ritual](http://www.riverwashbooks.com/shop_image/product/SOC0846.jpg)
     * [Stanley Milgram bus experiments](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1)
