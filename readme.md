@@ -103,6 +103,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Web 2.0 Suicide Machine](http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine)
         * [I Like What I See](https://github.com/sklise/i-like-what-i-see)
         * [The Whatever Button](http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/)
+        * [Pete Warden sued by FB](http://petewarden.com/2010/04/05/how-i-got-sued-by-facebook/)
     * Mechanical Turk
         * [Social Turkers](http://socialturkers.com/)
         * [Laborers of Love](http://www.jeffcrouse.info/project/laborers_of_love.html)
