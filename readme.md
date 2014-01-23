@@ -45,10 +45,11 @@ This four-point course will meet in the first twelve weeks of the semester.
     * [Nathan for you STDs](http://comedycentral.tumblr.com/post/52336234961/nathan-is-at-it-again-if-you-missed-his-last-few)
     * [Nathan for you 2 grams](http://comedycentral.tumblr.com/post/48862017449/this-was-hilarious-via-nathanfielder-for)
     * [Oversharer](http://socialmediacollective.org/2011/07/29/the-oversharer-and-other-social-media-experiments/)
-    * [Erving Goffman](en.wikipedia.org/wiki/Erving_Goffman) - sociologist studied face-to-face interaction, related to performance
+    * [Erving Goffman](http://en.wikipedia.org/wiki/Erving_Goffman) - sociologist studied face-to-face interaction, related to performance
     * [The Presentation of Self in Everyday Life](http://ecx.images-amazon.com/images/I/51wDkBDP%2BwL.jpg)
     * [Interaction Ritual](http://www.riverwashbooks.com/shop_image/product/SOC0846.jpg)
     * [Stanley Milgram bus experiments](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1)
+    * [Matthias Gommel, Delayed](http://abler.gizmodo.com/missed-connections-matthias-gommels-delayed-1469931449)
 * Glitch
     * Glitch is where a system breaks down and reveals something about itself in the process.
     * [mojibake](https://en.wikipedia.org/wiki/Mojibake)
@@ -102,6 +103,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Web 2.0 Suicide Machine](http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine)
         * [I Like What I See](https://github.com/sklise/i-like-what-i-see)
         * [The Whatever Button](http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/)
+        * [Pete Warden sued by FB](http://petewarden.com/2010/04/05/how-i-got-sued-by-facebook/)
     * Mechanical Turk
         * [Social Turkers](http://socialturkers.com/)
         * [Laborers of Love](http://www.jeffcrouse.info/project/laborers_of_love.html)
@@ -238,6 +240,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* chrome APIs to interact with browser: http://developer.chrome.com/extensions/api_index.html
 	* other APIs: http://developer.chrome.com/extensions/api_other.html
 	* chrome extension developers’ guide: http://developer.chrome.com/extensions/devguide.html
+	* [gmail API library](https://github.com/KartikTalwar/gmail.js)
 	* __publishing your extension:__ https://developers.google.com/chrome/web-store/docs/publish
 
 
@@ -279,6 +282,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [Cloze](https://www.cloze.com/)
 	* [Raytheon social media](http://www.theguardian.com/world/2013/feb/10/software-tracks-social-media-defence?CMP=twt_gu)
 	* DDOS from [Anonymous](http://mashable.com/2010/12/09/how-operation-payback-executes-its-attacks/) and as [protest](http://www.utsandiego.com/news/2010/apr/09/ucsd-prof-turns-meeting-protest-rally/)
+	* [Ellen Page Is Naked In The Uncanny Valley](http://www.fastcodesign.com/3020630/ellen-page-is-naked-in-the-uncanny-valley?partner=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fastcompany%2Fheadlines+%28Fast+Company%29)
 * Research
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
@@ -374,8 +378,11 @@ Overview of projects and readings from last week.
 		* [ZYX](http://www.zyx-app.com/)
 * Tools
 	* [UI Stencils](http://www.uistencils.com/products/iphone-sketch-pad)
+	* [proto.io](http://proto.io/) - mobile prototyping
 	* [ofxiPhoneSocial](https://github.com/claytical/ofxiPhoneSocial/blob/master/src/ofxiPhoneSocial.h)
 	* [PhoneGap](http://phonegap.com/)
+	* [PhoneGap emulator](http://emulate.phonegap.com/)
+	* [PhoneGap cloud packager](http://build.phonegap.com/)
 * Assignment
 	* We will give one-day assignments for seven days (November 18 to November 24) that involve reflecting on the way you use your phone. We will share and discuss our experiences in class on November 25.
 		* Day 1 - Delete all contacts you do not plan on contacting again.
@@ -415,7 +422,7 @@ Overview of projects and readings from last week.
 * Share phone experiences.
 * Talk project ideas.
 * More discussion & history
-	* Augusto Boal, [Invisible Theater](http://en.wikipedia.org/wiki/Invisible_theater), Theater of the Oppressed
+	* Augusto Boal, [Invisible Theater](http://www.booki.cc/the-digital-legacies-of-the-avant-garde/invisible-theater/), Theater of the Oppressed
 	* Valie Export, [tapp und tastkino](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/02/VALIE-EXPORT-Touch-Cinema-1968.jpg) (tap and touch cinema)
 	* Adrian Piper, [Calling Card](http://wendyjanegrossman.com/wp-content/uploads/2013/01/adrain-piper-calling-card.jpg), [I am not here to pick anyone up](http://www.dalatdesigns.com/blog/wp-content/uploads/2013/07/flowerstreet1.jpg)
 	* [Tehching Hsieh](http://www.nytimes.com/slideshow/2009/03/01/arts/20090301_HSIEH_SLIDESHOW_3.html) 
