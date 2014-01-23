@@ -134,7 +134,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Learning to Love You More](http://www.learningtoloveyoumore.com/)
 * Tools
     * General
-        * [www.programmableweb.com](www.programmableweb.com) - giant list of APIs and resources 	
+        * [www.programmableweb.com](http://www.programmableweb.com/) - giant list of APIs and resources 	
     * Google scripting
         * http://www.google.com/script/start/
         * [InboxUnread source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/InboxUnread)
