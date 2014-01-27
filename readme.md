@@ -82,9 +82,6 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Create and document a social glitch involving technology, post it and tag it with #socialhacking.
 
 ### Week 2-3 (9/16): Social automation and APIs
-* This week in hacks
-    * http://www.forbes.com/sites/kashmirhill/2013/09/12/e-zpasses-get-read-all-over-new-york-not-just-at-toll-booths/
-    * Instagram uploading (start thinking about this)
 * Review work from past week
     * One more related to social glitch - [Crying to Dragon](http://www.sophiabrueckner.com)
 * Creatively (mis)usings APIs and automation
@@ -136,7 +133,8 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Learning to Love You More](http://www.learningtoloveyoumore.com/)
 * Tools
     * General
-        * [www.programmableweb.com](http://www.programmableweb.com/) - giant list of APIs and resources 	
+        * [www.programmableweb.com](http://www.programmableweb.com/) - giant list of APIs and resources 
+        * [www.kimonolabs.com](http://www.kimonolabs.com/) - easy tool for turning any website into an API
     * Google scripting
         * http://www.google.com/script/start/
         * [InboxUnread source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/InboxUnread)
