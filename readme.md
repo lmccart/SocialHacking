@@ -14,7 +14,7 @@
 * [#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
 * [#socialhacking aggregator](http://kylemcdonald.net/itp/AppropriatingInteractionTechnologies/tweetscrape/)
 
-## Course description
+## Course descriptionse
 
 This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
@@ -295,6 +295,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 * __Discussion due 10/28:__  Each pair will prepare one of the following readings ~5 min presentation, 5 min class discussion leading.
 	* [With friends like these...](http://www.randomhouse.ca/hazlitt/feature/friends-these) - A tour through some of the art inspired by America’s obsession with enemies-within.
+	* [To Infect and Protect](http://www.youtube.com/watch?v=b0w36GAyZIA) - Jacob Appelbaum at 30c3, and [transcription](http://www.nakedcapitalism.com/2013/12/bareback-internet-ride-nsa.html)
 	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/)
 	* [Quantified self](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html)
 	* [Steve Mann](http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life)
