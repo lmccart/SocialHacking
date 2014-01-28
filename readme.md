@@ -294,14 +294,15 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* Misinterpret/misrepresent (collect too much or curated information, use some of it to tell a fake story)
 
 * __Discussion due 10/28:__  Each pair will prepare one of the following readings ~5 min presentation, 5 min class discussion leading.
-	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/) - Hanbyul, Carl
-	* [Quantified self](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html) - Tarana, Su
-	* [Steve Mann](http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life) - Andrés, Bill
-	* [Living offline without being tracked](http://www.fastcompany.com/3019847/think-you-can-live-offline-without-being-tracked-heres-what-it-takes) - Tianyu, Harry
-	* [What’s in a name?](http://events.ccc.de/congress/2011/Fahrplan/events/4713.en.html) and http://www.youtube.com/watch?v=pbxaA6B8tfc - Ben, Mike
+	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/)
+	* [Quantified self](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html)
+	* [Steve Mann](http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life)
+	* [Living offline without being tracked](http://www.fastcompany.com/3019847/think-you-can-live-offline-without-being-tracked-heres-what-it-takes)
+	* [What’s in a name?](http://events.ccc.de/congress/2011/Fahrplan/events/4713.en.html) and http://www.youtube.com/watch?v=pbxaA6B8tfc
 	* Bruce Schneier [security vs privacy](https://www.schneier.com/crypto-gram-0802.html#1) and [trading security for convenience](https://www.schneier.com/crypto-gram-1306.html#3)
-	* Bruce Schneier [privacy salience and social networking sites](https://www.schneier.com/crypto-gram-0908.html#2) and [privacy and control](https://www.schneier.com/crypto-gram-1004.html#1) - Ju and Ilwon
-	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance) - Mack, Gal
+	* Bruce Schneier [privacy salience and social networking sites](https://www.schneier.com/crypto-gram-0908.html#2) and [privacy and control](https://www.schneier.com/crypto-gram-1004.html#1)
+	* [The flawed psychology of government mass surveillance](http://www.theguardian.com/science/head-quarters/2013/aug/26/nsa-gchq-psychology-government-mass-surveillance)
+	* [You don’t want your privacy: Disney and the meat space data race](http://gigaom.com/2014/01/18/you-dont-want-your-privacy-disney-and-the-meat-space-data-race/)
 
 ### Week 7 (10/28): security, surveillance and privacy
 
