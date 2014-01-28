@@ -147,7 +147,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * Facebook - https://developers.facebook.com/
         * https://github.com/igiso/ofxFacebook - implementation of FB SDK 3.0 with OF
     * Mechanical Turk
-        * [Kitchen Table Coders workshop resouces](http://kitchentablecoders.com/2013/08/10/mturk-workshop/)
+        * [Kitchen Table Coders workshop resouces](http://kitchentablecoders.com/class/2013/08/10/mturk-workshop/)
         * https://github.com/jefftimesten/mturk - nodejs wrapper for MTurk
         * https://github.com/mdp/rturk - ruby wrapper for MTurk
         * https://github.com/twitter/clockworkraven - webapp for MTurk interface, created by Twitter
