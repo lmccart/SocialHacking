@@ -295,6 +295,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 * __Discussion due 10/28:__  Each pair will prepare one of the following readings ~5 min presentation, 5 min class discussion leading.
 	* [With friends like these...](http://www.randomhouse.ca/hazlitt/feature/friends-these) - A tour through some of the art inspired by America’s obsession with enemies-within.
+	* [Art, Activism, and CCTV, Joanne McNeil](http://joannemcneil.com/index.php?/talks-and-such/cctv-art-and-activism/)
 	* [To Infect and Protect](http://www.youtube.com/watch?v=b0w36GAyZIA) - Jacob Appelbaum at 30c3, and [transcription](http://www.nakedcapitalism.com/2013/12/bareback-internet-ride-nsa.html)
 	* [Social dark matter](http://www.ribbonfarm.com/2013/03/22/social-dark-matter-on-seeing-and-being-seen/)
 	* [Quantified self](http://www.huffingtonpost.com/2013/01/28/quantified-spouse-movement_n_2567459.html)
