@@ -181,6 +181,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [Example Task Rabbit](https://www.taskrabbit.com/profile/jesserafe)
 * [Gigwalk](http://gigwalk.com/)
 * Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
+* [Almost human: the surreal cyborg future of telemarketing](http://www.theatlantic.com/technology/archive/2013/12/almost-human-the-surreal-cyborg-future-of-telemarketing/282537/)
 
 ### Week 4 (9/30): extensions and customization
 * Review HPI and misused API work
