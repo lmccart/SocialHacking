@@ -326,6 +326,7 @@ Overview of projects and readings from last week.
         * [LIWC](http://liwc.net) 
         * [Psychic Twitter bots](http://www.fastcodesign.com/3025738/ibms-next-big-thing-psychic-twitter-bots)  
 
+
 * __Reading__: Read all of [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin and tweet one thought about something in the essay. For a really great more academic introduction to computer vision that doesn't relate to art, see [3D Computer Vision: Past, Present and Future](http://www.youtube.com/watch?v=kyIzMr917Rc) a presentation by Steve Seitz at Google.
 * __Assignment__: First we'll assign partners. In that group we ask you to create a filter or adapter using computer vision that improves your interaction with each other. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
 	* [Taller Than Most](http://www.jacobtonski.com/tallerthanmost/) 
