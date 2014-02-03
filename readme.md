@@ -323,8 +323,8 @@ Overview of projects and readings from last week.
 	* [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/) by Richard Szeliski
 	
 * Linguistic analysis
-        * [LIWC](http://liwc.net) 
-        * [Psychic Twitter bots](http://www.fastcodesign.com/3025738/ibms-next-big-thing-psychic-twitter-bots)  
+	* [LIWC](http://liwc.net) 
+	* [Psychic Twitter bots](http://www.fastcodesign.com/3025738/ibms-next-big-thing-psychic-twitter-bots)  
 
 
 * __Reading__: Read all of [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin and tweet one thought about something in the essay. For a really great more academic introduction to computer vision that doesn't relate to art, see [3D Computer Vision: Past, Present and Future](http://www.youtube.com/watch?v=kyIzMr917Rc) a presentation by Steve Seitz at Google.
