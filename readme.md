@@ -312,11 +312,8 @@ This four-point course will meet in the first twelve weeks of the semester.
 
 Overview of projects and readings from last week.
 
-### Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks)
+### Weeks 8-9 (11/4, 11/11): computer vision (face/body/eye tracking with openFrameworks), linguistic analysis
 
-* Quick travel report.
-* 3 groups presenting the remaining readings from last week.
-* Two late assignments to share.
 * Discuss midpoint feedback.
 * Computer vision overview. We'll be working mainly from a public document called [Computer Vision in Interactive Art](https://docs.google.com/document/d/1Yky5TpKrxNDQzD7sXQ8gGpYFTsQhac1PrjYLQ3X_zJQ/edit?usp=sharing) which is part of a workshop. But there are a few links contained there that are also important references:
 	* [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin
@@ -324,6 +321,9 @@ Overview of projects and readings from last week.
 	* [Face Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2) for Appropriating New Technologies / Face as Interface workshop
 	* [Eye Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-5) for Appropriating New Technologies
 	* [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/) by Richard Szeliski
+* Linguistic analysis
+        * [LIWC](http://liwc.net) 
+        * [Psychic Twitter bots](http://www.fastcodesign.com/3025738/ibms-next-big-thing-psychic-twitter-bots)  
 
 * __Reading__: Read all of [Computer Vision for Artists and Designers](http://www.flong.com/texts/essays/essay_cvad/) by Golan Levin and tweet one thought about something in the essay. For a really great more academic introduction to computer vision that doesn't relate to art, see [3D Computer Vision: Past, Present and Future](http://www.youtube.com/watch?v=kyIzMr917Rc) a presentation by Steve Seitz at Google.
 * __Assignment__: First we'll assign partners. In that group we ask you to create a filter or adapter using computer vision that improves your interaction with each other. A filter is something that only allows certain things through. An adapter is something that changes things that pass through it. For example, if you only wanted to video chat with people with dark skin, a filter would reject any invitations from people with light skin. An adapter would take all the light skinned people and make them darker skinned.
