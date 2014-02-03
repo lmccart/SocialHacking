@@ -321,6 +321,7 @@ Overview of projects and readings from last week.
 	* [Face Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-2) for Appropriating New Technologies / Face as Interface workshop
 	* [Eye Tracking Notes](https://github.com/kylemcdonald/AppropriatingNewTechnologies/wiki/Week-5) for Appropriating New Technologies
 	* [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/) by Richard Szeliski
+	
 * Linguistic analysis
         * [LIWC](http://liwc.net) 
         * [Psychic Twitter bots](http://www.fastcodesign.com/3025738/ibms-next-big-thing-psychic-twitter-bots)  
