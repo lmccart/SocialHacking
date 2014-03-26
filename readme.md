@@ -405,6 +405,7 @@ Overview of projects and readings from last week.
 * Reading
 	* __Required__: Post one tweet about [The Prophet’s Prosthesis: An Interview with Krzysztof Wodiczko](http://www.sculpture.org/documents/scmag99/may99/wodiczko/wodiczko.shtml) and if you want more context for Krzysztof's work read [Designing for the City of Strangers](http://www.intelligentagent.com/ME/wodiczko.pdf)
 	* __Recommended__:
+	        * [Rhizome: locative media revisited](http://rhizome.org/editorial/2014/mar/26/locative-media-revisited/?ref=fp_post_readbtn) 
 		* [Mark Skwarek](http://www.markskwarek.com/) and [The AR Art Manifesto](http://www.manifestar.info/)
 		* [The Street is the Stage](http://classes.design.ucla.edu/Winter11/199/wp-content/uploads/2011/01/RSP_schechner.pdf)
 		* Reading list from [Urban Hacking / Interventions in Public Space](https://docs.google.com/document/d/1UQNJNXH_H0P8FTnBjxCBt9ruuhEjlf5SMcLEFPyrslM/edit)
