@@ -285,6 +285,7 @@ This four-point course will meet in the first twelve weeks of the semester.
 * Research
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
+	* [ghostery](https://www.ghostery.com/en/)
 
 * __Assignment due 10/28:__ Do one or more of the following:
 	* Document (yourself or someone else)
