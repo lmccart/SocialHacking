@@ -135,6 +135,7 @@ This four-point course will meet in the first twelve weeks of the semester.
     * General
         * [www.programmableweb.com](http://www.programmableweb.com/) - giant list of APIs and resources 
         * [www.kimonolabs.com](http://www.kimonolabs.com/) - easy tool for turning any website into an API
+        * [temboo.com](http://temboo.com) - simple APIs for many services in many languages
     * Google scripting
         * http://www.google.com/script/start/
         * [InboxUnread source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/InboxUnread)
