@@ -282,6 +282,10 @@ This four-point course will meet in the first twelve weeks of the semester.
 	* [Raytheon social media](http://www.theguardian.com/world/2013/feb/10/software-tracks-social-media-defence?CMP=twt_gu)
 	* DDOS from [Anonymous](http://mashable.com/2010/12/09/how-operation-payback-executes-its-attacks/) and as [protest](http://www.utsandiego.com/news/2010/apr/09/ucsd-prof-turns-meeting-protest-rally/)
 	* [Ellen Page Is Naked In The Uncanny Valley](http://www.fastcodesign.com/3020630/ellen-page-is-naked-in-the-uncanny-valley?partner=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fastcompany%2Fheadlines+%28Fast+Company%29)
+* Intro to hacking
+	*  [XSS Vulnerability example](http://itp.nyu.edu/sigs/program/?semesteryear=XSS%20FTW)
+	*  tcpdump `sudo tcpdump -l -e -I -i en0 'type mgt subtype probe-req'` and [airport](https://gist.github.com/kylemcdonald/9601190) for wireless monitoring
+	*  [Heartbleed](https://github.com/musalbas/heartbleed-masstest/blob/master/ssltest.py)
 * Research
 	* [Firesheep](https://en.wikipedia.org/wiki/Firesheep)
 	* [Immersion](https://immersion.media.mit.edu/)
