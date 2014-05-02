@@ -14,6 +14,7 @@ void setup() {
 void draw() {
   while(monitor.hasNewProbeRequestFrame()) {
     ProbeRequestFrame cur = monitor.getNextProbeRequestFrame();
+    cur.mac = cur.mac.toUpperCase();
     if(cur.ssid.equals("")) {
       m.add(cur.mac);
     } else {
@@ -28,13 +29,23 @@ void draw() {
     dragged.particle.position().set(xy.x(), xy.y(), 0);
   }
   m.render();
+  
+  pushStyle();
+  pushMatrix();
+  noFill();
+  rectMode(CENTER);
+  translate(width / 2, height / 2);
+  stroke(0, 255 - min(255, monitor.timeSinceNewData()));
+  ellipse(0, 0, 10, 10);
+  ellipse(0, 0, 14, 14);
+  popMatrix();
+  popStyle();
 }
 
 void keyPressed() {
   // quick hack, doesn't work with stop button
   if (key == ESC) {
     monitor.quit();
-    exit();
   }
 }
 

@@ -12,8 +12,9 @@ class ProbeRequestFrame {
 
 class WifiMonitor extends Thread {
   boolean running = false;
+  int newData = 0;
   
-  String command = "/usr/sbin/tcpdump -l -e -I -i en0";// 'type mgt subtype probe-req'";
+  String command = "/usr/sbin/tcpdump -l -e -I -i en0";
   String patternString = ".+SA:([^ ]+) .+? Probe Request \\(([^)]*?)\\) .+";
   Pattern pattern;
 
@@ -38,21 +39,23 @@ class WifiMonitor extends Thread {
   void run() {
     while (running) {
       try {
-        print(".");
+        newData = millis();
         String line = input.readLine ();
-        if (line == null) {
-          // but break when no more are immediately available
-          break;
-        }
-        Matcher matcher = pattern.matcher(line);
-        if (matcher.matches()) {
-          probeRequestFrames.add(new ProbeRequestFrame(matcher.group(1), matcher.group(2)));
+        if(line != null) {
+          Matcher matcher = pattern.matcher(line);
+          if (matcher.matches()) {
+            probeRequestFrames.add(new ProbeRequestFrame(matcher.group(1), matcher.group(2)));
+          }
         }
       }
       catch (Exception e) {
         e.printStackTrace();
       }
     }
+  }
+  
+  int timeSinceNewData() {
+    return millis() - newData;
   }
 
   boolean hasNewProbeRequestFrame() {

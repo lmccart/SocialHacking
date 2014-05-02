@@ -38,9 +38,11 @@ class Nodes extends Vector<Node> {
     fdg.time(1);
   }
   void render() {
+    pushMatrix();
     fdg.position(); 
     for (int i = 0; i < size(); i++) get(i).drawArrow();
     for (int i = 0; i < size(); i++) get(i).drawNode();
+    popMatrix();
   }
   Node at(float x, float y) {
     for (int i = 0 ; i < size(); i++) {

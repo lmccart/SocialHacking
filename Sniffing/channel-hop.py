@@ -41,11 +41,14 @@ def hopChannels():
 	hopTimer = Timer(hopTime, hopChannels)
 	hopTimer.start()
 
-print("Press enter at any time to quit.");
+print("Press Enter or CTRL-C at any time to quit.");
 
 hopChannels()
 
-input()
+try:
+	input()
+except:
+	pass
 
 hopTimer.cancel()
 call(['networksetup',
