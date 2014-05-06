@@ -4,10 +4,10 @@ import traer.physics.*;
 // available from http://classic-web.archive.org/web/20060911111322/http://www.cs.princeton.edu/~traer/animation/
 import traer.animation.*;
 
-final float EDGE_LENGTH = 30;
-final float EDGE_STRENGTH = 0.3;
-final float CENTER_STRENGTH = 100000;
-final float SPACER_STRENGTH = 1000;
+final float EDGE_LENGTH = 40;
+final float EDGE_STRENGTH = 0.1;
+final float CENTER_STRENGTH = 200000;
+final float SPACER_STRENGTH = 500;
 
 class ForceDirectedGraph extends ParticleSystem {
   Smoother3D centroid;
@@ -28,9 +28,9 @@ class ForceDirectedGraph extends ParticleSystem {
   }
   void position() {
     translate( width/2 , height/2 );
-    if(centroid.z() != 1)
-      scale(centroid.z());
-    translate(-centroid.x(), -centroid.y());
+//    if(centroid.z() != 1)
+//      scale(centroid.z());
+//    translate(-centroid.x(), -centroid.y());
   }
   Vector3D remap(float x, float y) {
     return new Vector3D(

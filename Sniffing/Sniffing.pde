@@ -1,3 +1,9 @@
+//bursts from
+// d8:d1:c8
+// 40:b0:fa
+// 28:e0:2c
+// 28:37:37
+
 WifiMonitor monitor = new WifiMonitor();
 Nodes m;
 PFont trebuchet;
@@ -14,11 +20,13 @@ void setup() {
 void draw() {
   while(monitor.hasNewProbeRequestFrame()) {
     ProbeRequestFrame cur = monitor.getNextProbeRequestFrame();
-    cur.mac = cur.mac.toUpperCase();
-    if(cur.ssid.equals("")) {
-      m.add(cur.mac);
-    } else {
-      m.connect(cur.mac, cur.ssid);
+    if(cur != null) {
+      cur.mac = cur.mac.toUpperCase();
+      if(cur.ssid.equals("")) {
+  //      m.add(cur.mac);
+      } else {
+        m.connect(cur.mac, cur.ssid);
+      }
     }
   }
   
@@ -43,6 +51,9 @@ void draw() {
 }
 
 void keyPressed() {
+  if(key == 's') {
+    saveFrame("out.png");
+  }
   // quick hack, doesn't work with stop button
   if (key == ESC) {
     monitor.quit();
