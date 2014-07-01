@@ -1,0 +1,37 @@
+{
+    "name": "FB Mood Manipulator",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "FB Mood Manipulator",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.facebook.com/"
+            ],
+            "js": [
+                "scripts/jquery.js",
+                "scripts/content_script.js",
+                "scripts/localstoragedb.min.js",
+                "scripts/LIWC.js",
+                "scripts/parser.js"
+            ],
+            "css": ["style.css"]
+        }
+    ],
+    "content_security_policy": "script-src 'self' http://localhost; object-src 'self' http://localhost",
+    "incognito": "split",
+    "offline_enabled": false,
+    "permissions": [
+        "tabs",
+        "https://www.facebook.com/",
+        "http://localhost/*"
+    ],
+    "update_url": "http://path/to/updateInfo.xml",
+    "web_accessible_resources": [
+        "manifest.json",
+        "scripts/jquery.min.map",
+        "scripts/localstoragedb.min.js",
+        "scripts/LIWC.js",
+        "scripts/parser.js"
+    ]
+}
