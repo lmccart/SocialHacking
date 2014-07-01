@@ -4,16 +4,15 @@ var Parser = function(db) {
 
   var masterTraits = {
     //['funct', '+funct'], //function words. for testing.
-    'posemo': '+posemo', //use cat names if they correspond!
-    'negemo': '+negemo',
+    'posemo': '+posemo-negemo', //use cat names if they correspond!
     // ['anger', '+anger'], 
     // ['i', '+i'], 
-    // // ['we', '+we'], 
+    'we': '+we',
     // // ['complexity', '+excl+tentat+negate-incl+discrep'],
     // // ['status', '+we-i'],
     // // ['depression', '+i+bio+negemo-posemo'],
     // // ['formality', '-i+article+sixltr-present-discrep'],
-    // ['honesty', '+i+excl-negemo'],
+    'honesty': '+i+excl-negemo',
     // ['femininity', '+other+posemo+sixltr-negate-article-preps-swear-money-number'],
     'aggression': '+anger+swear'
   };
@@ -35,7 +34,7 @@ var Parser = function(db) {
             db.insertOrUpdate('LIWC_words', {word: LIWC[i]['word']}, {word: LIWC[i]['word'], wildcard: false, cats: LIWC[i]['cat']});
         }
 
-        console.log('loaded nonwild '+LIWC.length);
+        //console.log('loaded nonwild '+LIWC.length);
         db.commit();
       }
       // then load wild table
@@ -47,14 +46,14 @@ var Parser = function(db) {
           if (LIWC_wild[i]['word'])
             db.insertOrUpdate('LIWC_words_wild', {word: LIWC_wild[i]['word']}, {word: LIWC_wild[i]['word'], wildcard: true, cats: LIWC_wild[i]['cat']});
         }
-        console.log('loaded wild '+LIWC_wild.length);
+        //console.log('loaded wild '+LIWC_wild.length);
         db.commit();  
       } 
     }, 
   
     parseItem: function(item) {
     
-      console.log(item);
+      //console.log(item);
       var spaceRegEx = new RegExp(/\S{1,}/g);
       var wordRegEx = new RegExp(/[\w|@|#]{1,}/);
       

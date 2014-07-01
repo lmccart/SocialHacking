@@ -7,6 +7,29 @@
 	margin-bottom: 10px;
 }
 
-.subtitle {
+#man_heading {
+	position: relative;
+}
+
+#man_heading h6 {
+	position: absolute;
+	left: 26px;
+	top: 6px;
+}
+
+#manipulator .subtitle {
 	color: #9197a3;
+	margin: 0 0 10px 0;
+}
+
+#manipulator table {
+	border-spacing: 0;
+}
+
+#manipulator td {
+	padding-right: 10px;
+}
+
+#manipulator input {
+	width: 100%;
 }
