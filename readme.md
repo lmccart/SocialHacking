@@ -107,6 +107,7 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Crowd Workers of the World Unite](http://www.crowdworkersoftheworldunite.com/)
     * Foursquare
         * [Hell is other people](http://hell.j38.net/)
+        * http://avoidhumans.com
         * [Girls around me](http://girlsaround.me/)
         * [Please rob me](http://pleaserobme.com/)
     * Dating
