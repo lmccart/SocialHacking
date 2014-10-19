@@ -38,30 +38,8 @@ Auditors are welcome; if you come you should be engaged, but we can’t create a
 
 ### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch)
 
-
-#### Assignment (due 10/29)
-
-* Sign up for the [google group mailing list](https://groups.google.com/forum/#!forum/appropriating-interaction-technologies).
-* Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1).
-* Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing).
-
-__Please add a link to your assignment below.__
-* Aankit Patel
-* Allison Ye 
-* Clara Vargas 
-* Eojin Chae
-* Eunjin Kim
-* Fletcher Bach
-* Haylee Jung
-* Jaewoong Hwang 
-* Jannae Jacks
-* Karen Peng 
-* Julia Irwin
-* Margaret Godwin
-* Rodrigo Derteano 
-* Sheri Manson
-* Tan Ma
-* WoonYung Choi 
+* Course intro
+* [Assignment 1](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-1-due-1029)
 
 
 ### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs)
