@@ -69,11 +69,6 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Mark Lombardi on wikipedia](http://en.wikipedia.org/wiki/Mark_Lombardi)
         * [Mark Lombardi article](http://socks-studio.com/2012/08/22/mark-lombardi/)
         * [technical flowcharts](http://en.wikipedia.org/wiki/File:Activity_conducting.svg)
-* __Assignment due 9/16:__
-    * Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1).
-    * Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing).
-    * Post one tweet inspired by each reading, tagged with #socialhacking.
-    * Create and document a social glitch involving technology, post it and tag it with #socialhacking.
 
 ### Week 2-3 (9/16): Social automation and APIs
 * Review work from past week
