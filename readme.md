@@ -2,19 +2,16 @@
 
 
 * Kyle McDonald and Lauren McCarthy
-* NYU ITP Fall 2013
-* Mondays 2:30-5:30, ITP rm 447
-* Office hours Fridays 3:30-6:30, ITP adjunct lounge
+* NYU ITP
+* [Fall 2014 - Course Info](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Course-Info)
 
 ## Important links
 
 * [github repo](https://github.com/lmccart/AppropriatingInteractionTechnologies) - Readme contains course information, repo also serves as a collection of scripts and tools for social hacking.
 * [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
 * [mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
-* [#socialhacking](https://twitter.com/search?q=%23socialhacking&mode=realtime) - For submitting homework links, sharing shorter thoughts with public.
-* [#socialhacking aggregator](http://kylemcdonald.net/itp/AppropriatingInteractionTechnologies/tweetscrape/)
 
-## Course descriptionse
+## Course descriptions
 
 This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
