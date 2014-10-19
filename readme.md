@@ -65,109 +65,35 @@ __Please add a link to your assignment below.__
 * WoonYung Choi 
 
 
-### Week 2-3 (9/16): Social automation and APIs
-* Review work from past week
-    * One more related to social glitch - [Crying to Dragon](http://www.sophiabrueckner.com)
-* Creatively (mis)usings APIs and automation
-    * Custom API
-        * [Dronestream](http://dronestre.am/)
-        * [Dronestagram](http://dronestagram.tumblr.com/)
-        * [Botanicalls](http://www.botanicalls.com/kits/)
-		* [Tracking Transience](http://trackingtransience.net/) ([NYT Article](http://www.nytimes.com/2011/10/30/opinion/sunday/giving-the-fbi-what-it-wants.html?pagewanted=all&_r=1&))
-    * Twitter
-        * [Everyword](https://twitter.com/everyword)
-        * [On Kawara tribute](https://twitter.com/On_Kawara)
-        * [keytweeter](https://twitter.com/keytweeter)
-    * Facebook
-        * [Face To Facebook](http://www.face-to-facebook.net/)
-        * [Ssocial Roulette](http://socialroulette.net)
-        * [Web 2.0 Suicide Machine](http://en.wikipedia.org/wiki/Web_2.0_Suicide_Machine)
-        * [I Like What I See](https://github.com/sklise/i-like-what-i-see)
-        * [The Whatever Button](http://archive.j-mediaarts.jp/en/festival/2012/entertainment/works/16e_Whatever_Button/)
-        * [Pete Warden sued by FB](http://petewarden.com/2010/04/05/how-i-got-sued-by-facebook/)
-    * Mechanical Turk
-        * [Social Turkers](http://socialturkers.com/)
-        * [Laborers of Love](http://www.jeffcrouse.info/project/laborers_of_love.html)
-        * [Crowd Workers of the World Unite](http://www.crowdworkersoftheworldunite.com/)
-    * Foursquare
-        * [Hell is other people](http://hell.j38.net/)
-        * http://avoidhumans.com
-        * [Girls around me](http://girlsaround.me/)
-        * [Please rob me](http://pleaserobme.com/)
-    * Dating
-        * https://github.com/shawn-simon/OkCupid
-        * [A More Perfect Union](http://music.columbia.edu/~luke/projects/index.shtml?id=perfect)
-    * SMS
-        * [Breakup Text](https://itunes.apple.com/us/app/breakuptext/id674333306?ls=1&mt=8)
-        * [Makeup Text](https://itunes.apple.com/us/app/makeuptext/id681601569?ls=1&mt=8)
-    * Death
-        * [Fatalatour](http://fatalatour.com)
-    * Amazon
-        * [Other People Also Bought](http://otherpeoplealsobought.com/)
-    * Google
-        * [Search by image](http://vimeo.com/34949864)
-        * [Google Translate](http://www.penacosta.com/163814/1231921/gallery/gaagoo-translate-singer)
-        * [GWEI](http://www.gwei.org/index.php)
-    * Other automation
-        * http://rhizome.org/editorial/2013/apr/9/queer-history-computing-part-three/
-        * [Self Portrait Bot](http://stfj.net/index2.php?project=art/2008/Self-Portrait%20Bot)
-        * [DanmatsuMouse](http://exonemo.com/DanmatsuMouse/indexE.html)
-        * [DesktopBAM](http://www.youtube.com/watch?v=p9gTcP5aIkA)
-    * Other rules and protocols
-        * [The Essential Guide to Performing Michael Mandiberg](http://www.mandiberg.com/the-essential-guide-to-performing-michael-mandiberg/)
-        * [Learning to Love You More](http://www.learningtoloveyoumore.com/)
-* Tools
-    * General
-        * [www.programmableweb.com](http://www.programmableweb.com/) - giant list of APIs and resources 
-        * [www.kimonolabs.com](http://www.kimonolabs.com/) - easy tool for turning any website into an API
-        * [temboo.com](http://temboo.com) - simple APIs for many services in many languages
-    * Google scripting
-        * http://www.google.com/script/start/
-        * [InboxUnread source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/InboxUnread)
-    * OAuth 1.0
-        * https://github.com/bakercp/ofxOAuth - an OF OAuth 1.0 system (via liboauth) with pin-less verification via a mini callback server Examples for Twitter, Tumblr, Vimeo, Fitbit, etc.
-    * Twitter - https://dev.twitter.com
-        * https://github.com/drewvergara/ofxTwitter - implementation of Twitter API with OF
-        * [keytweeter source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/keytweeter)
-        * [Processing examples with Twitter4J](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/ProcessingTwitterExamples)
-    * Facebook - https://developers.facebook.com/
-        * https://github.com/igiso/ofxFacebook - implementation of FB SDK 3.0 with OF
-    * Mechanical Turk
-        * [Kitchen Table Coders workshop resouces](http://kitchentablecoders.com/class/2013/08/10/mturk-workshop/)
-        * https://github.com/jefftimesten/mturk - nodejs wrapper for MTurk
-        * https://github.com/mdp/rturk - ruby wrapper for MTurk
-        * https://github.com/twitter/clockworkraven - webapp for MTurk interface, created by Twitter
-        * http://aws.amazon.com/code/Amazon-Mechanical-Turk
-    * IFTTT
-        * https://ifttt.com/channels
-        * https://github.com/cido/ifttt-channel-extensions - create custom IFTTT channels
-    * OkCupid
-        * https://github.com/trek/lonely_coder - ruby scraper interface
-        * https://github.com/shawn-simon/OkCupid - nodejs scraper / automated message sender interface
-    * Computer interaction
-        * [RobotDemo source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/RobotDemo) - using the java robot to type and move the mouse
-        * [EmojiPaster source](https://github.com/lmccart/AppropriatingInteractionTechnologies/tree/master/EmojiPaster) - using the java robot to paste text
-		* [phantom.js](http://phantomjs.org/)
-* __Assignment due 9/30:__
-    * Create an HPI (human programming interface) that allows others to control some aspect of your life. By __next week (9/23)__ you should have the system built and in place and ready for a one week trial / performance / experiment.
-    * Creatively misuse an existing API in order to reveal something about the service.
-* __Read:__
-    * [Objects of intense feeling: the case of the Twitter API](http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api)  
-    * Jer Thorp, [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api)
- 
+### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs)
+
+
+#### Assignment (due 11/5)
+
+__Please add a link to your assignment below.__
+* Aankit Patel
+* Allison Ye 
+* Clara Vargas 
+* Eojin Chae
+* Eunjin Kim
+* Fletcher Bach
+* Haylee Jung
+* Jaewoong Hwang 
+* Jannae Jacks
+* Karen Peng 
+* Julia Irwin
+* Margaret Godwin
+* Rodrigo Derteano 
+* Sheri Manson
+* Tan Ma
+* WoonYung Choi 
+
+
+
 ### Week 3 (9/23): Social automation and APIs
 * Dan Moore [guest lecture](https://docs.google.com/a/makeitdoathing.com/presentation/d/1g9-Mnm9OYgM_zTpynk3wGVNENRecVD2I9CNQDFjjUsc/edit?usp=sharing)
 * HPI presentations and feedback
-* [Mechanical Turk](http://mturk.com/) Farm and discussion
-	* 20 minutes to make as much money as possible
-	* all the bounty goes to treats for next week
-* Task Rabbit
-	* [NYC](https://www.taskrabbit.com/new-york-city)
-	* [Human alarm clock](https://www.taskrabbit.com/new-york-new-york-city/t/human-alarm-clock-for-2-weeks)
-	* [Example Task Rabbit](https://www.taskrabbit.com/profile/jesserafe)
-* [Gigwalk](http://gigwalk.com/)
-* Automation-related: [AirBnb](www.airbnb.com), [Craigslist](craigslist.org)
-* [Almost human: the surreal cyborg future of telemarketing](http://www.theatlantic.com/technology/archive/2013/12/almost-human-the-surreal-cyborg-future-of-telemarketing/282537/)
+
 
 ### Week 4 (9/30): extensions and customization
 * Review HPI and misused API work
