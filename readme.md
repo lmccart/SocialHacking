@@ -1,7 +1,7 @@
 # Appropriating Interaction Technologies
 
 * Wednesdays 3:20-5:50, ITP room 442
-* [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description of the signup. If you need to set up a different time, email me us.
+* [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description of the signup. If you need to set up a different time, email us.
 * [Resident office hours signup](https://itp.nyu.edu/inwiki/)
 
 
