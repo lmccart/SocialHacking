@@ -1,6 +1,35 @@
 # Appropriating Interaction Technologies
 
-* [Fall 2014 - Course Info](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Course-Info)
+* Wednesdays 3:20-5:50, ITP room 442
+* [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description. If you need to set up a different time, email me us.
+* [Resident office hours signup](https://itp.nyu.edu/inwiki/)
+
+## Week 1 (10/22)
+
+
+### Assignment (due 10/29)
+
+* Sign up for the [google group mailing list](https://groups.google.com/forum/#!forum/appropriating-interaction-technologies).
+* Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1).
+* Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing).
+
+__Please add a link to your assignment below.__
+* Aankit Patel
+* Allison Ye 
+* Clara Vargas 
+* Eojin Chae
+* Eunjin Kim
+* Fletcher Bach
+* Haylee Jung
+* Jaewoong Hwang 
+* Jannae Jacks
+* Karen Peng 
+* Julia Irwin
+* Margaret Godwin
+* Rodrigo Derteano 
+* Sheri Manson
+* Tan Ma
+* WoonYung Choi 
 
 ## Important links
 
