@@ -28,7 +28,7 @@ This two-point course will meet in the second seven weeks of the semester.
 
 ##Expectations
 
-We are going to be introducing a variety of techniques and tools, ranging in technical difficulty. our main requirement for work is that it is of high quality -- it need not be hypertechnical, but it does need to be very well thought out and well executed. There will be one assignment each week, you may skip up to one and still pass the class.
+We are going to be introducing a variety of techniques and tools, ranging in technical difficulty. Our main requirement for work is that it is of high quality - it need not be hypertechnical, but it does need to be very well thought out and well executed. There will be one assignment each week, you may skip up to one and still pass the class.
 
 Attendance and participation is essential, you may miss one class and still pass the class.
 
