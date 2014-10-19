@@ -1,8 +1,5 @@
 # Appropriating Interaction Technologies
 
-
-* Kyle McDonald and Lauren McCarthy
-* NYU ITP
 * [Fall 2014 - Course Info](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Course-Info)
 
 ## Important links
