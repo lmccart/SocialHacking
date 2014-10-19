@@ -38,8 +38,8 @@ Auditors are welcome; if you come you should be engaged, but we can’t create a
 
 ### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch)
 
-* Course intro
-* [Assignment 1](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-1-due-1029)
+* Course introduction
+* [Assignment 1 (DUE 10/29)](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-1-due-1029)
 
 
 ### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs)
