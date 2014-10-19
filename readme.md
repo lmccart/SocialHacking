@@ -11,7 +11,7 @@
 * [google drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
 * [mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
 
-## Course descriptions
+## Course description
 
 This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
 
@@ -28,12 +28,11 @@ This two-point course will meet in the second seven weeks of the semester.
 
 ##Expectations
 
-* Class overview
-    * Policy regarding auditing: if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
-    * Policy regarding attendance: you can miss one class, anything else you fail.
-    * Policy regarding work: we are going to be introducing a variety of techniques and tools, ranging in technical difficulty. our main requirement for work is that it is of high quality -- it need not be hypertechnical, but it does need to be very well thought out and well executed.
-* Attendance and contracts.
+We are going to be introducing a variety of techniques and tools, ranging in technical difficulty. our main requirement for work is that it is of high quality -- it need not be hypertechnical, but it does need to be very well thought out and well executed. There will be one assignment each week, you may skip up to one and still pass the class.
 
+Attendance and participation is essential, you may miss one class and still pass the class.
+
+Auditors are welcome; if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
 
 ## Syllabus
 
