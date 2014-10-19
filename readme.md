@@ -24,7 +24,7 @@ tactics for intervention and performance will be explored, first through a set o
 
 A conviction that creative people can derail society for the best, a deep love for code, and a willingness to explore uncomfortable situations. You should at least have taken Introduction to Computational Media or have similar experience with programming.
 
-This four-point course will meet in the first twelve weeks of the semester.
+This two-point course will meet in the second seven weeks of the semester.
 
 ## Syllabus
 
