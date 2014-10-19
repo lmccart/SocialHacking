@@ -4,32 +4,6 @@
 * [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description. If you need to set up a different time, email me us.
 * [Resident office hours signup](https://itp.nyu.edu/inwiki/)
 
-## Week 1 (10/22)
-
-
-### Assignment (due 10/29)
-
-* Sign up for the [google group mailing list](https://groups.google.com/forum/#!forum/appropriating-interaction-technologies).
-* Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1).
-* Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing).
-
-__Please add a link to your assignment below.__
-* Aankit Patel
-* Allison Ye 
-* Clara Vargas 
-* Eojin Chae
-* Eunjin Kim
-* Fletcher Bach
-* Haylee Jung
-* Jaewoong Hwang 
-* Jannae Jacks
-* Karen Peng 
-* Julia Irwin
-* Margaret Godwin
-* Rodrigo Derteano 
-* Sheri Manson
-* Tan Ma
-* WoonYung Choi 
 
 ## Important links
 
@@ -98,6 +72,32 @@ This four-point course will meet in the first twelve weeks of the semester.
         * [Mark Lombardi on wikipedia](http://en.wikipedia.org/wiki/Mark_Lombardi)
         * [Mark Lombardi article](http://socks-studio.com/2012/08/22/mark-lombardi/)
         * [technical flowcharts](http://en.wikipedia.org/wiki/File:Activity_conducting.svg)
+
+
+### Assignment (due 10/29)
+
+* Sign up for the [google group mailing list](https://groups.google.com/forum/#!forum/appropriating-interaction-technologies).
+* Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1).
+* Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing).
+
+__Please add a link to your assignment below.__
+* Aankit Patel
+* Allison Ye 
+* Clara Vargas 
+* Eojin Chae
+* Eunjin Kim
+* Fletcher Bach
+* Haylee Jung
+* Jaewoong Hwang 
+* Jannae Jacks
+* Karen Peng 
+* Julia Irwin
+* Margaret Godwin
+* Rodrigo Derteano 
+* Sheri Manson
+* Tan Ma
+* WoonYung Choi 
+
 
 ### Week 2-3 (9/16): Social automation and APIs
 * Review work from past week
