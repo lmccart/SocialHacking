@@ -13,7 +13,7 @@ if len(sys.argv) > 1:
 	channels = sys.argv[1:len(sys.argv)]
 
 # run
-hopTime = 4
+hopTime = 1
 
 airport = '/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
 

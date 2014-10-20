@@ -28,9 +28,9 @@ class ForceDirectedGraph extends ParticleSystem {
   }
   void position() {
     translate( width/2 , height/2 );
-//    if(centroid.z() != 1)
-//      scale(centroid.z());
-//    translate(-centroid.x(), -centroid.y());
+    if(centroid.z() != 1)
+      scale(centroid.z());
+    translate(-centroid.x(), -centroid.y());
   }
   Vector3D remap(float x, float y) {
     return new Vector3D(
