@@ -15,6 +15,7 @@ class WifiMonitor extends Thread {
   int newData = 0;
   
   String command = "/usr/sbin/tcpdump -l -e -I -i en0";
+//  String command = "/usr/sbin/tcpdump -l -e -I -i en0 'type mgt subtype probe-req'";
   String patternString = ".+SA:([^ ]+) .+? Probe Request \\(([^)]*?)\\) .+";
   Pattern pattern;
 
@@ -44,7 +45,11 @@ class WifiMonitor extends Thread {
         if(line != null) {
           Matcher matcher = pattern.matcher(line);
           if (matcher.matches()) {
-            probeRequestFrames.add(new ProbeRequestFrame(matcher.group(1), matcher.group(2)));
+            String mac = matcher.group(1);
+            String ssid = matcher.group(2);
+            if(!ssid.contains("^")) { // no glitches
+              probeRequestFrames.add(new ProbeRequestFrame(mac, ssid));
+            }
           }
         }
       }
@@ -63,7 +68,7 @@ class WifiMonitor extends Thread {
   }
 
   ProbeRequestFrame getNextProbeRequestFrame() {
-    return probeRequestFrames.remove(0);
+    return hasNewProbeRequestFrame() ? probeRequestFrames.remove(0) : null;
   }
 
   void quit() {

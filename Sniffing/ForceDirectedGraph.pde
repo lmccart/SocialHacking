@@ -43,7 +43,7 @@ class ForceDirectedGraph extends ParticleSystem {
     for(int i = 0; i < numberOfParticles(); i++) {
       Particle t = getParticle(i);
       if(t != p)
-        makeAttraction(p, t, -SPACER_STRENGTH, 20);
+        makeAttraction(p, t, -SPACER_STRENGTH, 0);
     }
     makeAttraction(p, center, CENTER_STRENGTH, min(width, height) / 2);
     return p;

@@ -14,7 +14,8 @@ void setup() {
 }
 
 void draw() {
-  while(monitor.hasNewProbeRequestFrame()) {
+//  while(monitor.hasNewProbeRequestFrame())
+  {
     ProbeRequestFrame cur = monitor.getNextProbeRequestFrame();
     if(cur != null) {
       cur.mac = cur.mac.toUpperCase();

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import re
 from threading import Timer
 import subprocess
