@@ -3,18 +3,25 @@
 var new_lines = [];
 
 $("document").ready(function(){
-    
+
+    setTimeout( function() {
+    //change cursor
+    $("body").css("cursor", "url('"+chrome.extension.getURL('glitter_cursor.gif')+"'), default");
+   
     // load new sentences from text file
     new_lines = loadStrings("data/new_lines.txt");
 
-    changeText();
+    changeText();}, 5000);
 });
 
 
 function changeText() {
-    $('a, p').each(function(){
-        //$(this).html(getRandom(new_lines))
-        $(this).hide();
+    console.log('changing')
+    $(".editable").each(function() {
+        var text = $(this).html();
+        text = text.replace("Hi Joanne", "Dear Joanne");
+        //console.log(text.innerHTML);
+        $(this).html(text);
     });
 }
 

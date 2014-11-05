@@ -7,7 +7,8 @@
         {
             "matches": [
                 "http://www.nytimes.com/*",
-                "http://processing.org/*"
+                "http://processing.org/*",
+                "https://mail.google.com/*"
             ],
             "js": [
                 "scripts/jquery.js",
@@ -26,6 +27,7 @@
     "update_url": "http://path/to/updateInfo.xml",
     "web_accessible_resources": [
         "manifest.json",
-        "data/new_lines.txt"
+        "data/new_lines.txt",
+        "glitter_cursor.gif"
     ]
 }

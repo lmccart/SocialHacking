@@ -1,5 +1,5 @@
 {
-    "name": "Basic replace",
+    "name": "Basic Cursor",
     "version": "1.0",
     "manifest_version": 2,
     "description": "Basic replace",
@@ -26,6 +26,6 @@
     "update_url": "http://path/to/updateInfo.xml",
     "web_accessible_resources": [
         "manifest.json",
-        "data/new_lines.txt"
+        "glitter_cursor.gif"
     ]
 }
