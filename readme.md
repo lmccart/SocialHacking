@@ -9,11 +9,11 @@
 
 ## Syllabus
 
-### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch)
+### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-1)
 
-### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs)
+### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-2)
 
-### Week 3 (11/5): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization)
+### Week 3 (11/5): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-3)
 
 ### Week 4 (11/12): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy)
 
