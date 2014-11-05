@@ -11,33 +11,15 @@
 
 ### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch)
 
-* Course introduction
-* Cover main topic
-* Assignment 1 (Due 10/29)
-	* Sign up for the [google group mailing list](https://groups.google.com/forum/#!forum/appropriating-interaction-technologies) (1 min)
-	* Sign up [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome) (as a worker). (5 min)
-	* Read [NYT: excuse me, may I have your seat?](http://select.nytimes.com/gst/abstract.html?res=F20F15FE3A540C778DDDA00894DC404482&pagewanted=1) (10 min)
-	* Read p11-16 from [the glitch moment(um)](https://docs.google.com/file/d/0B9tyIRZ76JCdSlZJTU40R3RNaGs/edit?usp=sharing) (15 min)
-	* Recreate [I will talk with anyone](http://visitsteve.com/made/talkwithanyone/) with some of your personal flavor. Add documentation of your recreation to [the assignment page](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments)
-
 ### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs)
-* Assignment 2 (Due 11/5)
-	* Read [Objects of intense feeling: the case of the Twitter API](http://computationalculture.net/article/objects-of-intense-feeling-the-case-of-the-twitter-api)  
-	* Read [Art and the API](http://blog.blprnt.com/blog/blprnt/art-and-the-api)
-	* Complete one of the following projects and add documentation of your work to [the assignment page](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments):
-		* Create an HPI (human programming interface) that allows others to control some aspect of your life. You must run it for one day on yourself.
-		* Creatively misuse an existing API in order to reveal something about the service.
 
 ### Week 3 (11/5): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization)
 
-
 ### Week 4 (11/12): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy)
 
+### Week 5 (11/19): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
 
-###Week 5 (11/19): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile-platforms-and-public-performance)
-
-
-### Week 6 (11/26): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
+###Week 6 (11/26): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile-platforms-and-public-performance)
 
 ###Week 7 (12/3)
 
