@@ -13,8 +13,8 @@ $("document").ready(function(){
 
 function changeText() {
     $('a, p').each(function(){
-        //$(this).html(getRandom(new_lines))
-        $(this).hide();
+        $(this).html(getRandom(new_lines))
+        //$(this).hide();
     });
 }
 

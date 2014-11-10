@@ -2,12 +2,12 @@
     "name": "Basic Cursor",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "Basic replace",
+    "description": "Basic cursor",
     "content_scripts": [
         {
             "matches": [
                 "http://www.nytimes.com/*",
-                "http://processing.org/*"
+                "https://processing.org/*"
             ],
             "js": [
                 "scripts/jquery.js",

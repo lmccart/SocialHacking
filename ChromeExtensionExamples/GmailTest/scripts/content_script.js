@@ -1,56 +1,31 @@
 //------------------DOC READY-------------------//
-
-var new_lines = [];
-
-$("document").ready(function(){
-
-    setTimeout( function() {
-    //change cursor
-    $("body").css("cursor", "url('"+chrome.extension.getURL('glitter_cursor.gif')+"'), default");
-   
-    // load new sentences from text file
-    new_lines = loadStrings("data/new_lines.txt");
-
-    changeText();}, 5000);
+// When the popup HTML has loaded
+window.addEventListener('load', function(evt) {
+    console.log('load')
+    
+    chrome.runtime.getBackgroundPage(function(eventPage) {
+        console.log(eventPage)
+        // Call the getPageInfo function in the event page, passing in 
+        // our onPageDetailsReceived function as the callback. This injects 
+        // content.js into the current tab's HTML
+        eventPage.getPageDetails(onPageDetailsReceived);
+    });
 });
 
+// This callback function is called when the content script has been 
+// injected and returned its results
+function onPageDetailsReceived(pageDetails)  { 
+    console.log('hi')
+}
 
 function changeText() {
-    console.log('changing')
-    $(".editable").each(function() {
+    console.log("changeText");
+    $('.editable').each(function(){
+        //$(this).html(getRandom(new_lines))
+        
         var text = $(this).html();
-        text = text.replace("Hi Joanne", "Dear Joanne");
+        text = text.replace(/\./g, "!!!");
         //console.log(text.innerHTML);
         $(this).html(text);
     });
-}
-
-
-//seperates .txt into arrays based on line returns
-function loadStrings(file) {
-    var result;
-    $.ajax({
-        type: "GET",
-        url: chrome.extension.getURL(file),
-        async: false,
-        success: function(data){
-            result = data;
-        }
-    });
-    return result.split("\n");
-}
-
-
-//returns random value in array
-function getRandom(array){
-    var index = Math.floor(Math.random()*array.length);
-    var value = array[index];
-    return value;
-}
-
-
-//returns true if string contains searched character
-function contains(string, searchChar){
-    if(string.indexOf(searchChar) != -1) return true;
-    else return false;
 }

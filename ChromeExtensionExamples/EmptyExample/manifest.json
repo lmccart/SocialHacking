@@ -6,9 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                // "http://www.nytimes.com/*",
-                // "http://processing.org/*"
-                "*"
+                "https://mail.google.com/mail/*"
             ],
             "js": [
                 "scripts/jquery.js",
