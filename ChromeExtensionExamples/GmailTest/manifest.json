@@ -7,10 +7,6 @@
       "default_icon": "icon.png",
       "default_popup": "popup.html"
     },
-    "background": {
-        "scripts": ["scripts/content_script.js", "scripts/content.js"],
-        "persistent": false
-    },
     "content_security_policy": "script-src 'self' http://localhost; object-src 'self' http://localhost",
     "incognito": "split",
     "offline_enabled": false,
@@ -21,7 +17,6 @@
     ],
     "web_accessible_resources": [
         "manifest.json",
-        "data/new_lines.txt",
-        "glitter_cursor.gif"
+        "data/new_lines.txt"
     ]
 }
