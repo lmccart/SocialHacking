@@ -17,11 +17,11 @@
 
 ### Week 4 (11/12): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-4)
 
-### Week 5 (11/19): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
+###Week 5 (11/19): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile-platforms-and-public-performance)
 
-###Week 6 (11/26): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile-platforms-and-public-performance)
+### Week 6 (11/26): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
 
-###Week 7 (12/3)
+###Week 7 (12/3): Final presentations
 
 
 ## Important links
