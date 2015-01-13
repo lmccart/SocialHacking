@@ -4,8 +4,6 @@
 * Wednesdays 3:20-5:50, ITP room 442
 * [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description of the signup. If you need to set up a different time, email us.
 * [Resident office hours signup](https://itp.nyu.edu/inwiki/) - The residents are also available for technical help and other discussions.
-* Taught by Kyle McDonald and Lauren McCarthy
-* Wednesdays 3:20-5:50, ITP room 442
 
 ## Syllabus
 
@@ -15,13 +13,13 @@
 
 ### Week 3 (11/5): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-3)
 
-### Week 4 (11/12): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy)
+### Week 4 (11/12): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-4)
 
-### Week 5 (11/19): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
+###Week 5 (11/19): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile,-public-and-participatory-performance) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-5)
 
-###Week 6 (11/26): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile-platforms-and-public-performance)
+### Week 6 (11/26): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
 
-###Week 7 (12/3)
+###Week 7 (12/3): Final presentations
 
 
 ## Important links
