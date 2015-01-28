@@ -6,8 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "http://www.nytimes.com/*",
-                "https://processing.org/*"
+                "https://mail.google.com/mail/*"
             ],
             "js": [
                 "scripts/jquery.js",
@@ -20,7 +19,6 @@
     "offline_enabled": false,
     "permissions": [
         "tabs",
-        "http://www.nytimes.com/*",
         "http://localhost/*"
     ],
     "update_url": "http://path/to/updateInfo.xml",
