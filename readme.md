@@ -5,6 +5,7 @@
 * [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description of the signup. If you need to set up a different time, email us.
 * [Resident office hours signup](https://itp.nyu.edu/inwiki/) - The residents are also available for technical help and other discussions.
 
+
 ## Syllabus
 
 ### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-1)
