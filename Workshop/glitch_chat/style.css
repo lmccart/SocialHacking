@@ -1,0 +1,15 @@
+body {
+  font-family: 'Arvo', serif;
+  background: #F20444;
+}
+
+#chatbox {
+  border: 1px solid #ACACAC;
+  width: 600px;
+  height: 300px;
+  padding: 5px;
+}
+
+#wrap, #chat_box, #connect_box {
+  display: none;
+}
