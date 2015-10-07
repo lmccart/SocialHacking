@@ -7,24 +7,61 @@
   <div class='container'>
     <header>
       <h1>Todo List ({{incompleteCount}})</h1>
+
+
+      <ul>
+        <li><a href='#' class='chat'>Chat</a></li>
+        <li><a href='#' class='rules'>Rules</a></li>
+      </ul>
  
     </header>
+    {{> Template.dynamic template=page }}
+
+
+    
+  </div>
+</body>
  
-    <ul>
+<template name='chat'>
+  <div id='actions_box'>
+    <div id='enterid'>
+      <p>Your name: <span id='name'></span>
+        <input type='text' id='pid'>
+        <input class='button' type='button' value='start' id='start'>
+      </p>
+    </div>
+
+    <div id='connect_box'>
+      <p>Connect: <input type='text' id='rid'>
+        <input class='button' type='button' value='Connect' id='connect'>
+      </p>
+    </div>
+
+
+    <div id='chat_box'>
+      <input type='text' id='text' placeholder='enter message'>
+      <input class='button' id='submit' type='submit' value='send'>
+    </div>
+  </div>
+
+  <div id='wrap'>
+    <div id='connections'>
+    </div>
+    <div class='clear'></div>
+  </div>
+</template>
+
+<template name='rules'>
+  <ul>
     <form id='rules'>
-      {{#each tasks}}
-        {{> task}}
+      {{#each rulez}}
+        <li class='rule'>
+          replace <input type='text' name='{{identifier}}_a' value='{{a}}'/> with <input type='text' name='{{identifier}}_b' value='{{b}}'/>
+          <button class='remove'>x</button>
+        </li>
       {{/each}}
       <button id='add'>add rule</button>
       <input type='submit' value='save rules'>
     </form>
-    </ul>
-  </div>
-</body>
- 
-<template name='task'>
-  <li class='rule'>
-    replace <input type='text' name='{{identifier}}_a' value='{{a}}'/> with <input type='text' name='{{identifier}}_b' value='{{b}}'/>
-    <button class='remove'>x</button>
-  </li>
+  </ul>
 </template>
