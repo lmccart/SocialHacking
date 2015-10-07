@@ -11,7 +11,7 @@ if (Meteor.isServer) {
 if (Meteor.isClient) {
 
   Meteor.subscribe('rules');
-  Session.setDefault('page', 'chat');
+  Session.setDefault('page', 'rules_page');
   var subs = {};
 
 
@@ -22,19 +22,13 @@ if (Meteor.isClient) {
     }
   });
 
-  Template.rules.helpers({
+  Template.rules_page.helpers({
     rulez: function () {
       return Rules.find({}, {sort: {identifier: 1}});
     }
   })
  
   Template.body.events({
-    'click .chat': function() {
-      Session.set('page', 'chat');
-    },
-    'click .rules': function() {
-      Session.set('page', 'rules');
-    },
     'click #add': function (e) {
       e.preventDefault();
       Rules.insert({
@@ -52,10 +46,11 @@ if (Meteor.isClient) {
           Rules.remove({_id: r._id});
         }
       });
+      Session.set('page', 'chat_page');
     }
   });
 
-  Template.rules.events({
+  Template.rules_page.events({
     'click .remove': function () {
       Rules.remove(this._id);
     }
@@ -76,7 +71,7 @@ if (Meteor.isClient) {
       });
       console.log(subs);
 
-      
+
       // Handle a chat connection.
       if (c.label === 'chat') {
 

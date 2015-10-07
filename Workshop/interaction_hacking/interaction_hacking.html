@@ -6,23 +6,17 @@
 <body>
   <div class='container'>
     <header>
-      <h1>Todo List ({{incompleteCount}})</h1>
+      <h1>Todo List</h1>
 
-
-      <ul>
-        <li><a href='#' class='chat'>Chat</a></li>
-        <li><a href='#' class='rules'>Rules</a></li>
-      </ul>
  
     </header>
     {{> Template.dynamic template=page }}
 
-
-    
   </div>
 </body>
  
-<template name='chat'>
+<template name='chat_page'>
+  <p>the chat</p>
   <div id='actions_box'>
     <div id='enterid'>
       <p>Your name: <span id='name'></span>
@@ -51,7 +45,8 @@
   </div>
 </template>
 
-<template name='rules'>
+<template name='rules_page'>
+  <p>the rules</p>
   <ul>
     <form id='rules'>
       {{#each rulez}}
