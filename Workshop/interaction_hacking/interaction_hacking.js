@@ -1,28 +1,23 @@
-Tasks = new Mongo.Collection("tasks");
+Tasks = new Mongo.Collection('tasks');
 
 if (Meteor.isServer) {
   // This code only runs on the server
-  Meteor.publish("tasks", function () {
+  Meteor.publish('tasks', function () {
     return Tasks.find();
   });
+
 }
  
 if (Meteor.isClient) {
   // This code only runs on the client
-  Meteor.subscribe("tasks");
+  Meteor.subscribe('tasks');
 
   Template.body.helpers({
     tasks: function () {
-      if (Session.get("hideCompleted")) {
-        // If hide completed is checked, filter tasks
-        return Tasks.find({checked: {$ne: true}}, {sort: {createdAt: -1}});
-      } else {
-        // Otherwise, return all of the tasks
-        return Tasks.find({}, {sort: {createdAt: -1}});
-      }
-    },
-    hideCompleted: function () {
-      return Session.get("hideCompleted");
+      Tasks.find({}).forEach(function(f) {
+        console.log(f)
+      });
+      return Tasks.find({}, {sort: {identifier: -1}});
     },
     incompleteCount: function () {
       return Tasks.find({checked: {$ne: true}}).count();
@@ -30,35 +25,26 @@ if (Meteor.isClient) {
   });
  
   Template.body.events({
-    "submit .new-task": function (event) {
-      // Prevent default browser form submit
-      event.preventDefault();
- 
-      // Get value from form element
-      var text = event.target.text.value;
- 
-      // Insert a task into the collection
+    'click #add': function (e) {
+      e.preventDefault();
       Tasks.insert({
-        text: text,
-        createdAt: new Date() // current time
+        identifier: new Date().getTime()
       });
- 
-      // Clear form
-      event.target.text.value = "";
     },
-    "change .hide-completed input": function (event) {
-      Session.set("hideCompleted", event.target.checked);
+    'submit #rules': function (e) {
+      e.preventDefault();
+      Tasks.find({}, {sort: {identifier:-1}}).forEach(function(r) {
+        var a = event.target[r.identifier+'_a'].value;
+        var b = event.target[r.identifier+'_b'].value;
+        if (a && b) {
+          Tasks.update({_id: r._id}, {$set: {a: String(a), b: String(b)}});
+        }
+      });
     }
   });
 
   Template.task.events({
-    "click .toggle-checked": function () {
-      // Set the checked property to the opposite of its current value
-      Tasks.update(this._id, {
-        $set: {checked: ! this.checked}
-      });
-    },
-    "click .delete": function () {
+    'click .remove': function () {
       Tasks.remove(this._id);
     }
   });
