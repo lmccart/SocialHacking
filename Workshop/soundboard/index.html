@@ -1,0 +1,138 @@
+<!--
+  // next steps:
+  // add intro/outro steps
+  // create 4x4 grid
+  // implement download
+  // save everything to s3, sync automatically
+-->
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.sound.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.dom.js"></script>
+<style>
+/*
+F20444
+D587C5
+09F0C8
+F3D43E
+F48E35
+*/
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic);
+body {
+  font-family: "Arvo", sans-serif;
+  padding: 2em;
+  background: #D587C5;
+}
+h1, h4, p {
+  padding: 0;
+  margin: 0;
+}
+.sound {
+  width: 10em;
+  height: 10em;
+  padding: 1em;
+  margin: 1em;
+  background: #09F0C8;
+}
+.record {
+  position: relative;
+  bottom: 0;
+}
+.editable {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.editing {
+  background: #F3D43E;
+}
+.em {
+  font-style: italic;
+}
+.glyphicon-record {
+  color: #F20444;
+}
+</style>
+</head>
+<body>
+<h4>Social Hacking</h4>
+<h1>Soundboard</h1>
+<p><span class="glyphicon glyphicon-export" aria-hidden="true"></span> Export all audio</p>
+<p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync-icon"></span> Synchronizing with server</p>
+<div id="sound0" class="sound">
+  <p>
+    <span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="description editable">Hello</span>
+  </p>
+</div>
+<script>
+var mic, recorder, soundFile;
+var state = 0;
+
+function setup() {
+  noCanvas();
+
+  mic = new p5.AudioIn();
+  mic.start();
+
+  $('.description').bind('click', function() {
+    if($(this).hasClass('editable')) {
+      $(this).removeClass('em');
+      $(this).toggleClass('editable editing');
+      $(this).attr('contentEditable', true);
+      $(this).focus();
+    }
+  }).blur(function() {
+    if($(this).hasClass('editing')) {
+      $(this).toggleClass('editable editing');
+      $(this).attr('contentEditable', false);
+      if($(this).text().match(/^\s*$/)) {
+        $(this).addClass('em');
+        $(this).text('Click to edit'); 
+      }
+    }
+  });
+
+  var sound0 = $('#sound0');
+
+  $('.record').bind('click', function(e) {
+    if($('.record').hasClass('glyphicon-trash')) {
+      $('.record').toggleClass('glyphicon-trash glyphicon-record');
+      delete sound0.recording;
+      delete sound0.recorder;
+      delete sound0.soundFile;
+    } else if(sound0.recording) {
+      sound0.recording = false;
+      sound0.recorder.stop();
+      $('.record').toggleClass('glyphicon-stop glyphicon-trash');
+    } else {
+      sound0.recording = true;
+      sound0.recorder = new p5.SoundRecorder();
+      sound0.soundFile = new p5.SoundFile();
+      sound0.recorder.setInput(mic)
+      sound0.recorder.record(sound0.soundFile);
+      $('.record').toggleClass('glyphicon-record glyphicon-stop');
+    }
+    console.log('recording: ' + sound0.recording);
+    e.stopPropagation();
+  });
+
+  $('#sound0').bind('click', function() {
+    console.log('play');
+    if(sound0.soundFile && !sound0.recording) {
+      sound0.soundFile.stop();
+      sound0.soundFile.play();
+    }
+  })
+
+  $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
+}
+
+function keyPressed() {
+}
+</script>
+</body>
+</html>
