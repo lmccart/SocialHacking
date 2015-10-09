@@ -11,6 +11,9 @@ h1, h4, p{
   margin: 0 !important;
 }
 
+header {
+  max-width: 45em;
+}
 
 p {
   line-height: 1.5em;

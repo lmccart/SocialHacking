@@ -5,30 +5,28 @@
 </head>
  
 <body>
-  <div class='container'>
-    <header>
-      <h4>Social Hacking</h4>
-      <h1>Soundboard</h1>
+  <header>
+    <h4>Social Hacking</h4>
+    <h1>Soundboard</h1>
 
-      <div id='instructions'>
-      <p>
-        Prepare:<br>
-        1. Add substitution rules for a chat conversation (ex: Replace "yes" with "no").<br>
-        2. Click "save rules".<br><br>
-      </p>
-      <p>
-        Use:<br>
-        1. Enter your name.<br>
-        2. Enter a partner's name to begin a chat.
-      </p>
-      </div>
- 
-    </header>
-    <div id='content'>
-    {{> Template.dynamic template=page }}
+    <div id='instructions'>
+    <p>
+      Prepare:<br>
+      1. Add substitution rules for a chat conversation (ex: Replace "yes" with "no").<br>
+      2. Click "save rules".<br><br>
+    </p>
+    <p>
+      Use:<br>
+      1. Enter your name.<br>
+      2. Enter a partner's name to begin a chat.
+    </p>
     </div>
 
+  </header>
+  <div id='content'>
+  {{> Template.dynamic template=page }}
   </div>
+
 </body>
  
 <template name='chat_page'>
