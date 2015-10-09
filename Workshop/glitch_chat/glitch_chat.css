@@ -1,6 +1,33 @@
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic);
 body {
-  font-family: 'Arvo', serif;
-  background: #F20444;
+  font-family: 'Arvo', serif !important;
+  padding: 25px;
+  background: #F20444 !important;
+}
+
+h1, h4, p{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
+p {
+  line-height: 1.5em;
+}
+
+.spacer {
+  margin-bottom: 25px;
+}
+
+#instructions {
+  margin-top: 25px;
+  border: 1px dashed black;
+  padding: 12px;
+}
+
+#content {
+  margin-top: 50px;
 }
 
 #chatbox {
@@ -13,3 +40,46 @@ body {
 #wrap, #chat_box, #connect_box {
   display: none;
 }
+
+input[type='text'] {
+  padding: 0 6px;
+}
+
+input, button {
+  background: #D587C5;
+  border: none !important;
+  outline: none !important;
+}
+
+.glyphicon, button, input[type='submit'] {
+  cursor: pointer;
+}
+
+.glyphicon {
+  color: #D587C5;
+  margin-left: 8px !important;
+}
+
+.glyphicon:hover {
+  color: #F48E35;
+}
+
+button:hover, input[type='submit']:hover, input:focus {
+  background: #F48E35;
+}
+
+
+#add, input[type='submit'] {
+  width: 90px;
+  margin: 12px 12px 0 0;
+}
+
+
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 6px 0;
+}
+
+

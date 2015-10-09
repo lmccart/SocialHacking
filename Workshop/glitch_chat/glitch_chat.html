@@ -1,16 +1,32 @@
 <head>
   <title>Todo List</title>
-  <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
  
 <body>
   <div class='container'>
     <header>
-      <h1>Todo List</h1>
+      <h4>Social Hacking</h4>
+      <h1>Soundboard</h1>
 
+      <div id='instructions'>
+      <p>
+        Prepare:<br>
+        1. Add substitution rules for a chat conversation (ex: Replace "yes" with "no").<br>
+        2. Click "save rules".<br><br>
+      </p>
+      <p>
+        Use:<br>
+        1. Enter your name.<br>
+        2. Enter a partner's name to begin a chat.
+      </p>
+      </div>
  
     </header>
+    <div id='content'>
     {{> Template.dynamic template=page }}
+    </div>
 
   </div>
 </body>
@@ -46,13 +62,13 @@
 </template>
 
 <template name='rules_page'>
-  <p>the rules</p>
+  <h4>The Rules<br><br></h4>
   <ul>
     <form id='rules'>
       {{#each rulez}}
         <li class='rule'>
-          replace <input type='text' name='{{identifier}}_a' value='{{a}}'/> with <input type='text' name='{{identifier}}_b' value='{{b}}'/>
-          <button class='remove'>x</button>
+          Replace&nbsp;&nbsp;<input type='text' name='{{identifier}}_a' value='{{a}}'/>&nbsp;&nbsp;with&nbsp;&nbsp;<input type='text' name='{{identifier}}_b' value='{{b}}'/>
+          <span class='glyphicon glyphicon-remove remove' aria-hidden='true'></span>
         </li>
       {{/each}}
       <button id='add'>add rule</button>
