@@ -2,6 +2,7 @@
 var peer;
 var connectedPeers = {};
 var subs = {};
+var connection;
 
 var Rules = new Mongo.Collection('rules');
 
@@ -62,6 +63,7 @@ if (Meteor.isClient) {
   Template.chat_page.events({
     'click #back_to_rules': function(e) {
       e.preventDefault();
+      if (connection) connection.close();
       Session.set('page', 'rules_page');
     },
     'click #start': function(e) {
@@ -70,24 +72,11 @@ if (Meteor.isClient) {
     },
     'click #connect': function(e) {
       var requestedPeer = $('#rid').val();
-      if (!connectedPeers[requestedPeer]) {
-        // Create 2 connections, one labelled chat and another labelled file.
-        var c = peer.connect(requestedPeer, {
-          label: 'chat',
-          serialization: 'none',
-          metadata: {message: 'hi i want to chat with you!'}
-        });
-        c.on('open', function() {
-          connect(c);
-        });
-        c.on('error', function(err) { alert(err); });
-        var f = peer.connect(requestedPeer, { label: 'file', reliable: true });
-        f.on('open', function() {
-          connect(f);
-        });
-        f.on('error', function(err) { alert(err); });
-      }
-      connectedPeers[requestedPeer] = 1;
+      var c = peer.connect(requestedPeer);
+      c.on('open', function() { connect(c); });
+      c.on('error', function(err) { alert(err); });
+    
+      connectedPeer = requestedPeer;
     },
     'click #send': function(e) {
       e.preventDefault();
@@ -96,11 +85,9 @@ if (Meteor.isClient) {
         msg = msg.replace(w, subs[w]);
       }
       eachActiveConnection(function(c, $c) {
-        if (c.label === 'chat') {
-          c.send(msg);
-          $c.find('.messages').append('<div><span class="you">You: </span>' + msg
-            + '</div>');
-        }
+        c.send(msg);
+        $c.find('.messages').append('<p><span class="you">You: </span>' + msg
+          + '</p>');
       });
       $('#text').val('');
       $('#text').focus();
@@ -110,6 +97,7 @@ if (Meteor.isClient) {
 
   // Handle a connection object.
   function connect(c) {
+    connection = c;
 
     Rules.find({}, {sort: {identifier:1}}).forEach(function(r) {
       subs[r.a] = r.b;
@@ -119,42 +107,40 @@ if (Meteor.isClient) {
 
 
     // Handle a chat connection.
-    if (c.label === 'chat') {
 
-      $('#connect_box').hide();
-      $('#chat_box').show();
-      var chatbox = $('<div></div>').addClass('connection').addClass('active').attr('id', c.peer);
-      var header = $('<p></p>').html('Chat with <strong>' + c.peer + '</strong>');
-      var messages = $('<div id="chatbox"><em>Peer connected.</em></div>').addClass('messages');
-      $('#enterid').append(header);
-      chatbox.append(messages);
-   
-      // Select connection handler.
-      chatbox.on('click', function() {
-        if ($(this).attr('class').indexOf('active') === -1) {
-          $(this).addClass('active');
-        } else {
-          $(this).removeClass('active');
-        }
-      });
-      $('.filler').hide();
-      $('#connections').append(chatbox);
+    $('#connect_box').hide();
+    $('#chat_box').show();
+    var chatbox = $('<div></div>').addClass('connection').addClass('active').attr('id', c.peer);
+    var header = $('<p></p>').html('Chat with <strong>' + c.peer + '</strong>');
+    var messages = $('<div id="chatbox"><em>Peer connected.</em></div>').addClass('messages');
+    $('#enterid').append(header);
+    chatbox.append(messages);
+ 
+    // Select connection handler.
+    chatbox.on('click', function() {
+      if ($(this).attr('class').indexOf('active') === -1) {
+        $(this).addClass('active');
+      } else {
+        $(this).removeClass('active');
+      }
+    });
+    $('.filler').hide();
+    $('#connections').append(chatbox);
 
-      c.on('data', function(data) {
-        messages.append('<div><span class="peer">' + c.peer + '</span>: ' + data +
-          '</div>');
-      });
-      c.on('close', function() {
-        alert(c.peer + ' has left the chat.');
-        chatbox.remove();
-        if ($('.connection').length === 0) {
-          $('.filler').show();
-        }
-        delete connectedPeers[c.peer];
-      });
-    } 
-    connectedPeers[c.peer] = 1;
-  }
+    c.on('data', function(data) {
+      messages.append('<p><span class="peer">' + c.peer + '</span>: ' + data +
+        '</p>');
+    });
+    c.on('close', function() {
+      alert(c.peer + ' has left the chat.');
+      chatbox.remove();
+      if ($('.connection').length === 0) {
+        $('.filler').show();
+      }
+      connectedPeer = null;
+    });
+    connectedPeer = c.peer;
+  } 
 
   function start(pid) {
     console.log('start')
