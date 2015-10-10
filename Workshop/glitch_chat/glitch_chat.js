@@ -105,7 +105,7 @@ if (Meteor.isClient) {
       $('#connect_box').show();
       $('#wrap').show();
     });
-    peer.on('connection', connect);
+    peer.on('connection', handleConnect);
     peer.on('error', function(err) { console.log(err); });
   }
 
@@ -125,7 +125,8 @@ if (Meteor.isClient) {
     }
     eachActiveConnection(function(c, $c) {
       c.send(msg);
-      $c.find('.messages').append('<p><span class="you">You: </span>' + msg
+      var messages = $c.find('.messages');
+      messages.append('<p><span class="you">You: </span>' + msg
         + '</p>');
     });
     $('#message').val('');
@@ -138,7 +139,6 @@ if (Meteor.isClient) {
 
     Rules.find({}, {sort: {identifier:1}}).forEach(function(r) {
       subs[r.a] = r.b;
-      console.log(r)
     });
     console.log(subs);
 

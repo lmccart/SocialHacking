@@ -1,0 +1,1 @@
+https://color.adobe.com/stars-color-theme-7000751/edit/

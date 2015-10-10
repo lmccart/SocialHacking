@@ -38,6 +38,7 @@ div {
   width: 600px;
   height: 300px;
   padding: 5px;
+  overflow: scroll;
 }
 
 #wrap, #chat_box, #connect_box {
