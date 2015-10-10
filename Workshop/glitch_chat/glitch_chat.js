@@ -1,6 +1,6 @@
 
 var peer;
-var connectedPeers = {};
+var connectedPeer;
 var subs = {};
 var connection;
 
@@ -66,37 +66,74 @@ if (Meteor.isClient) {
       if (connection) connection.close();
       Session.set('page', 'rules_page');
     },
-    'click #start': function(e) {
-      var pid = $('#pid').val();
-      start(pid);
-    },
-    'click #connect': function(e) {
-      var requestedPeer = $('#rid').val();
-      var c = peer.connect(requestedPeer);
-      c.on('open', function() { connect(c); });
-      c.on('error', function(err) { alert(err); });
-    
-      connectedPeer = requestedPeer;
-    },
-    'click #send': function(e) {
-      e.preventDefault();
-      var msg = $('#text').val();
-      for (var w in subs) {
-        msg = msg.replace(w, subs[w]);
+    'click #start': start,
+    'keypress #pid': function(e) {
+      if (e.charCode === 13) {
+        start();
       }
-      eachActiveConnection(function(c, $c) {
-        c.send(msg);
-        $c.find('.messages').append('<p><span class="you">You: </span>' + msg
-          + '</p>');
-      });
-      $('#text').val('');
-      $('#text').focus();
+    },
+    'click #connect': connect,
+    'keypress #rid': function(e) {
+      if (e.charCode === 13) {
+        connect();
+      }
+    },
+    'click #send': send,
+    'keypress #message': function(e) {
+      if (e.charCode === 13) {
+        send();
+      }
     }
   });
 
+  function start(pid) {
+    console.log('start');
+    var pid = $('#pid').val();
+    peer = new Peer(pid, {
+      key: 'x7fwx2kavpy6tj4i',
+      debug: 3,
+      logFunction: function() {
+        var copy = Array.prototype.slice.call(arguments).join(' ');
+        $('.log').append(copy + '<br>');
+      }
+    });
+
+    peer.on('open', function(id){
+      $('#name').html(id);
+      $('#start').hide();
+      $('#pid').hide();
+      $('#connect_box').show();
+      $('#wrap').show();
+    });
+    peer.on('connection', connect);
+    peer.on('error', function(err) { console.log(err); });
+  }
+
+  function connect() {    
+    var requestedPeer = $('#rid').val();
+    var c = peer.connect(requestedPeer);
+    c.on('open', function() { handleConnect(c); });
+    c.on('error', function(err) { alert(err); });
+    connectedPeer = requestedPeer;
+  }
+
+
+  function send() {
+    var msg = $('#message').val();
+    for (var w in subs) {
+      msg = msg.replace(w, subs[w]);
+    }
+    eachActiveConnection(function(c, $c) {
+      c.send(msg);
+      $c.find('.messages').append('<p><span class="you">You: </span>' + msg
+        + '</p>');
+    });
+    $('#message').val('');
+    $('#message').focus();
+  }
 
   // Handle a connection object.
-  function connect(c) {
+  function handleConnect(c) {
     connection = c;
 
     Rules.find({}, {sort: {identifier:1}}).forEach(function(r) {
@@ -141,28 +178,6 @@ if (Meteor.isClient) {
     });
     connectedPeer = c.peer;
   } 
-
-  function start(pid) {
-    console.log('start')
-    peer = new Peer(pid, {
-      key: 'x7fwx2kavpy6tj4i',
-      debug: 3,
-      logFunction: function() {
-        var copy = Array.prototype.slice.call(arguments).join(' ');
-        $('.log').append(copy + '<br>');
-      }
-    });
-
-    peer.on('open', function(id){
-      $('#name').html(id);
-      $('#start').hide();
-      $('#pid').hide();
-      $('#connect_box').show();
-      $('#wrap').show();
-    });
-    peer.on('connection', connect);
-    peer.on('error', function(err) { console.log(err); });
-  }
 
   // Goes through each active peer and calls FN on its connections.
   function eachActiveConnection(fn) {
