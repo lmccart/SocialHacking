@@ -6,7 +6,7 @@ body {
   background: #F3D43E !important;
 }
 
-h1, h4, p{
+h1, h4 {
   padding: 0 !important;
   margin: 0 !important;
 }
@@ -17,6 +17,7 @@ header {
 
 p {
   line-height: 1.5em;
+  margin: 1em;
 }
 
 div {
@@ -27,11 +28,6 @@ div {
   margin-bottom: 25px;
 }
 
-#instructions {
-  margin-top: 25px;
-  border: 1px dashed black;
-  padding: 12px;
-}
 
 #content {
   margin-top: 50px;
