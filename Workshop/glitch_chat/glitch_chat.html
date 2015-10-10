@@ -7,7 +7,7 @@
 <body>
   <header>
     <h4>Social Hacking</h4>
-    <h1>Soundboard</h1>
+    <h1>Glitchat</h1>
 
     <div id='instructions'>
     <p>
@@ -31,11 +31,14 @@
  
 <template name='chat_page'>
   <h2>The Chat</h2>
+  <div>
+    <button id='back_to_rules'>back to rules</button>
+  </div>
   <div id='actions_box'>
     <div id='enterid'>
       <p>Your name: <span id='name'></span>
         <input type='text' id='pid'>
-        <input class='button' type='button' value='start' id='start'>
+        <button id='start'>start</button>
       </p>
     </div>
 
@@ -48,7 +51,7 @@
 
     <div id='chat_box'>
       <input type='text' id='text' placeholder='enter message'>
-      <input class='button' id='submit' type='submit' value='send'>
+      <input class='button' id='send' type='submit' value='send'>
     </div>
   </div>
 

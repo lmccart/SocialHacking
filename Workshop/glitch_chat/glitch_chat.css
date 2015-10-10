@@ -3,7 +3,7 @@
 body {
   font-family: 'Arvo', serif !important;
   padding: 2em;
-  background: #F20444 !important;
+  background: #F3D43E !important;
 }
 
 h1, h4, p{
@@ -17,6 +17,10 @@ header {
 
 p {
   line-height: 1.5em;
+}
+
+div {
+  margin-bottom: 25px;
 }
 
 .spacer {
