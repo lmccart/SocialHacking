@@ -103,7 +103,7 @@ if (Meteor.isClient) {
       $('#wrap').show();
     });
     peer.on('connection', handleConnect);
-    peer.on('error', function(err) { console.log(err); });
+    peer.on('error', function(err) { alert(err); });
   }
 
   function connect() {    
@@ -140,7 +140,7 @@ if (Meteor.isClient) {
     $('#connect_box').hide();
     $('#send_box').show();
     var chatbox = $('<div></div>').addClass('connection').addClass('active').attr('id', c.peer);
-    var header = $('<p></p>').html('Chat with <strong>' + c.peer + '</strong>');
+    var header = $('<p></p>').html('Chat with <b>' + c.peer + '</b>');
     var messages = $('<div id="chatbox"><em>Peer connected.</em><br></div>').addClass('messages');
     $('#enterid').append(header);
     chatbox.append(messages);
@@ -166,7 +166,7 @@ if (Meteor.isClient) {
 
   function appendMessage(sender, msg) {
     var s = sender.toLowerCase() === 'you' ? 'you' : 'peer';
-    $('#chatbox').append('<span class="'+s+'">'+sender+'</span>: '+msg+'<br>');
+    $('#chatbox').append('<span class="'+s+'"><b>'+sender+'</b></span>: '+msg+'<br>');
     $('#chatbox').scrollTop($('#chatbox')[0].scrollHeight);
   }
 
