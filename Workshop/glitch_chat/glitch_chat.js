@@ -14,7 +14,16 @@ if (Meteor.isServer) {
  
 if (Meteor.isClient) {
   Meteor.subscribe('rules');
-  Session.setDefault('page', 'rules_page');
+
+  var path = window.location.pathname.split('/');
+  var user = '';
+  for (var i=0; i<path.length; i++) {
+    if (path[i] === 'rules' || path[i] === 'chat') {
+      Session.setDefault('page', path[i]+'_page');
+    } else if (path[i].length > 0) {
+      user = path[i].toLowerCase();
+    }
+  }
 
 
   Template.body.helpers({
@@ -25,7 +34,7 @@ if (Meteor.isClient) {
 
   Template.rules_page.helpers({
     rulez: function () {
-      return Rules.find({}, {sort: {identifier: 1}});
+      return Rules.find({user: user}, {sort: {identifier: 1}});
     }
   })
  
@@ -36,12 +45,13 @@ if (Meteor.isClient) {
     'click #add': function(e) {
       e.preventDefault();
       Rules.insert({
-        identifier: new Date().getTime()
+        identifier: new Date().getTime(),
+        user: user
       });
     },
     'submit #rules': function(e) {
       e.preventDefault();
-      Rules.find({}, {sort: {identifier:1}}).forEach(function(r) {
+      Rules.find({user:user}, {sort: {identifier:1}}).forEach(function(r) {
         var a = event.target[r.identifier+'_a'].value;
         var b = event.target[r.identifier+'_b'].value;
         if (a && b) {
@@ -50,7 +60,7 @@ if (Meteor.isClient) {
           Rules.remove({_id: r._id});
         }
       });
-      Session.set('page', 'chat_page');
+      window.location='/chat/'+user;
     },
     'click .remove': function () {
       Rules.remove(this._id);
@@ -58,11 +68,11 @@ if (Meteor.isClient) {
   });
 
   Template.chat_page.events({
-    'click #back_to_rules': function(e) {
+    /*'click #back_to_rules': function(e) {
       e.preventDefault();
       if (connection) connection.close();
       Session.set('page', 'rules_page');
-    },
+    },*/
     'click #start': start,
     'keypress #pid': function(e) {
       if (e.charCode === 13) {
@@ -116,20 +126,20 @@ if (Meteor.isClient) {
 
   function send() {
     var msg = $('#message').val();
+    appendMessage('You', msg);
+    $('#message').val('');
+    $('#message').focus();
     for (var w in subs) {
       msg = msg.replace(w, subs[w]);
     }
     connection.send(msg);
-    appendMessage('You', msg);
-    $('#message').val('');
-    $('#message').focus();
   }
 
   // Handle a connection object.
   function handleConnect(c) {
     connection = c;
 
-    Rules.find({}, {sort: {identifier:1}}).forEach(function(r) {
+    Rules.find({user: user}, {sort: {identifier:1}}).forEach(function(r) {
       subs[r.a] = r.b;
     });
     console.log(subs);
