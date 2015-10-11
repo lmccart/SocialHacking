@@ -1,13 +1,22 @@
 <!--
-  // next steps:
-  // add intro/outro steps
   // create 4x4 grid
   // implement download
   // save everything to s3, sync automatically
+  // change color when playing, do small animation
+  // change deletion to a mode rather than an always-on button
 -->
 <html>
 <head>
 <title>Soundboard</title>
+<script>
+if(window.location.hash == "") {
+  var uid = Math.floor((1 + Math.random()) * 0x100000000).toString(16).substring(1); // 8 digits
+  window.location.hash = "#" + uid;
+}
+var config = {
+  'id': window.location.hash
+};
+</script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -15,15 +24,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.sound.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.dom.js"></script>
 <style>
-/*
-F20444
-D587C5
-09F0C8
-F3D43E
-F48E35
-*/
+/* F20444 D587C5 09F0C8 F3D43E F48E35 */
 /* general purpose */
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic);
+html {
+  margin-bottom: 5em; /* some padding at the bottom of the page */
+}
 body {
   font-family: "Arvo", sans-serif;
   padding: 2em;
@@ -47,14 +53,23 @@ p {
 
 /* specific to this page */
 .sound {
-  width: 10em;
-  height: 10em;
+  display: block;
+  float: left;
+  width: 20vw;
+  height: 18vh;
   padding: 1em;
-  margin: 1em;
+  margin: .5em;
   background: #09F0C8;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
+}
+.description { 
+  position: relative;
+  min-width: 1em;
+  min-height: 1em;
+  padding: .1em;
+  margin: .1em;
 }
 .editable {
   cursor: pointer;
@@ -70,6 +85,13 @@ p {
 .glyphicon-record {
   color: #F20444;
 }
+.glyphicon {
+  min-height: 1em;
+  min-width: 1em;
+}
+#download {
+  cursor: pointer;
+}
 </style>
 </head>
 <body>
@@ -77,17 +99,17 @@ p {
   <h4>Social Hacking</h4>
   <h1>Soundboard</h1>
   <h2>Background</h2>
-  <p>The soundboard is an excercise in constrained interaction, voice transfer, and identity dissolution. Throughout the 2000s, sounboards were built in Flash as a tool for placing prank phone calls. Sites like <a href="http://www.newgrounds.com/games/browse/tag/soundboard/min_score/0">Newgrounds</a> or <a href="http://www.albinoblacksheep.com/flash/soundboard/">Albino Black Sheep</a> have some of the larger collections, including the <a href="http://www.albinoblacksheep.com/flash/arnold">Arnold Schwarzenegger</a> soundboard infamously used US presidential candidate Mitt Romney's son in <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/01/22/AR2008012204073.html">a prank phone call</a> in 2008.</p>
+  <p>The soundboard is an excercise in constrained interaction, voice transfer, and identity dissolution. Throughout the 2000s, sounboards were built in Flash as a tool for placing prank phone calls. Sites like <a href="http://www.newgrounds.com/games/browse/tag/soundboard/min_score/0">Newgrounds</a> or <a href="http://www.albinoblacksheep.com/flash/soundboard/">Albino Black Sheep</a> have some of the larger collections, including the <a href="http://www.albinoblacksheep.com/flash/arnold">Arnold Schwarzenegger</a> soundboard infamously used by US presidential candidate Mitt Romney's son in <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/01/22/AR2008012204073.html">a prank phone call</a> in 2008.</p>
   <p>To use a soundboard effectively, a certain degree of study and familiarity is required. The user must acquire the "voice" of the soundboard, similar to the way Krzysztof Wodiczko and Sung Ho Kim's <a href="http://www.interrogative.org/projects/1993/porte-parole">Porte-Parole Mouthpiece</a> "transforms its user into a virtual subject, literally, a cyborg communicating through a high-tech device rather than your own bodily apparatus for speech".</p>
   <p>In the same way soundboards mask the identity of the prank caller, they can also be used to craft an alternative identity for telemarketers. Instead of a telemarketer speaking directly over the phone, some are <a href="http://www.theatlantic.com/technology/archive/2013/12/almost-human-the-surreal-cyborg-future-of-telemarketing/282537/">aided by soundboards with more neutral accents</a>. In some instances, the telemarketer switches back and forth between speaking via soundboard, and speaking directly. Sometimes they deny they are "robots", other times they explain very clearly: "You are talking to a live person, but to ensure the information is accurate, I'm using pre-recorded audio messages."</p>
   <h2>Preparation</h2>
   <p>The goal is to assemble a collection of sounds for two participants to use in a conversation with each other. You may assemble the same soundboard for both of them, or prepare two separate soundboards.</p>
   <ol>
     <li>Click "Allow" when the page asks to use your microphone.</li>
-    <li>Click the red record button <span class="glyphicon glyphicon-record record" aria-hidden="true"></span> to record a sound.</li>
+    <li>Click the red record button <span class="glyphicon glyphicon-record" aria-hidden="true"></span> to record a sound.</li>
     <li>Click the stop button <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> to finish recording the sound.</li>
-    <li>Once the sound is recorded, you can click on the square to play the sound.</li>
-    <li>Click the text to change the name of the sound.</li>
+    <li>Once the sound is recorded, you can click anywhere in the square to play the sound.</li>
+    <li>Double-click the text to change the name of the sound.</li>
     <li>Double-click the trash can <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> to delete the sound and re-record.</li>
     <li>The data will automatically sync with a server. Copy and paste the URL to come back to this soundboard.</li>
   </ol>
@@ -96,12 +118,20 @@ p {
 </div>
 <hr/>
 
-<p><span class="glyphicon glyphicon-export" aria-hidden="true"></span> Export all audio</p>
-<p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync-icon"></span> Synchronizing with server</p>
-<div id="sound0" class="sound">
-  <span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="description editable">Hello</span>
-</div>
+<p id="download"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download all audio</p>
+<!-- <p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync-icon"></span> Synchronizing with server</p> -->
 <script>
+var defaultText = 'Double-click to name';
+for(var i = 0; i < 16; i++) {
+  document.write(
+    '<div id="sound' + i + '" class="sound">' +
+      '<span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="description editable em">' + defaultText + '</span>' +
+    '</div>');
+  if((i + 1) % 4 == 0) {
+    document.write('<br style="clear:both"/>');
+  }
+}
+
 var mic, recorder, soundFile;
 var state = 0;
 
@@ -111,65 +141,83 @@ function setup() {
   mic = new p5.AudioIn();
   mic.start();
 
-  $('.description').bind('click', function() {
+  // changing the description
+  $('.description').bind('dblclick', function(e) {
     if($(this).hasClass('editable')) {
       $(this).removeClass('em');
       $(this).toggleClass('editable editing');
       $(this).attr('contentEditable', true);
+      if($(this).text() == defaultText) {
+        $(this).text('');
+      }
       $(this).focus();
     }
+    e.stopPropagation();
   }).blur(function() {
     if($(this).hasClass('editing')) {
       $(this).toggleClass('editable editing');
       $(this).attr('contentEditable', false);
       if($(this).text().match(/^\s*$/)) {
         $(this).addClass('em');
-        $(this).text('Click to edit'); 
+        $(this).text(defaultText); 
       }
     }
   });
 
-  var sound0 = $('#sound0');
+  // recording sounds
+  $('.record').bind('click', function(e) {
+    var sound = $(this).parent()[0];
+    if($(this).hasClass('glyphicon-trash')) {
+      // ignore, but still stop propagation.
+      // we don't want the sound to trigger on
+      // the click before the dblclick
+    } else if(sound.recording) {
+      sound.recording = false;
+      sound.recorder.stop();
+      $(this).toggleClass('glyphicon-stop glyphicon-trash');
+    } else {
+      sound.recording = true;
+      sound.recorder = new p5.SoundRecorder();
+      sound.soundFile = new p5.SoundFile();
+      sound.recorder.setInput(mic)
+      sound.recorder.record(sound.soundFile);
+      $(this).toggleClass('glyphicon-record glyphicon-stop');
+    }
+    e.stopPropagation();
+  });
 
+  // playing sounds
+  $('.sound').bind('click', function() {
+    var sound = $(this)[0];
+    if(sound.soundFile && !sound.recording) {
+      sound.soundFile.stop();
+      sound.soundFile.play();
+    }
+  })
+
+  // deleting sounds
   $('.record').bind('dblclick', function(e) {
-    if($('.record').hasClass('glyphicon-trash')) {
-      $('.record').toggleClass('glyphicon-trash glyphicon-record');
-      delete sound0.recording;
-      delete sound0.recorder;
-      delete sound0.soundFile;
+    var sound = $(this).parent()[0];
+    if($(this).hasClass('glyphicon-trash')) {
+      $(this).toggleClass('glyphicon-trash glyphicon-record');
+      delete sound.recording;
+      delete sound.recorder;
+      delete sound.soundFile;
       e.stopPropagation();
     }
   })
-  $('.record').bind('click', function(e) {
-    if($('.record').hasClass('glyphicon-trash')) {
-    } else if(sound0.recording) {
-      sound0.recording = false;
-      sound0.recorder.stop();
-      $('.record').toggleClass('glyphicon-stop glyphicon-trash');
-    } else {
-      sound0.recording = true;
-      sound0.recorder = new p5.SoundRecorder();
-      sound0.soundFile = new p5.SoundFile();
-      sound0.recorder.setInput(mic)
-      sound0.recorder.record(sound0.soundFile);
-      $('.record').toggleClass('glyphicon-record glyphicon-stop');
-    }
-    e.stopPropagation();
-    console.log('recording: ' + sound0.recording);
-  });
 
-  $('#sound0').bind('click', function() {
-    console.log('play');
-    if(sound0.soundFile && !sound0.recording) {
-      sound0.soundFile.stop();
-      sound0.soundFile.play();
-    }
+  // downloading
+  $('#download').bind('click', function() {
+    $('.sound').each(function(i, e) {
+      if(e.soundFile) {
+        var name = $(e).children('.description').text();
+        save(e.soundFile, name + '.wav');
+      }
+    })
   })
 
-  $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
-}
-
-function keyPressed() {
+  // $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
 }
 </script>
 </body>
