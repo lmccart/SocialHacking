@@ -1,13 +1,11 @@
 
 var peer;
-var connectedPeer;
 var subs = {};
 var connection;
 
 var Rules = new Mongo.Collection('rules');
 
 if (Meteor.isServer) {
-  // This code only runs on the server
   Meteor.publish('rules', function () {
     return Rules.find();
   });
@@ -15,7 +13,6 @@ if (Meteor.isServer) {
 }
  
 if (Meteor.isClient) {
-
   Meteor.subscribe('rules');
   Session.setDefault('page', 'rules_page');
 
@@ -114,7 +111,6 @@ if (Meteor.isClient) {
     var c = peer.connect(requestedPeer);
     c.on('open', function() { handleConnect(c); });
     c.on('error', function(err) { alert(err); });
-    connectedPeer = requestedPeer;
   }
 
 
@@ -123,12 +119,9 @@ if (Meteor.isClient) {
     for (var w in subs) {
       msg = msg.replace(w, subs[w]);
     }
-    eachActiveConnection(function(c, $c) {
-      c.send(msg);
-      var messages = $c.find('.messages');
-      messages.append('<p><span class="you">You: </span>' + msg
-        + '</p>');
-    });
+    connection.send(msg);
+    var messages = $('#'+connection.peer).find('.messages');
+    messages.append('<p><span class="you">You: </span>' + msg + '</p>');
     $('#message').val('');
     $('#message').focus();
   }
@@ -161,7 +154,6 @@ if (Meteor.isClient) {
         $(this).removeClass('active');
       }
     });
-    $('.filler').hide();
     $('#connections').append(chatbox);
 
     c.on('data', function(data) {
@@ -171,36 +163,13 @@ if (Meteor.isClient) {
     c.on('close', function() {
       alert(c.peer + ' has left the chat.');
       chatbox.remove();
-      if ($('.connection').length === 0) {
-        $('.filler').show();
-      }
-      connectedPeer = null;
     });
-    connectedPeer = c.peer;
   } 
 
-  // Goes through each active peer and calls FN on its connections.
-  function eachActiveConnection(fn) {
-    var actives = $('.active');
-    var checkedIds = {};
-    actives.each(function() {
-      var peerId = $(this).attr('id');
-
-      if (!checkedIds[peerId]) {
-        var conns = peer.connections[peerId];
-        for (var i = 0, ii = conns.length; i < ii; i += 1) {
-          var conn = conns[i];
-          fn(conn, $(this));
-        }
-      }
-
-      checkedIds[peerId] = 1;
-    });
-  }
 
 
 
-  // // Make sure things clean up properly.
+  // // Make sure things clean up properly. // meh
 
   // window.onunload = window.onbeforeunload = function(e) {
   //   if (!!peer && !peer.destroyed) {
