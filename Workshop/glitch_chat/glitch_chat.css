@@ -34,14 +34,15 @@ div {
 }
 
 #chatbox {
-  border: 1px solid #ACACAC;
-  width: 600px;
-  height: 300px;
   padding: 5px;
+  width: 800px;
+  height: 300px;
+  border: 1px solid #D587C5;
+  margin: 0;
   overflow: scroll;
 }
 
-#wrap, #chat_box, #connect_box {
+#wrap, #send_box, #connect_box {
   display: none;
 }
 

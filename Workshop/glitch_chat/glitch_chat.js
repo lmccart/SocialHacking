@@ -120,8 +120,7 @@ if (Meteor.isClient) {
       msg = msg.replace(w, subs[w]);
     }
     connection.send(msg);
-    var messages = $('#'+connection.peer).find('.messages');
-    messages.append('<p><span class="you">You: </span>' + msg + '</p>');
+    appendMessage('You', msg);
     $('#message').val('');
     $('#message').focus();
   }
@@ -139,10 +138,10 @@ if (Meteor.isClient) {
     // Handle a chat connection.
 
     $('#connect_box').hide();
-    $('#chat_box').show();
+    $('#send_box').show();
     var chatbox = $('<div></div>').addClass('connection').addClass('active').attr('id', c.peer);
     var header = $('<p></p>').html('Chat with <strong>' + c.peer + '</strong>');
-    var messages = $('<div id="chatbox"><em>Peer connected.</em></div>').addClass('messages');
+    var messages = $('<div id="chatbox"><em>Peer connected.</em><br></div>').addClass('messages');
     $('#enterid').append(header);
     chatbox.append(messages);
  
@@ -157,8 +156,7 @@ if (Meteor.isClient) {
     $('#connections').append(chatbox);
 
     c.on('data', function(data) {
-      messages.append('<p><span class="peer">' + c.peer + '</span>: ' + data +
-        '</p>');
+      appendMessage(c.peer, data);
     });
     c.on('close', function() {
       alert(c.peer + ' has left the chat.');
@@ -166,6 +164,11 @@ if (Meteor.isClient) {
     });
   } 
 
+  function appendMessage(sender, msg) {
+    var s = sender.toLowerCase() === 'you' ? 'you' : 'peer';
+    $('#chatbox').append('<span class="'+s+'">'+sender+'</span>: '+msg+'<br>');
+    $('#chatbox').scrollTop($('#chatbox')[0].scrollHeight);
+  }
 
 
 
