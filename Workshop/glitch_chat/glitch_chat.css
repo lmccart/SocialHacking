@@ -16,6 +16,10 @@ header {
   margin-bottom: 25px;
 }
 
+.spacer {
+  margin-bottom: 50px;
+}
+
 p {
   line-height: 1.5em;
   margin: 1em;
@@ -25,9 +29,7 @@ div {
   margin-bottom: 25px;
 }
 
-.spacer {
-  margin-bottom: 50px;
-}
+
 
 
 
