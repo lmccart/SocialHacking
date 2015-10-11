@@ -1,40 +1,59 @@
 <head>
-  <title>Todo List</title>
-  <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <title>Glitchat</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
  
 <body>
-  <div class='container'>
-    <header>
-      <h1>Todo List</h1>
+  <header>
+    <h4>Social Hacking</h4>
+    <h1>Glitchat</h1>
 
- 
-    </header>
-    {{> Template.dynamic template=page }}
+    <div id='instructions'>
 
+      <h2>Background</h2>
+      <h2>Preparation</h2>
+      <p>
+        1. Add substitution rules for a chat conversation (ex: Replace "yes" with "no").<br>
+        2. Click "save rules".<br><br>
+      </p>
+      <h2>Usage</h2>
+      <p>
+        1. Enter your name.<br>
+        2. Enter a partner's name to begin a chat.
+      </p>
+    </div>
+
+  </header>
+  <div id='content'>
+  {{> Template.dynamic template=page }}
   </div>
+
 </body>
  
 <template name='chat_page'>
-  <p>the chat</p>
+  <h2>The Chat</h2>
+  <div>
+    <button id='back_to_rules'>back to rules</button>
+  </div>
   <div id='actions_box'>
     <div id='enterid'>
-      <p>Your name: <span id='name'></span>
+      <p>Your name: <b><span id='name'></span></b>
         <input type='text' id='pid'>
-        <input class='button' type='button' value='start' id='start'>
+        <span class='glyphicon glyphicon-ok' id='start' aria-hidden='true'></span>
       </p>
     </div>
 
     <div id='connect_box'>
-      <p>Connect: <input type='text' id='rid'>
-        <input class='button' type='button' value='Connect' id='connect'>
+      <p>Chat with: <input type='text' id='rid'>
+      <span class='glyphicon glyphicon-ok' id='connect' aria-hidden='true'></span>
       </p>
     </div>
 
 
-    <div id='chat_box'>
-      <input type='text' id='text' placeholder='enter message'>
-      <input class='button' id='submit' type='submit' value='send'>
+    <div id='send_box'>
+      <input type='text' id='message' placeholder='enter message'>
+      <span class='glyphicon glyphicon-ok' id='send' aria-hidden='true'></span>
     </div>
   </div>
 
@@ -46,13 +65,13 @@
 </template>
 
 <template name='rules_page'>
-  <p>the rules</p>
+  <h2>The Rules</h2>
   <ul>
     <form id='rules'>
       {{#each rulez}}
         <li class='rule'>
-          replace <input type='text' name='{{identifier}}_a' value='{{a}}'/> with <input type='text' name='{{identifier}}_b' value='{{b}}'/>
-          <button class='remove'>x</button>
+          Replace&nbsp;&nbsp;<input type='text' name='{{identifier}}_a' value='{{a}}'/>&nbsp;&nbsp;with&nbsp;&nbsp;<input type='text' name='{{identifier}}_b' value='{{b}}'/>
+          <span class='glyphicon glyphicon-remove remove' aria-hidden='true'></span>
         </li>
       {{/each}}
       <button id='add'>add rule</button>
