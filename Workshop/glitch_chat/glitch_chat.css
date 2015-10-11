@@ -13,6 +13,7 @@ h1, h4 {
 
 header {
   max-width: 45em;
+  margin-bottom: 25px;
 }
 
 p {
@@ -25,13 +26,10 @@ div {
 }
 
 .spacer {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 
-#content {
-  margin-top: 50px;
-}
 
 #chatbox {
   padding: 5px;
