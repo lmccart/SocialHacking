@@ -1,29 +1,32 @@
 <!--
-  // create 4x4 grid
-  // implement download
   // save everything to s3, sync automatically
   // change color when playing, do small animation
-  // change deletion to a mode rather than an always-on button
+  // change deletion to a mode rather than an always-on button?
+  // implement maximum sound length to avoid uploading/downloading huge files
+  // disable the buttons if they don't click "allow"
 -->
 <html>
 <head>
 <title>Soundboard</title>
-<link rel="icon" sizes="16x16 32x32" href="favicon.ico">
-<script>
-if(window.location.hash == "") {
-  var uid = Math.floor((1 + Math.random()) * 0x100000000).toString(16).substring(1); // 8 digits
-  window.location.hash = "#" + uid;
-}
-var config = {
-  'id': window.location.hash
-};
-</script>
+<link rel="icon" sizes="16x16 32x32" href="/favicon-03.png">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.sound.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.dom.js"></script>
+<script>
+if(window.location.hash == "") {
+  var uid = Math.floor((1 + Math.random()) * 0x100000000).toString(16).substring(1); // 8 digits
+  window.location.hash = "#" + uid;
+}
+var config = {
+  'id': window.location.hash.substring(1),
+  'uploadUrl': 'http://social-hacking-s3.herokuapp.com/upload/',
+  'awsUrl': 'https://s3-eu-west-1.amazonaws.com/social-hacking/'
+};
+
+</script>
 <style>
 /* F20444 D587C5 09F0C8 F3D43E F48E35 */
 /* general purpose */
@@ -66,7 +69,7 @@ p {
   display: block;
   float: left;
   width: 20vw;
-  height: 18vh;
+  height: 8vh;
   padding: 1em;
   margin: .5em;
   background: #09F0C8;
@@ -74,7 +77,7 @@ p {
   user-select: none;
   -webkit-user-select: none;
 }
-.description { 
+.name { 
   position: relative;
   min-width: 1em;
   min-height: 1em;
@@ -138,108 +141,136 @@ p {
   </div>
 
   <div class='col-md-6 col-md-pull-6'>
-
     <script>
     var defaultText = 'Double-click to name';
     for(var i = 0; i < 16; i++) {
       document.write(
         '<div id="sound' + i + '" class="sound">' +
-          '<span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="description editable em">' + defaultText + '</span>' +
+          '<span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="name editable em">' + defaultText + '</span>' +
         '</div>');
-      if((i + 1) % 4 == 0) {
-        document.write('<br style="clear:both"/>');
-      }
-    }
-
-    var mic, recorder, soundFile;
-    var state = 0;
-
-    function setup() {
-      noCanvas();
-
-      mic = new p5.AudioIn();
-      mic.start();
-
-      // changing the description
-      $('.description').bind('dblclick', function(e) {
-        if($(this).hasClass('editable')) {
-          $(this).removeClass('em');
-          $(this).toggleClass('editable editing');
-          $(this).attr('contentEditable', true);
-          if($(this).text() == defaultText) {
-            $(this).text('');
-          }
-          $(this).focus();
-        }
-        e.stopPropagation();
-      }).blur(function() {
-        if($(this).hasClass('editing')) {
-          $(this).toggleClass('editable editing');
-          $(this).attr('contentEditable', false);
-          if($(this).text().match(/^\s*$/)) {
-            $(this).addClass('em');
-            $(this).text(defaultText); 
-          }
-        }
-      });
-
-      // recording sounds
-      $('.record').bind('click', function(e) {
-        var sound = $(this).parent()[0];
-        if($(this).hasClass('glyphicon-trash')) {
-          // ignore, but still stop propagation.
-          // we don't want the sound to trigger on
-          // the click before the dblclick
-        } else if(sound.recording) {
-          sound.recording = false;
-          sound.recorder.stop();
-          $(this).toggleClass('glyphicon-stop glyphicon-trash');
-        } else {
-          sound.recording = true;
-          sound.recorder = new p5.SoundRecorder();
-          sound.soundFile = new p5.SoundFile();
-          sound.recorder.setInput(mic)
-          sound.recorder.record(sound.soundFile);
-          $(this).toggleClass('glyphicon-record glyphicon-stop');
-        }
-        e.stopPropagation();
-      });
-
-      // playing sounds
-      $('.sound').bind('click', function() {
-        var sound = $(this)[0];
-        if(sound.soundFile && !sound.recording) {
-          sound.soundFile.stop();
-          sound.soundFile.play();
-        }
-      })
-
-      // deleting sounds
-      $('.record').bind('dblclick', function(e) {
-        var sound = $(this).parent()[0];
-        if($(this).hasClass('glyphicon-trash')) {
-          $(this).toggleClass('glyphicon-trash glyphicon-record');
-          delete sound.recording;
-          delete sound.recorder;
-          delete sound.soundFile;
-          e.stopPropagation();
-        }
-      })
-
-      // downloading
-      $('#download').bind('click', function() {
-        $('.sound').each(function(i, e) {
-          if(e.soundFile) {
-            var name = $(e).children('.description').text();
-            save(e.soundFile, name + '.wav');
-          }
-        })
-      })
-
-      // $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
+      // if((i + 1) % 4 == 0) {
+      //   document.write('<br style="clear:both"/>');
+      // }
     }
     </script>
-
   </div>
+<script>
+function loadSettings(settings) {
+  for(key in settings) {
+    var name = $('#' + key).children('.name');
+    name.text(settings[key].name);
+    name.removeClass('em');
+  }
+}
+
+function saveSettings() {
+  var settings = {};
+  var sounds = $("[id^='sound']");
+  sounds.each(function(i, e) {
+    var name = $(e).children('.name').text();
+    if(name != defaultText) {
+      settings[e.id] = {'name': name};
+    }
+  })
+  var key = config.id + '/settings.json';
+  $.post(config.uploadUrl, {'key': key, 'body': JSON.stringify(settings)}, function(data) {
+    console.log(data);
+  });
+}
+
+function setup() {
+  noCanvas();
+
+  // load from aws on startup
+  $.get(config.awsUrl + config.id + '/settings.json', function(data) {
+    loadSettings(JSON.parse(data));
+  }).fail(function() {
+    console.log("No pre-existing settings file.");
+  })
+
+  // open mic input
+  var mic = new p5.AudioIn();
+  mic.start();
+
+  // changing the name
+  $('.name').bind('dblclick', function(e) {
+    if($(this).hasClass('editable')) {
+      $(this).removeClass('em');
+      $(this).toggleClass('editable editing');
+      $(this).attr('contentEditable', true);
+      if($(this).text() == defaultText) {
+        $(this).text('');
+      }
+      $(this).focus();
+    }
+    e.stopPropagation();
+  }).blur(function() {
+    if($(this).hasClass('editing')) {
+      $(this).toggleClass('editable editing');
+      $(this).attr('contentEditable', false);
+      if($(this).text().match(/^\s*$/)) {
+        $(this).addClass('em');
+        $(this).text(defaultText); 
+      }
+      saveSettings();
+    }
+  });
+
+  // recording sounds
+  $('.record').bind('click', function(e) {
+    var sound = $(this).parent()[0];
+    if($(this).hasClass('glyphicon-trash')) {
+      // ignore, but still stop propagation.
+      // we don't want the sound to trigger on
+      // the click before the dblclick
+    } else if(sound.recording) {
+      sound.recording = false;
+      sound.recorder.stop();
+      $(this).toggleClass('glyphicon-stop glyphicon-trash');
+    } else {
+      sound.recording = true;
+      sound.recorder = new p5.SoundRecorder();
+      sound.soundFile = new p5.SoundFile();
+      sound.recorder.setInput(mic)
+      sound.recorder.record(sound.soundFile);
+      $(this).toggleClass('glyphicon-record glyphicon-stop');
+    }
+    e.stopPropagation();
+  });
+
+  // playing sounds
+  $('.sound').bind('click', function() {
+    var sound = $(this)[0];
+    if(sound.soundFile && !sound.recording) {
+      sound.soundFile.stop();
+      sound.soundFile.play();
+    }
+  })
+
+  // deleting sounds
+  $('.record').bind('dblclick', function(e) {
+    var sound = $(this).parent()[0];
+    if($(this).hasClass('glyphicon-trash')) {
+      $(this).toggleClass('glyphicon-trash glyphicon-record');
+      delete sound.recording;
+      delete sound.recorder;
+      delete sound.soundFile;
+      e.stopPropagation();
+    }
+  })
+
+  // downloading
+  $('#download').bind('click', function() {
+    $('.sound').each(function(i, e) {
+      if(e.soundFile) {
+        var name = $(e).children('.name').text();
+        save(e.soundFile, name + '.wav');
+      }
+    })
+  })
+
+  // $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
+}
+</script>
 </body>
 </html>
