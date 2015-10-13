@@ -134,13 +134,12 @@ p {
   <h2>Usage</h2>
   <p>To use someone's soundboard, you should only click on the middle of the rectangles to play the sounds. Don't delete or rename any sounds.</p>
 
-  
-  <p id="download"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download all audio</p>
-  <!-- <p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync-icon"></span> Synchronizing with server</p> -->
   <div class='spacer'>&nbsp;</div>
   </div>
 
   <div class='col-md-6 col-md-pull-6'>
+  <p id="download"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download all audio</p>
+  <p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync" style="opacity: 0"></span> Automatically synchronized</p>
   <script>
   var defaultText = 'Double-click to name';
   for(var i = 0; i < 16; i++) {
@@ -224,7 +223,16 @@ function loadSettings(settings) {
   }
 }
 
+function showSyncing() {
+  $('#sync').fadeTo('medium', 1)
+}
+
+function hideSyncing() {
+  $('#sync').fadeTo('medium', 0)
+}
+
 function uploadFile (key, contentType, data){
+  showSyncing();
   var get = new XMLHttpRequest();
   get.open("GET", config.signUrl + "?key=" + key + "&contentType=" + contentType);
   get.onreadystatechange = function(){
@@ -238,6 +246,7 @@ function uploadFile (key, contentType, data){
         put.onload = function() {
           if (put.status === 200) {
             console.log("Successfully uploaded to " + response.url);
+            hideSyncing();
           }
         };
         put.onerror = function() {
@@ -282,82 +291,80 @@ function setup() {
 
   // changing the name
   $('.name').bind('dblclick', function(e) {
-  if($(this).hasClass('editable')) {
-    $(this).removeClass('em');
-    $(this).toggleClass('editable editing');
-    $(this).attr('contentEditable', true);
-    if($(this).text() == defaultText) {
-    $(this).text('');
+    if($(this).hasClass('editable')) {
+      $(this).removeClass('em');
+      $(this).toggleClass('editable editing');
+      $(this).attr('contentEditable', true);
+      if($(this).text() == defaultText) {
+        $(this).text('');
+      }
+      $(this).focus();
     }
-    $(this).focus();
-  }
-  e.stopPropagation();
+    e.stopPropagation();
   }).blur(function() {
-  if($(this).hasClass('editing')) {
-    $(this).toggleClass('editable editing');
-    $(this).attr('contentEditable', false);
-    if($(this).text().match(/^\s*$/)) {
-    $(this).addClass('em');
-    $(this).text(defaultText); 
+    if($(this).hasClass('editing')) {
+      $(this).toggleClass('editable editing');
+      $(this).attr('contentEditable', false);
+      if($(this).text().match(/^\s*$/)) {
+        $(this).addClass('em');
+        $(this).text(defaultText); 
+      }
+      saveSettings();
     }
-    saveSettings();
-  }
   });
 
   // recording sounds
   $('.record').bind('click', function(e) {
-  var sound = $(this).parent()[0];
-  if($(this).hasClass('glyphicon-trash')) {
-    // ignore, but still stop propagation.
-    // we don't want the sound to trigger on
-    // the click before the dblclick
-  } else if(sound.recording) {
-    sound.recording = false;
-    sound.recorder.stop();
-    $(this).toggleClass('glyphicon-stop glyphicon-trash');
-  } else {
-    sound.recording = true;
-    sound.recorder = new p5.SoundRecorder();
-    sound.soundFile = new p5.SoundFile();
-    sound.recorder.setInput(mic)
-    sound.recorder.record(sound.soundFile);
-    $(this).toggleClass('glyphicon-record glyphicon-stop');
-  }
-  e.stopPropagation();
+    var sound = $(this).parent()[0];
+    if($(this).hasClass('glyphicon-trash')) {
+      // ignore, but still stop propagation.
+      // we don't want the sound to trigger on
+      // the click before the dblclick
+    } else if(sound.recording) {
+      sound.recording = false;
+      sound.recorder.stop();
+      $(this).toggleClass('glyphicon-stop glyphicon-trash');
+    } else {
+      sound.recording = true;
+      sound.recorder = new p5.SoundRecorder();
+      sound.soundFile = new p5.SoundFile();
+      sound.recorder.setInput(mic)
+      sound.recorder.record(sound.soundFile);
+      $(this).toggleClass('glyphicon-record glyphicon-stop');
+    }
+    e.stopPropagation();
   });
 
   // playing sounds
   $('.sound').bind('click', function() {
-  var sound = $(this)[0];
-  if(sound.soundFile && !sound.recording) {
-    sound.soundFile.stop();
-    sound.soundFile.play();
-  }
+    var sound = $(this)[0];
+    if(sound.soundFile && !sound.recording) {
+      sound.soundFile.stop();
+      sound.soundFile.play();
+    }
   })
 
   // deleting sounds
   $('.record').bind('dblclick', function(e) {
-  var sound = $(this).parent()[0];
-  if($(this).hasClass('glyphicon-trash')) {
-    $(this).toggleClass('glyphicon-trash glyphicon-record');
-    delete sound.recording;
-    delete sound.recorder;
-    delete sound.soundFile;
-    e.stopPropagation();
-  }
+    var sound = $(this).parent()[0];
+    if($(this).hasClass('glyphicon-trash')) {
+      $(this).toggleClass('glyphicon-trash glyphicon-record');
+      delete sound.recording;
+      delete sound.recorder;
+      delete sound.soundFile;
+      e.stopPropagation();
+    }
   })
 
   // downloading
   $('#download').bind('click', function() {
-  $('.sound').each(function(i, e) {
-    if(e.soundFile) {
-    var name = $(e).children('.name').text();
-    save(e.soundFile, name + '.wav');
-    }
+    $('.sound').each(function(i, e) {
+      if(e.soundFile) {
+      var name = $(e).children('.name').text();
+      save(e.soundFile, name + '.wav');
+      }
+    })
   })
-  })
-
-  // $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
 }
 </script>
 </body>
