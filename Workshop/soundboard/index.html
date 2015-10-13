@@ -22,8 +22,8 @@ if(window.location.hash == "") {
 }
 var config = {
   'id': window.location.hash.substring(1),
-  'uploadUrl': 'http://social-hacking-s3.herokuapp.com/upload/',
-  'awsUrl': 'https://s3-eu-west-1.amazonaws.com/social-hacking/'
+  'signUrl': 'http://social-hacking-s3.herokuapp.com/sign_s3',
+  's3Bucket': 'https://s3-eu-west-1.amazonaws.com/social-hacking/'
 };
 
 </script>
@@ -115,52 +115,142 @@ p {
 
 <div class='row'>
   <div class='col-md-6 col-md-push-6'>
-    <h2>Background</h2>
-    <p>The soundboard is an excercise in constrained interaction, voice transfer, and identity dissolution. Throughout the 2000s, sounboards were built in Flash as a tool for placing prank phone calls. Sites like <a href="http://www.newgrounds.com/games/browse/tag/soundboard/min_score/0">Newgrounds</a> or <a href="http://www.albinoblacksheep.com/flash/soundboard/">Albino Black Sheep</a> have some of the larger collections, including the <a href="http://www.albinoblacksheep.com/flash/arnold">Arnold Schwarzenegger</a> soundboard infamously used by US presidential candidate Mitt Romney's son in <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/01/22/AR2008012204073.html">a prank phone call</a> in 2008.</p>
-    <p>To use a soundboard effectively, a certain degree of study and familiarity is required. The user must acquire the "voice" of the soundboard, similar to the way Krzysztof Wodiczko and Sung Ho Kim's <a href="http://www.interrogative.org/projects/1993/porte-parole">Porte-Parole Mouthpiece</a> "transforms its user into a virtual subject, literally, a cyborg communicating through a high-tech device rather than your own bodily apparatus for speech".</p>
-    <p>In the same way soundboards mask the identity of the prank caller, they can also be used to craft an alternative identity for telemarketers. Instead of a telemarketer speaking directly over the phone, some are <a href="http://www.theatlantic.com/technology/archive/2013/12/almost-human-the-surreal-cyborg-future-of-telemarketing/282537/">aided by soundboards with more neutral accents</a>. In some instances, the telemarketer switches back and forth between speaking via soundboard, and speaking directly. Sometimes they deny they are "robots", other times they explain very clearly: "You are talking to a live person, but to ensure the information is accurate, I'm using pre-recorded audio messages."</p>
+  <h2>Background</h2>
+  <p>The soundboard is an excercise in constrained interaction, voice transfer, and identity dissolution. Throughout the 2000s, sounboards were built in Flash as a tool for placing prank phone calls. Sites like <a href="http://www.newgrounds.com/games/browse/tag/soundboard/min_score/0">Newgrounds</a> or <a href="http://www.albinoblacksheep.com/flash/soundboard/">Albino Black Sheep</a> have some of the larger collections, including the <a href="http://www.albinoblacksheep.com/flash/arnold">Arnold Schwarzenegger</a> soundboard infamously used by US presidential candidate Mitt Romney's son in <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/01/22/AR2008012204073.html">a prank phone call</a> in 2008.</p>
+  <p>To use a soundboard effectively, a certain degree of study and familiarity is required. The user must acquire the "voice" of the soundboard, similar to the way Krzysztof Wodiczko and Sung Ho Kim's <a href="http://www.interrogative.org/projects/1993/porte-parole">Porte-Parole Mouthpiece</a> "transforms its user into a virtual subject, literally, a cyborg communicating through a high-tech device rather than your own bodily apparatus for speech".</p>
+  <p>In the same way soundboards mask the identity of the prank caller, they can also be used to craft an alternative identity for telemarketers. Instead of a telemarketer speaking directly over the phone, some are <a href="http://www.theatlantic.com/technology/archive/2013/12/almost-human-the-surreal-cyborg-future-of-telemarketing/282537/">aided by soundboards with more neutral accents</a>. In some instances, the telemarketer switches back and forth between speaking via soundboard, and speaking directly. Sometimes they deny they are "robots", other times they explain very clearly: "You are talking to a live person, but to ensure the information is accurate, I'm using pre-recorded audio messages."</p>
 
-    <h2>Preparation</h2>
-    <p>The goal is to assemble a collection of sounds for two participants to use in a conversation with each other. You may assemble the same soundboard for both of them, or prepare two separate soundboards.</p>
-    <ol>
-      <li>Click "Allow" when the page asks to use your microphone.</li>
-      <li>Click the red record button <span class="glyphicon glyphicon-record" aria-hidden="true"></span> to record a sound.</li>
-      <li>Click the stop button <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> to finish recording the sound.</li>
-      <li>Once the sound is recorded, you can click anywhere in the square to play the sound.</li>
-      <li>Double-click the text to change the name of the sound.</li>
-      <li>Double-click the trash can <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> to delete the sound and re-record.</li>
-      <li>The data will automatically sync with a server. Copy and paste the URL to come back to this soundboard.</li>
-    </ol>
-    <h2>Usage</h2>
-    <p>To use someone's soundboard, you should only click on the middle of the rectangles to play the sounds. Don't delete or rename any sounds.</p>
+  <h2>Preparation</h2>
+  <p>The goal is to assemble a collection of sounds for two participants to use in a conversation with each other. You may assemble the same soundboard for both of them, or prepare two separate soundboards.</p>
+  <ol>
+    <li>Click "Allow" when the page asks to use your microphone.</li>
+    <li>Click the red record button <span class="glyphicon glyphicon-record" aria-hidden="true"></span> to record a sound.</li>
+    <li>Click the stop button <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> to finish recording the sound.</li>
+    <li>Once the sound is recorded, you can click anywhere in the square to play the sound.</li>
+    <li>Double-click the text to change the name of the sound.</li>
+    <li>Double-click the trash can <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> to delete the sound and re-record.</li>
+    <li>The data will automatically sync with a server. Copy and paste the URL to come back to this soundboard.</li>
+  </ol>
+  <h2>Usage</h2>
+  <p>To use someone's soundboard, you should only click on the middle of the rectangles to play the sounds. Don't delete or rename any sounds.</p>
 
-    
-    <p id="download"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download all audio</p>
-    <!-- <p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync-icon"></span> Synchronizing with server</p> -->
-    <div class='spacer'>&nbsp;</div>
+  
+  <p id="download"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download all audio</p>
+  <!-- <p><span class="glyphicon glyphicon-refresh" aria-hidden="true" id="sync-icon"></span> Synchronizing with server</p> -->
+  <div class='spacer'>&nbsp;</div>
   </div>
 
   <div class='col-md-6 col-md-pull-6'>
-    <script>
-    var defaultText = 'Double-click to name';
-    for(var i = 0; i < 16; i++) {
-      document.write(
-        '<div id="sound' + i + '" class="sound">' +
-          '<span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="name editable em">' + defaultText + '</span>' +
-        '</div>');
-      // if((i + 1) % 4 == 0) {
-      //   document.write('<br style="clear:both"/>');
-      // }
-    }
-    </script>
+  <script>
+  var defaultText = 'Double-click to name';
+  for(var i = 0; i < 16; i++) {
+    document.write(
+    '<div id="sound' + i + '" class="sound">' +
+      '<span class="glyphicon glyphicon-record record" aria-hidden="true"></span> <span class="name editable em">' + defaultText + '</span>' +
+    '</div>');
+    // if((i + 1) % 4 == 0) {
+    //   document.write('<br style="clear:both"/>');
+    // }
+  }
+  </script>
   </div>
 <script>
+function arrayBufferToBase64( buffer ) {
+  var binary = '';
+  var bytes = new Uint8Array( buffer );
+  var len = bytes.byteLength;
+  for (var i = 0; i < len; i++) {
+    binary += String.fromCharCode( bytes[ i ] );
+  }
+  return window.btoa( binary );
+}
+ 
+function base64ToArrayBuffer(base64) {
+  var binary_string =  window.atob(base64);
+  var len = binary_string.length;
+  var bytes = new Uint8Array( len );
+  for (var i = 0; i < len; i++)        {
+    bytes[i] = binary_string.charCodeAt(i);
+  }
+  return bytes.buffer;
+}
+
+function monoSaveSound(soundFile) {
+  var leftChannel = soundFile.buffer.getChannelData(0);
+  // create the buffer and view to create the .WAV file
+  var buffer = new ArrayBuffer(44 + leftChannel.length * 2);
+  var view = new DataView(buffer);
+  // write the WAV container,
+  // check spec at: https://ccrma.stanford.edu/courses/422/projects/WaveFormat/
+  // RIFF chunk descriptor
+  writeUTFBytes(view, 0, 'RIFF');
+  view.setUint32(4, 44 + leftChannel.length * 2, true);
+  writeUTFBytes(view, 8, 'WAVE');
+  // FMT sub-chunk
+  writeUTFBytes(view, 12, 'fmt ');
+  view.setUint32(16, 16, true);
+  view.setUint16(20, 1, true);
+  // stereo (1 channel)
+  view.setUint16(22, 1, true);
+  view.setUint32(24, 44100, true);
+  view.setUint32(28, 44100 * 2, true);
+  view.setUint16(32, 2, true);
+  view.setUint16(34, 16, true);
+  // data sub-chunk
+  writeUTFBytes(view, 36, 'data');
+  view.setUint32(40, leftChannel.length * 2, true);
+  // write the PCM samples
+  var lng = leftChannel.length;
+  var index = 44;
+  var volume = 1;
+  for (var i = 0; i < lng; i++) {
+  view.setInt16(index, leftChannel[i] * (32767 * volume), true);
+  index += 2;
+  }
+  return view;
+};
+function writeUTFBytes(view, offset, string) {
+  var lng = string.length;
+  for (var i = 0; i < lng; i++) {
+  view.setUint8(offset + i, string.charCodeAt(i));
+  }
+}
+
 function loadSettings(settings) {
   for(key in settings) {
-    var name = $('#' + key).children('.name');
-    name.text(settings[key].name);
-    name.removeClass('em');
+  var name = $('#' + key).children('.name');
+  name.text(settings[key].name);
+  name.removeClass('em');
   }
+}
+
+function uploadFile (key, contentType, data){
+  var get = new XMLHttpRequest();
+  get.open("GET", config.signUrl + "?key=" + key + "&contentType=" + contentType);
+  get.onreadystatechange = function(){
+    if(get.readyState === 4){
+      if(get.status === 200){
+        var response = JSON.parse(get.responseText);
+        var put = new XMLHttpRequest();
+        put.open("PUT", response.signedRequest);
+        put.setRequestHeader('Content-Type', contentType);
+        put.setRequestHeader('x-amz-acl', 'public-read');
+        put.onload = function() {
+          if (put.status === 200) {
+            console.log("Successfully uploaded to " + response.url);
+          }
+        };
+        put.onerror = function() {
+          alert("Could not upload " + key);
+        };
+        put.send(data);
+      }
+      else{
+        alert("Could not get signed URL for " + key);
+      }
+    }
+  };
+  get.send();
 }
 
 function saveSettings() {
@@ -173,17 +263,15 @@ function saveSettings() {
     }
   })
   var key = config.id + '/settings.json';
-  $.post(config.uploadUrl, {'key': key, 'body': JSON.stringify(settings)}, function(data) {
-    console.log(data);
-  });
+  uploadFile(key, 'application/json', JSON.stringify(settings));
 }
 
 function setup() {
   noCanvas();
 
   // load from aws on startup
-  $.get(config.awsUrl + config.id + '/settings.json', function(data) {
-    loadSettings(JSON.parse(data));
+  $.get(config.s3Bucket + config.id + '/settings.json', function(data) {
+    loadSettings(data);
   }).fail(function() {
     console.log("No pre-existing settings file.");
   })
@@ -194,79 +282,79 @@ function setup() {
 
   // changing the name
   $('.name').bind('dblclick', function(e) {
-    if($(this).hasClass('editable')) {
-      $(this).removeClass('em');
-      $(this).toggleClass('editable editing');
-      $(this).attr('contentEditable', true);
-      if($(this).text() == defaultText) {
-        $(this).text('');
-      }
-      $(this).focus();
+  if($(this).hasClass('editable')) {
+    $(this).removeClass('em');
+    $(this).toggleClass('editable editing');
+    $(this).attr('contentEditable', true);
+    if($(this).text() == defaultText) {
+    $(this).text('');
     }
-    e.stopPropagation();
+    $(this).focus();
+  }
+  e.stopPropagation();
   }).blur(function() {
-    if($(this).hasClass('editing')) {
-      $(this).toggleClass('editable editing');
-      $(this).attr('contentEditable', false);
-      if($(this).text().match(/^\s*$/)) {
-        $(this).addClass('em');
-        $(this).text(defaultText); 
-      }
-      saveSettings();
+  if($(this).hasClass('editing')) {
+    $(this).toggleClass('editable editing');
+    $(this).attr('contentEditable', false);
+    if($(this).text().match(/^\s*$/)) {
+    $(this).addClass('em');
+    $(this).text(defaultText); 
     }
+    saveSettings();
+  }
   });
 
   // recording sounds
   $('.record').bind('click', function(e) {
-    var sound = $(this).parent()[0];
-    if($(this).hasClass('glyphicon-trash')) {
-      // ignore, but still stop propagation.
-      // we don't want the sound to trigger on
-      // the click before the dblclick
-    } else if(sound.recording) {
-      sound.recording = false;
-      sound.recorder.stop();
-      $(this).toggleClass('glyphicon-stop glyphicon-trash');
-    } else {
-      sound.recording = true;
-      sound.recorder = new p5.SoundRecorder();
-      sound.soundFile = new p5.SoundFile();
-      sound.recorder.setInput(mic)
-      sound.recorder.record(sound.soundFile);
-      $(this).toggleClass('glyphicon-record glyphicon-stop');
-    }
-    e.stopPropagation();
+  var sound = $(this).parent()[0];
+  if($(this).hasClass('glyphicon-trash')) {
+    // ignore, but still stop propagation.
+    // we don't want the sound to trigger on
+    // the click before the dblclick
+  } else if(sound.recording) {
+    sound.recording = false;
+    sound.recorder.stop();
+    $(this).toggleClass('glyphicon-stop glyphicon-trash');
+  } else {
+    sound.recording = true;
+    sound.recorder = new p5.SoundRecorder();
+    sound.soundFile = new p5.SoundFile();
+    sound.recorder.setInput(mic)
+    sound.recorder.record(sound.soundFile);
+    $(this).toggleClass('glyphicon-record glyphicon-stop');
+  }
+  e.stopPropagation();
   });
 
   // playing sounds
   $('.sound').bind('click', function() {
-    var sound = $(this)[0];
-    if(sound.soundFile && !sound.recording) {
-      sound.soundFile.stop();
-      sound.soundFile.play();
-    }
+  var sound = $(this)[0];
+  if(sound.soundFile && !sound.recording) {
+    sound.soundFile.stop();
+    sound.soundFile.play();
+  }
   })
 
   // deleting sounds
   $('.record').bind('dblclick', function(e) {
-    var sound = $(this).parent()[0];
-    if($(this).hasClass('glyphicon-trash')) {
-      $(this).toggleClass('glyphicon-trash glyphicon-record');
-      delete sound.recording;
-      delete sound.recorder;
-      delete sound.soundFile;
-      e.stopPropagation();
-    }
+  var sound = $(this).parent()[0];
+  if($(this).hasClass('glyphicon-trash')) {
+    $(this).toggleClass('glyphicon-trash glyphicon-record');
+    delete sound.recording;
+    delete sound.recorder;
+    delete sound.soundFile;
+    e.stopPropagation();
+  }
   })
 
   // downloading
   $('#download').bind('click', function() {
-    $('.sound').each(function(i, e) {
-      if(e.soundFile) {
-        var name = $(e).children('.name').text();
-        save(e.soundFile, name + '.wav');
-      }
-    })
+  $('.sound').each(function(i, e) {
+    if(e.soundFile) {
+    var name = $(e).children('.name').text();
+    save(e.soundFile, name + '.wav');
+    }
+  })
   })
 
   // $('#sync-icon').toggleClass('glyphicon-saved glyphicon-refresh')
