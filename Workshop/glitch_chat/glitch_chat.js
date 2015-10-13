@@ -14,12 +14,13 @@ if (Meteor.isServer) {
  
 if (Meteor.isClient) {
   Meteor.subscribe('rules');
+  Session.setDefault('page', 'chat_page');
 
   var path = window.location.pathname.split('/');
   var user = '';
   for (var i=0; i<path.length; i++) {
-    if (path[i] === 'rules' || path[i] === 'chat') {
-      Session.setDefault('page', path[i]+'_page');
+    if (path[i] === 'setup') {
+      Session.set('page', 'rules_page');
     } else if (path[i].length > 0) {
       user = path[i].toLowerCase();
     }
@@ -60,7 +61,7 @@ if (Meteor.isClient) {
           Rules.remove({_id: r._id});
         }
       });
-      window.location='/chat/'+user;
+      window.location='/'+user;
     },
     'click .remove': function () {
       Rules.remove(this._id);
