@@ -1,9 +1,7 @@
 <!--
-  // save everything to s3, sync automatically
   // change color when playing, do small animation
   // change deletion to a mode rather than an always-on button?
-  // implement maximum sound length to avoid uploading/downloading huge files
-  // disable the buttons if they don't click "allow"
+  // disable the buttons if they don't click "allow" to getUserMedia?
 -->
 <html>
 <head>
@@ -16,14 +14,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.sound.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.14/addons/p5.dom.js"></script>
 <script>
+function getUid() {
+  return Math.floor((1 + Math.random()) * 0x100000000).toString(16).substring(1);
+}
 if(window.location.hash == "") {
-  var uid = Math.floor((1 + Math.random()) * 0x100000000).toString(16).substring(1); // 8 digits
+  var uid = getUid(); // 8 digits
   window.location.hash = "#" + uid;
 }
 var config = {
   'id': window.location.hash.substring(1),
   'signUrl': 'http://social-hacking-s3.herokuapp.com/sign_s3',
-  's3Bucket': 'https://s3-eu-west-1.amazonaws.com/social-hacking/'
+  's3Bucket': 'https://s3-eu-west-1.amazonaws.com/social-hacking/',
+  'maximumRecordTime': 10000,
 };
 
 </script>
@@ -154,26 +156,6 @@ p {
   </script>
   </div>
 <script>
-function arrayBufferToBase64( buffer ) {
-  var binary = '';
-  var bytes = new Uint8Array( buffer );
-  var len = bytes.byteLength;
-  for (var i = 0; i < len; i++) {
-    binary += String.fromCharCode( bytes[ i ] );
-  }
-  return window.btoa( binary );
-}
- 
-function base64ToArrayBuffer(base64) {
-  var binary_string =  window.atob(base64);
-  var len = binary_string.length;
-  var bytes = new Uint8Array( len );
-  for (var i = 0; i < len; i++)        {
-    bytes[i] = binary_string.charCodeAt(i);
-  }
-  return bytes.buffer;
-}
-
 function monoSaveSound(soundFile) {
   var leftChannel = soundFile.buffer.getChannelData(0);
   // create the buffer and view to create the .WAV file
@@ -203,23 +185,27 @@ function monoSaveSound(soundFile) {
   var index = 44;
   var volume = 1;
   for (var i = 0; i < lng; i++) {
-  view.setInt16(index, leftChannel[i] * (32767 * volume), true);
-  index += 2;
+    view.setInt16(index, leftChannel[i] * (32767 * volume), true);
+    index += 2;
   }
   return view;
 };
 function writeUTFBytes(view, offset, string) {
   var lng = string.length;
   for (var i = 0; i < lng; i++) {
-  view.setUint8(offset + i, string.charCodeAt(i));
+    view.setUint8(offset + i, string.charCodeAt(i));
   }
 }
 
 function loadSettings(settings) {
   for(key in settings) {
-  var name = $('#' + key).children('.name');
-  name.text(settings[key].name);
-  name.removeClass('em');
+    var sound = $('#' + key)[0];
+    var name = $(sound).children('.name');
+    name.text(settings[key].name);
+    name.removeClass('em');
+    var record = $(sound).children('.record');
+    record.toggleClass('glyphicon-trash glyphicon-record');
+    sound.soundFile = new p5.SoundFile(getWaveUrl(settings[key].file));
   }
 }
 
@@ -268,11 +254,19 @@ function saveSettings() {
   sounds.each(function(i, e) {
     var name = $(e).children('.name').text();
     if(name != defaultText) {
-      settings[e.id] = {'name': name};
+      settings[e.id] = {'name': name, 'file': e.file };
     }
   })
   var key = config.id + '/settings.json';
   uploadFile(key, 'application/json', JSON.stringify(settings));
+}
+
+function getWaveUrl(str) {
+  return config.s3Bucket + getWaveKey(str);
+}
+
+function getWaveKey(str) {
+  return config.id + '/' + str + '.wav';
 }
 
 function setup() {
@@ -307,11 +301,15 @@ function setup() {
       $(this).attr('contentEditable', false);
       if($(this).text().match(/^\s*$/)) {
         $(this).addClass('em');
-        $(this).text(defaultText); 
+        $(this).text(defaultText);
       }
       saveSettings();
     }
   });
+
+  function stopRecording(sound, record) {
+
+  }
 
   // recording sounds
   $('.record').bind('click', function(e) {
@@ -321,16 +319,27 @@ function setup() {
       // we don't want the sound to trigger on
       // the click before the dblclick
     } else if(sound.recording) {
-      sound.recording = false;
-      sound.recorder.stop();
-      $(this).toggleClass('glyphicon-stop glyphicon-trash');
+      // stop recording
+      clearTimeout(sound.stopTimeout); // could be a double-stop where they press the button exactly at 10s
+      sound.stop();
     } else {
+      // start recording
       sound.recording = true;
       sound.recorder = new p5.SoundRecorder();
       sound.soundFile = new p5.SoundFile();
       sound.recorder.setInput(mic)
       sound.recorder.record(sound.soundFile);
       $(this).toggleClass('glyphicon-record glyphicon-stop');
+      var record = this;
+      sound.stop = function() {
+        sound.recording = false;
+        sound.recorder.stop();
+        $(record).toggleClass('glyphicon-stop glyphicon-trash');
+        sound.file = getUid();
+        uploadFile(getWaveKey(sound.file), 'audio/wav', monoSaveSound(sound.soundFile));
+        saveSettings();
+      }
+      sound.stopTimeout = setTimeout(function() { sound.stop() }, config.maximumRecordTime);
     }
     e.stopPropagation();
   });
