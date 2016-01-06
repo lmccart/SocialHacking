@@ -9,29 +9,29 @@
 
 ### Week 1 (1/27): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-1)
 
-### Week 2 (2/3): Individual meetings.
+### Week 2 (2/3): Individual meetings
 
 ### Week 3 (2/10): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-2)
 
-### Week 4 (2/17): Individual meetings.
+### Week 4 (2/17): Individual meetings
 
 ### Week 5 (2/24): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-3)
 
-### Week 6 (3/2): Individual meetings.
+### Week 6 (3/2): Individual meetings
 
 ### Week 7 (3/9): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-4)
 
-### Spring break (3/14).
+### Spring break (3/14)
 
 ### Week 8 (3/23): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile,-public-and-participatory-performance) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-5)
 
-### Week 9 (3/30): Individual meetings.
+### Week 9 (3/30): Individual meetings
 
 ### Week 10 (4/6): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-6)
 
-### Week 11 (4/13): Individual meetings.
+### Week 11 (4/13): Individual meetings
 
-### Week 12 (4/20): Final presentations.
+### Week 12 (4/20): Final presentations
 
 
 ## Important links
