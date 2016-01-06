@@ -1,4 +1,4 @@
-# Appropriating Interaction Technologies
+# Social Hacking
 
 * Taught by Kyle McDonald and Lauren McCarthy
 * Wednesdays 3:20-5:50, ITP room 442
