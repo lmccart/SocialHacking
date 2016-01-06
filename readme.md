@@ -7,19 +7,31 @@
 
 ## Syllabus
 
-### Week 1 (10/22): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-1)
+### Week 1 (1/27): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-1)
 
-### Week 2 (10/29): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-2)
+### Week 2 (2/3): Individual meetings.
 
-### Week 3 (11/5): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-3)
+### Week 3 (2/10): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-2)
 
-### Week 4 (11/12): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-4)
+### Week 4 (2/17): Individual meetings.
 
-###Week 5 (11/19): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile,-public-and-participatory-performance) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments#assignment-5)
+### Week 5 (2/24): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-3)
 
-### Week 6 (11/26): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis)
+### Week 6 (3/2): Individual meetings.
 
-###Week 7 (12/3): Final presentations
+### Week 7 (3/9): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-4)
+
+### Spring break (3/14).
+
+### Week 8 (3/23): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile,-public-and-participatory-performance) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-5)
+
+### Week 9 (3/30): Individual meetings.
+
+### Week 10 (4/6): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-6)
+
+### Week 11 (4/13): Individual meetings.
+
+### Week 12 (4/20): Final presentations.
 
 
 ## Important links
@@ -54,4 +66,5 @@ Auditors are welcome; if you come you should be engaged, but we can’t create a
 
 ## Previous Iterations
 
-* [Complete Fall 2013 Syllabus](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2013)
+* [Complete Fall 2013 syllabus](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2013-syllabus) and [assignments](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2013-assignments)
+* [Complete Fall 2014 syllabus](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Syllabus) and [assignments](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Fall-2014-Assignments)
