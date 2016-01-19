@@ -54,8 +54,6 @@ tactics for intervention and performance will be explored, first through a set o
 
 A conviction that creative people can derail society for the best, a deep love for code, and a willingness to explore uncomfortable situations. You should at least have taken Introduction to Computational Media or have similar experience with programming.
 
-This two-point course will meet in the second seven weeks of the semester.
-
 ## Expectations
 
 We are going to be introducing a variety of techniques and tools, ranging in technical difficulty. Our main requirement for work is that it is of high quality - it need not be hypertechnical, but it does need to be very well thought out and well executed. There will be one assignment each week, you may skip up to one and still pass the class.
