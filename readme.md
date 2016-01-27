@@ -60,7 +60,6 @@ We are going to be introducing a variety of techniques and tools, ranging in tec
 
 Attendance and participation is essential, you may miss one class and still pass the class.
 
-Auditors are welcome; if you come you should be engaged, but we can’t create a situation where we are giving you time instead of students who are registered.
 
 ## Previous Iterations
 
