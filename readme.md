@@ -13,13 +13,13 @@
 
 ### Week 3 (2/10): Individual meetings
 
-### Week 4 (2/17): Individual meetings
+### Week 4 (2/17): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-3)
 
-### Week 5 (2/24): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-3)
+### Week 5 (2/24): Individual meetings
 
-### Week 6 (3/2): Individual meetings
+### Week 6 (3/2): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-4)
 
-### Week 7 (3/9): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-4)
+### Week 7 (3/9): Individual meetings
 
 ### Spring break (3/14)
 
