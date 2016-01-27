@@ -39,7 +39,7 @@
 * [GitHub](https://github.com/lmccart/AppropriatingInteractionTechnologies) - serves as a collection of scripts and tools for social hacking.
 * [Wiki](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/) - contains syllabus and assignment schedules
 * [Google Drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
-* [Mailing list](http://groups.google.com/group/appropriating-interaction-technologies/) - For course announcements and longer form discussions, feedback, questions. 
+* [Mailing list](https://groups.google.com/forum/#!forum/social-hacking) - For course announcements and longer form discussions, feedback, questions. 
 
 ## Course description
 
