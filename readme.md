@@ -1,6 +1,6 @@
 # Social Hacking
 
-* Taught by Kyle McDonald and Lauren McCarthy
+* Taught by [Kyle McDonald](mailto:kyle@kylemcdonald.net) and [Lauren McCarthy](mailto:laurmccarthy@gmail.com)
 * Wednesdays 3:20-6:15, ITP room 449
 * [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description of the signup. If you need to set up a different time, email us.
 * [Resident office hours signup](https://itp.nyu.edu/inwiki/) - The residents are also available for technical help and other discussions.
