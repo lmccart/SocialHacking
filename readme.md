@@ -11,7 +11,7 @@
 
 ### Week 2 (2/3): [Social automation and APIs](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-automation-and-APIs) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-2)
 
-### Week 3 (2/10): Individual meetings
+### Week 3 (2/10): [Individual meetings](https://github.com/lmccart/SocialHacking/wiki/Individual-Meetings#210)
 
 ### Week 4 (2/17): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-3)
 
