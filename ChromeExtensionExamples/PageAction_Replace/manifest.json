@@ -1,0 +1,21 @@
+{
+  "name": "Basic replace",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Basic replace",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.nytimes.com/*",
+        "http://processing.org/*"
+      ],
+      "js": [
+        "jquery.js",
+        "content_script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "data/new_lines.txt"
+  ]
+}

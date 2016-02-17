@@ -7,9 +7,6 @@
       "default_icon": "icon.png",
       "default_popup": "popup.html"
     },
-    "content_security_policy": "script-src 'self' http://localhost; object-src 'self' http://localhost",
-    "incognito": "split",
-    "offline_enabled": false,
     "permissions": [
         "tabs", 
         "http://*/*", 

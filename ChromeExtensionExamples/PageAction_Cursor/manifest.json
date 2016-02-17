@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Basic Cursor",
+  "description": "Replace the cursor with glitter.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://tisch.nyu.edu/itp/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "jquery.js",
+        "content_script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "glitter_cursor.gif"
+  ]
+}

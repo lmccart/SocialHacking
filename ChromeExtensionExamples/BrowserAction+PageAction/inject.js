@@ -3,20 +3,24 @@ console.log("changeText");
 // load the file into an array
 var new_lines = loadStrings("data/new_lines.txt");
 
-$('.editable').each(function(){
+
+$('.js-tweet-text').each(function(){
     
-    // grab the text from the element on the page to manipulate
-    var text = $(this).html();
+  // grab the text from the element on the page to manipulate
+  var text = $(this).html();
+  console.log(text)
 
-    // replace periods with exclamation points
-    text = text.replace(/\./g, "!!!");
+  // replace periods with exclamation points
+  text = text.replace(/\. /g, "!!! ");
 
-    // replace word "hi" with a random string from text file
+  // replace every fourth tweet
+  if (Math.random() < 0.25) {
     var random_string = getRandom(new_lines);
-    text = text.replace("hi", random_string);
-    
-    // put the modified text back into the element on the page
-    $(this).html(text);
+    text = random_string;
+  }
+  
+  // put the modified text back into the element on the page
+  $(this).html(text);
 });
 
 

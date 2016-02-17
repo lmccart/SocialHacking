@@ -1,8 +1,0 @@
-POST:
-
-resize
-flipflop
-two instances
-
-post server commands
-
