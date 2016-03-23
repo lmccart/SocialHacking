@@ -21,6 +21,7 @@ $('.js-tweet-text').each(function(){
   
   // put the modified text back into the element on the page
   $(this).html(text);
+  $('body').css('background', 'red');
 });
 
 

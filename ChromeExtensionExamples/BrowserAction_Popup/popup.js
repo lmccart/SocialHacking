@@ -19,5 +19,5 @@ $(document).ready(function() {
     $('#status').text('url = '+url);
 
   });
-
+  
 });

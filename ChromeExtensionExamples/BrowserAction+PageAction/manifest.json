@@ -13,7 +13,6 @@
         "https://*/*"
     ],
     "web_accessible_resources": [
-        "manifest.json",
         "data/new_lines.txt"
     ]
 }

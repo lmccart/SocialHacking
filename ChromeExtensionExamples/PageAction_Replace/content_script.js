@@ -12,8 +12,14 @@ $(document).ready(function(){
 
 
 function changeText() {
-  $('a, p').each(function(){
-    $(this).html(getRandom(new_lines))
+  $('.js-tweet-text').each(function(){
+
+    var text = $(this).html();
+    text = text.replace('. ', '!!!! ');
+    $(this).html(text);
+    // if (Math.random() < 0.25) {
+    //   $(this).html(getRandom(new_lines))
+    // }
     //$(this).hide();
   });
 }
@@ -39,11 +45,4 @@ function getRandom(array){
   var index = Math.floor(Math.random()*array.length);
   var value = array[index];
   return value;
-}
-
-
-//returns true if string contains searched character
-function contains(string, searchChar){
-  if(string.indexOf(searchChar) != -1) return true;
-  else return false;
 }

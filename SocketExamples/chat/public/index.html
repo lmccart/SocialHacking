@@ -1,36 +1,36 @@
 <!doctype html>
 <html>
   <head>
-    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.23/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.23/addons/p5.dom.js"></script>
     <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
-    <style>
-      * { margin: 0; padding: 0; box-sizing: border-box; }
-      body { font: 13px Helvetica, Arial; }
-      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
-      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-      #messages { list-style-type: none; margin: 0; padding: 0; }
-      #messages li { padding: 5px 10px; }
-      #messages li:nth-child(odd) { background: #eee; }
-    </style>
-  </head>
-  <body>
-    <ul id="messages"></ul>
-    <form action="">
-      <input id="m" autocomplete="off" /><button>Send</button>
-    </form>
-
     <script>
       var socket = io();  
       socket.on('chat message', function(msg){
-        $('#messages').append($('<li>').text(msg));
+        createDiv(msg);
       });
 
-      $('form').submit(function(){
-        socket.emit('chat message', $('#m').val());
-        $('#m').val('');
-        return false;
-      });
+      var input;
+      var button;
+
+      function setup() {
+        noCanvas();
+        input = createInput();
+        button = createButton('send');
+        button.mousePressed(send);
+      }
+
+      function send() {
+        var val = input.value();
+        input.value('');
+        socket.emit('chat message', val);
+      }
+
     </script>
+    <style>
+      body { margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
   </body>
 </html>
