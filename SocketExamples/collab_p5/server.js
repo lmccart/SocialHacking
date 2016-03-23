@@ -20,6 +20,7 @@ io.on('connection', function(socket){
   socket.on('position', function(msg){
     // console.log('position x: ' + msg.x + ' y: ' + msg.y);
     //io.emit('position', msg);
+    // this explains about broadcasting to diff users: http://stackoverflow.com/questions/10058226/send-response-to-all-clients-except-sender-socket-io
     socket.broadcast.emit('position', msg);
   });
 });
