@@ -19,7 +19,7 @@
 
 ### Week 6 (3/2): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-4)
 
-### Week 7 (3/9): Individual meetings
+### Week 7 (3/9): Visit to Laura Poitras at the Whitney
 
 ### Spring break (3/14)
 
