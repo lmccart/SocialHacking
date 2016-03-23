@@ -15,7 +15,7 @@
 
 ### Week 4 (2/17): [Extensions and customization](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Extensions-and-customization) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-3)
 
-### Week 5 (2/24): Individual meetings
+### Week 5 (2/24): [Individual meetings](https://github.com/lmccart/SocialHacking/wiki/Individual-Meetings#224)
 
 ### Week 6 (3/2): [Security, surveillance, and privacy](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Security,-surveillance,-and-privacy) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-4)
 
