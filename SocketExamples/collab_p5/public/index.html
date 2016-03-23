@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.23/p5.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script>
+      var socket = io();  
+      socket.on('position', function(msg){
+        fill(0);
+        ellipse(msg.x, msg.y, 15, 15);
+      });
+
+      function setup() {
+        createCanvas(windowWidth, windowHeight);
+        background(200);
+        noStroke();
+      }
+
+      function mouseDragged() {
+        socket.emit('position', {x: mouseX, y:mouseY});
+        fill(255);
+        ellipse(mouseX, mouseY, 25, 25);
+      }
+
+    </script>
+    <style>
+      body { margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+  </body>
+</html>
