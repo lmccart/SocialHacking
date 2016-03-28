@@ -25,7 +25,7 @@
 
 ### Week 8 (3/23): [Mobile platforms and public performance](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Mobile,-public-and-participatory-performance) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-5)
 
-### Week 9 (3/30): Individual meetings
+### Week 9 (3/30): [Individual meetings](https://github.com/lmccart/SocialHacking/wiki/Individual-Meetings#330)
 
 ### Week 10 (4/6): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-6)
 
