@@ -1,5 +1,7 @@
-// npm install express
+// To setup: (1) cd in terminal to this folder, (2) type "npm install express"
 // documentation: http://expressjs.com
+
+// To run: while inside this folder in terminal, type "node server.js"
 
 // Include express module and initialize app
 var express = require('express');
