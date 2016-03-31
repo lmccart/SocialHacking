@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $(document).keypress(function(event) {
+        $.getJSON('/getRandomItem', function(data) {
+          $('#content').append('<p>'+data+'</p>');
+        });
+      });
+
+      $(document).click(function(event) {
+        var x = event.clientX;
+        $.getJSON('/addItem?item='+x);
+        console.log('added number '+x);
+      });
+    });
+
+    </script>
+  </head>
+  <body>
+  <p>click to add mouse x-pos to the server, press spacebar to display random mouse x-val</p>
+  <div id='content'></div>
+  </body>
+</html>

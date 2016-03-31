@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.23/p5.js"></script>
+    <script>
+      function setup() {
+        createCanvas(windowWidth, windowHeight);
+        background(200);
+        textAlign(CENTER);
+        text('click to add mousex to the server, press spacebar to display random mousex val', width/2, height/2);
+      }
+
+      function mousePressed() {
+        loadJSON('/addItem?item='+mouseX);
+        console.log('added number '+mouseX);
+      }
+
+      function keyPressed() {
+        if (key == ' ') {
+          loadJSON('/getRandomItem', function(data) {
+            drawData(data);
+          });
+        }
+      }
+
+      function drawData(data) {
+        background(200);
+        text(data, width/2, height/2);
+      }
+    </script>
+    <style>
+      body { margin: 0; padding: 0; }
+    </style>
+  </head>
+  <body>
+  </body>
+</html>
