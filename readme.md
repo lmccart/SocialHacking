@@ -29,7 +29,7 @@
 
 ### Week 10 (4/6): [Computer vision and linguistic analysis](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Computer-vision-and-linguistic-analysis) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-6)
 
-### Week 11 (4/13): Individual meetings + Anagram visit
+### Week 11 (4/13): [Individual meetings](https://github.com/lmccart/SocialHacking/wiki/Individual-Meetings#413) + 5:15pm Anagram visit
 
 ### Week 12 (4/20): Final presentations
 
