@@ -1,3 +1,5 @@
+Honolulul Museum of Art 2018, NYU ITP Spring 2016, Cinekid Festival 2015, NYU ITP Spring 2014, NYU ITP Fall 2013
+
 # Social Hacking
 
 * Taught by [Kyle McDonald](mailto:kyle@kylemcdonald.net) and [Lauren McCarthy](mailto:laurmccarthy@gmail.com)
