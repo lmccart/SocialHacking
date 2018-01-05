@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sniff</title>
+<style>
+html, body {
+    background: black;
+    color: white;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+*{
+    font-family: "Andale Mono";
+    font-size: 50px;
+}
+.pair {
+    width: 100%;
+    clear: both;
+}
+.pair div {
+    /*border: 1px solid white;*/
+}
+.left {
+    float: left;
+    padding: 0.5em 1em 0;
+}
+.right {
+    float: right;
+    padding: 0.5em 1em 0;
+}
+#data {
+    position: fixed;
+    color: white;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-align: center;
+    opacity: 0.25;
+}
+</style>
+</head>
+<body>
+<div id="data"></div>
+<div id="pairs">
+</div>
+<script>
+var pairs = document.getElementById('pairs');
+var ssid_map = {};
+function update(ssid, mac) {
+    var elt;
+    if(ssid in ssid_map) {
+        console.log('updating ' + ssid + ' ' + mac);
+        elt = ssid_map[ssid]['elt']
+        elt.children[1].innerText = mac;
+    } else {
+        console.log('adding ' + ssid + ' ' + mac);
+        var html = '<div class="pair">' +
+            '<div class="left">' + ssid + '</div>' +
+            '<div class="right">' + mac + '</div>' +
+            '</div>';
+        pairs.innerHTML += html;
+        elt = pairs.lastElementChild;
+        ssid_map[ssid] = {'elt': elt, 'mac': mac};
+    }
+    elt.style = 'transition: opacity 0s; opacity: 0';
+    setTimeout(function () {
+        elt.style = 'transition: opacity 1s; opacity: 1';
+    }, 100);
+}
+
+var data_count = 0;
+function update_data(length) {
+    data_count += length;
+    var data = document.getElementById('data');
+    data.innerText = '.'.repeat(data_count % 8);
+}
+
+var ws = new WebSocket("ws://127.0.0.1:5678/");
+ws.onmessage = function (event) {
+    var msg = JSON.parse(event.data);
+    update_data(msg['length']);
+    if('mac' in msg) {
+        update(msg['ssid'], msg['mac']);
+    }
+};
+</script>
+</body>
+</html>
