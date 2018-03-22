@@ -19,6 +19,13 @@ html, body {
     width: 100%;
     clear: both;
 }
+.clear {
+    opacity: 0;
+}
+.opaque {
+    opacity: 1;
+    transition: opacity 1s;
+}
 .pair div {
     /*border: 1px solid white;*/
 }
@@ -65,10 +72,6 @@ function update(ssid, mac) {
         elt = pairs.lastElementChild;
         ssid_map[ssid] = {'elt': elt, 'mac': mac};
     }
-    elt.style = 'transition: opacity 0s; opacity: 0';
-    setTimeout(function () {
-        elt.style = 'transition: opacity 1s; opacity: 1';
-    }, 100);
 }
 
 var data_count = 0;
