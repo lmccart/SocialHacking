@@ -7,6 +7,15 @@ Syllabus for class/workshop taught at Honolulu Museum of Art 2018, NYU ITP Sprin
 * [Office hours signup](http://bit.ly/1hECzFK) - We have office hours on Thursdays, in room 455. Please add "AIT" in the description of the signup. If you need to set up a different time, email us.
 * [Resident office hours signup](https://itp.nyu.edu/inwiki/) - The residents are also available for technical help and other discussions.
 
+## Course description
+
+This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
+
+How do the things we build and use limit and expand the way we understand and relate to each other? We'll explore this question by building new tools and creating new situations for breaking us out of existing patterns, and discussing contextual examples from media art, performance art, psychology and pop culture. Technologies explored will include computer vision (face/body/eye tracking with openFrameworks), data representation and glitch, browser extensions and plugins (in Chrome), computer security, mobile platforms, and social automation and APIs (Facebook, Twitter, Mechanical Turk).
+
+Students will develop projects that alter or disrupt social space in an attempt to reveal existing patterns or truths about our experiences and technologies, and possibilities for richer interactions. Different
+tactics for intervention and performance will be explored, first through a set of short prompts or experiments, and then through a larger, more thorough intervention.
+
 ## Syllabus
 
 ### Week 1 (1/27): [Social glitch](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Social-glitch) and [assignment](https://github.com/lmccart/AppropriatingInteractionTechnologies/wiki/Spring-2016-Assignments#assignment-1)
@@ -43,14 +52,6 @@ Syllabus for class/workshop taught at Honolulu Museum of Art 2018, NYU ITP Sprin
 * [Google Drive](https://drive.google.com/folderview?id=0B9tyIRZ76JCdNzdlUHAtdlUtTFU&usp=sharing) - Reading assignments and other docs.
 * [Mailing list](https://groups.google.com/forum/#!forum/social-hacking) - For course announcements and longer form discussions, feedback, questions. 
 
-## Course description
-
-This course explores the structures and systems of social interactions, identity, and self representation as mediated by technology. We will investigate ways that technology can be used to augment, subvert, alter, mediate, and ultimately deepen interaction in a lasting way.
-
-How do the things we build and use limit and expand the way we understand and relate to each other? We'll explore this question by building new tools and creating new situations for breaking us out of existing patterns, and discussing contextual examples from media art, performance art, psychology and pop culture. Technologies explored will include computer vision (face/body/eye tracking with openFrameworks), data representation and glitch, browser extensions and plugins (in Chrome), computer security, mobile platforms, and social automation and APIs (Facebook, Twitter, Mechanical Turk).
-
-Students will develop projects that alter or disrupt social space in an attempt to reveal existing patterns or truths about our experiences and technologies, and possibilities for richer interactions. Different
-tactics for intervention and performance will be explored, first through a set of short prompts or experiments, and then through a larger, more thorough intervention.
 
 ## Technical requirements
 
